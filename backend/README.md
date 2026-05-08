@@ -2,7 +2,7 @@
 title: AgriBot
 emoji: 🌿
 colorFrom: green
-colorTo: emerald
+colorTo: green
 sdk: docker
 pinned: false
 ---
