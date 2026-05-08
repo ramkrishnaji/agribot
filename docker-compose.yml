@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+    restart: unless-stopped
+    volumes:
+      - ./backend:/app
+      # Mount huggingface cache so the BERT model doesn't redownload on every container restart
+      - huggingface_cache:/root/.cache/huggingface
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+
+volumes:
+  huggingface_cache:
+  redis_data:
