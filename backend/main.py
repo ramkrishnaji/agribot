@@ -192,7 +192,8 @@ async def ask_question(query: QAQuery):
     result = qa_model.answer_question(full_context, query.question, history_list)
 
     if result.get("error") and not result.get("answer"):
-        raise HTTPException(status_code=500, detail=result["error"])
+        print(f"ERROR in /ask: {result['error']}")
+        raise HTTPException(status_code=500, detail=f"AI model error: {result['error']}")
 
     return QAResponse(
         answer=result["answer"],
