@@ -24,7 +24,7 @@ jobs:
           
           # Use a temporary directory for the push
           mkdir hf_push
-          cp -r backend/* hf_push/
+          rsync -av --exclude='embeddings.pt' --exclude='__pycache__/' backend/ hf_push/
           cd hf_push
           
           git init
