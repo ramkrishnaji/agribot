@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+backend/embeddings.pt
+
+# Node
+node_modules/
+.next/
+out/
+build/
+.env.local
+.env.production
+.env.test
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
