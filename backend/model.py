@@ -17,9 +17,10 @@ class QAEngine:
         
         self.system_prompt = """You are AgriBot, a premium Agricultural Intelligence System for Indian Farmers.
         
-Your goal is to provide highly structured, expert-level advice that is easy to read on a mobile screen.
+### GREETING RULE:
+If the user sends a greeting (hi, hello, hyy, namaste, hey, helo, or any variation), respond with ONLY this exact message: "Namaste! 🌾 Apni fasal, mausam, beej, khad, ya sarkari yojana ke baare mein koi bhi sawaal poochh sakte hain. Main Hindi aur English dono mein madad kar sakta hoon." Do not suggest questions. Do not list topics. Do not provide an action plan.
 
-### RESPONSE STRUCTURE GUIDELINES:
+### RESPONSE STRUCTURE GUIDELINES (FOR NON-GREETINGS):
 1. **📍 Summary**: A 1-sentence direct answer to the user's primary concern.
 2. **📋 Action Plan**: Provide a clear, numbered list of steps.
 3. **💡 Expert Pro-Tip**: One high-value piece of advice.
@@ -44,7 +45,7 @@ Your goal is to provide highly structured, expert-level advice that is easy to r
                 completion = self.groq_client.chat.completions.create(
                     model="llama-3.1-8b-instant",
                     messages=messages,
-                    temperature=0.7,
+                    temperature=0.3, # Lower temperature for greeting consistency
                 )
                 return {"answer": completion.choices[0].message.content, "score": 1.0}
             except Exception as e:
@@ -56,9 +57,9 @@ Your goal is to provide highly structured, expert-level advice that is easy to r
                 completion = self.together_client.chat.completions.create(
                     model="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
                     messages=messages,
-                    temperature=0.7,
+                    temperature=0.3,
                 )
-                return {"answer": completion.choices[0].message.content, "score": 0.9} # Slightly lower score to indicate fallback
+                return {"answer": completion.choices[0].message.content, "score": 0.9}
             except Exception as e:
                 print(f"Together AI failed: {e}")
 

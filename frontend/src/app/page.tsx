@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Send, Bot, User, Loader2, Leaf, CloudSun, RotateCcw, Menu, X, MessageSquare, Plus } from "lucide-react";
-import { UserButton, useUser, SignInButton } from "@clerk/nextjs";
+import { Send, Bot, User, Loader2, Leaf, CloudSun, RotateCcw, Menu, X, MessageSquare, Plus, ShoppingCart, ShieldCheck, ThermometerSun } from "lucide-react";
+import { UserButton, useUser, SignInButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -17,13 +17,11 @@ interface ChatSession {
   title: string;
 }
 
-const SUGGESTED_QUESTIONS = [
-  "What is PM-KISAN scheme and how to apply?",
-  "What is the weather in Delhi today?",
-  "Best practices for wheat cultivation in Punjab?",
-  "How to identify and treat late blight in potato?",
-  "What is the MSP for rice in 2024?",
-  "Tell me about drip irrigation benefits",
+const QUICK_ACTIONS = [
+  { label: "Mandi Prices", icon: <ShoppingCart className="w-4 h-4 text-orange-400" />, query: "What are the latest mandi prices for wheat and rice in my area?" },
+  { label: "Weather Forecast", icon: <CloudSun className="w-4 h-4 text-yellow-400" />, query: "What is the weather forecast for today?" },
+  { label: "Govt Schemes", icon: <ShieldCheck className="w-4 h-4 text-green-400" />, query: "Tell me about the latest government schemes for farmers." },
+  { label: "Pest Management", icon: <Leaf className="w-4 h-4 text-red-400" />, query: "How do I identify and treat common crop pests?" },
 ];
 
 export default function Home() {
@@ -37,7 +35,6 @@ export default function Home() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
-  // Fetch recent sessions
   const fetchSessions = async () => {
     if (isSignedIn) {
       try {
@@ -85,7 +82,7 @@ export default function Home() {
 
       if (response.data.sessionId && !sessionId) {
         setSessionId(response.data.sessionId);
-        fetchSessions(); // Refresh sidebar
+        fetchSessions();
       }
 
       setMessages((prev) => [
@@ -136,7 +133,6 @@ export default function Home() {
 
   return (
     <div className="h-[100dvh] bg-[#212121] text-[#ececec] flex font-sans overflow-hidden">
-      {/* Sidebar Overlay (Mobile) */}
       {isSidebarOpen && (
         <div 
           className="fixed inset-0 bg-black/50 z-40 lg:hidden" 
@@ -144,7 +140,6 @@ export default function Home() {
         />
       )}
 
-      {/* Sidebar */}
       <aside className={`fixed lg:relative inset-y-0 left-0 w-72 bg-[#171717] border-r border-white/10 z-50 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 transition-transform duration-200 ease-in-out flex flex-col`}>
         <div className="p-4">
           <button 
@@ -168,29 +163,22 @@ export default function Home() {
               <span className="truncate">{s.title}</span>
             </button>
           ))}
-          {sessions.length === 0 && (
-            <div className="px-3 py-4 text-xs text-white/20 italic">No previous chats yet</div>
-          )}
         </div>
 
         <div className="p-4 border-t border-white/10">
-          <div className="flex items-center justify-between px-2">
-            {isSignedIn && (
-              <div className="flex items-center gap-3">
-                <UserButton appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
-                <div className="text-xs">
-                  <div className="text-white/80 font-medium">My Account</div>
-                  <div className="text-white/40">Settings</div>
-                </div>
+          <SignedIn>
+            <div className="flex items-center gap-3 px-2">
+              <UserButton afterSignOutUrl="/" appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
+              <div className="text-xs">
+                <div className="text-white/80 font-medium">My Account</div>
+                <div className="text-white/40">Settings</div>
               </div>
-            )}
-          </div>
+            </div>
+          </SignedIn>
         </div>
       </aside>
 
-      {/* Main Content */}
       <div className="flex-1 flex flex-col h-full overflow-hidden relative">
-        {/* Header */}
         <header className="border-b border-white/10 bg-[#212121] px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <button 
@@ -208,19 +196,18 @@ export default function Home() {
           </div>
           
           <div className="flex items-center gap-4">
-            {!isSignedIn && (
+            <SignedOut>
               <SignInButton mode="modal">
                 <button className="text-xs bg-white text-black px-3 py-1.5 rounded-md font-medium hover:bg-white/90">Sign In</button>
               </SignInButton>
-            )}
-            <div className="flex items-center gap-1.5 text-[10px] text-white/30 bg-white/5 px-2 py-1 rounded-full">
+            </SignedOut>
+            <div className="flex items-center gap-1.5 text-[10px] text-white/30 bg-white/5 px-2 py-1 rounded-full uppercase tracking-widest font-bold">
               <span className="w-1 h-1 rounded-full bg-[#10a37f] animate-pulse" />
-              v2.5 PRO
+              Beta
             </div>
           </div>
         </header>
 
-        {/* Chat Area */}
         <main className="flex-1 overflow-y-auto scrollbar-hide">
           <div className="max-w-[760px] mx-auto px-4 w-full">
             {messages.length === 0 ? (
@@ -228,20 +215,20 @@ export default function Home() {
                 <div className="w-14 h-14 bg-gradient-to-br from-[#10a37f] to-[#0d8a6a] rounded-2xl flex items-center justify-center mb-6 shadow-xl shadow-[#10a37f]/10">
                   <Leaf className="w-7 h-7 text-white" />
                 </div>
-                <h1 className="text-2xl font-bold mb-3 text-white/95 tracking-tight">How can I help you today?</h1>
+                <h1 className="text-2xl font-bold mb-3 text-white/95 tracking-tight">Kisan Saathi — AgriBot</h1>
                 <p className="text-white/40 max-w-sm text-[13px] leading-relaxed mb-10">
-                  Expert agricultural advice for Indian farmers. Ask about crops, weather, mandi prices, or government schemes.
+                  Reliable agricultural advice grounded in verified Indian data. Ask about crops, weather, or mandi prices.
                 </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full max-w-xl">
-                  {SUGGESTED_QUESTIONS.map((q) => (
+                <div className="grid grid-cols-2 gap-3 w-full max-w-xl">
+                  {QUICK_ACTIONS.map((action) => (
                     <button
-                      key={q}
-                      onClick={() => handleSubmit(undefined, q)}
-                      className="text-left text-[13px] px-5 py-4 rounded-xl border border-white/10 text-white/60 hover:bg-white/5 hover:text-white/90 hover:border-white/20 transition-all group"
+                      key={action.label}
+                      onClick={() => handleSubmit(undefined, action.query)}
+                      className="flex items-center gap-3 text-left text-[13px] px-5 py-4 rounded-xl border border-white/10 text-white/60 hover:bg-white/5 hover:text-white/90 hover:border-white/20 transition-all group"
                     >
-                      {q.includes("weather") && <CloudSun className="w-4 h-4 inline mr-2 text-yellow-400/50 group-hover:text-yellow-400" />}
-                      {q}
+                      {action.icon}
+                      <span className="font-medium">{action.label}</span>
                     </button>
                   ))}
                 </div>
@@ -270,7 +257,7 @@ export default function Home() {
                       </div>
                       <div className="flex items-center gap-3 text-sm text-white/30 pt-1.5 font-medium italic">
                         <Loader2 className="w-4 h-4 animate-spin" />
-                        Analyzing data...
+                        Analyzing...
                       </div>
                     </div>
                   </div>
@@ -281,7 +268,6 @@ export default function Home() {
           </div>
         </main>
 
-        {/* Input Area */}
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#212121] via-[#212121] to-transparent pt-12 pb-6 px-4">
           <div className="max-w-[760px] mx-auto relative group">
             <form onSubmit={handleSubmit} className="relative bg-[#2f2f2f] border border-white/10 rounded-2xl shadow-2xl group-focus-within:border-white/20 transition-all">
@@ -304,7 +290,7 @@ export default function Home() {
               </button>
             </form>
             <p className="text-center mt-3 text-[10px] text-white/20 font-medium tracking-wide">
-              AgriBot Professional v2.5 • Verified Agricultural Intelligence
+              AgriBot Beta • Verified Indian Agriculture Intelligence
             </p>
           </div>
         </div>
