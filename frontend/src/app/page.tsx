@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Send, Bot, User, Loader2, Leaf, CloudSun, RotateCcw, Menu, X, MessageSquare, Plus, ShoppingCart, ShieldCheck, ThermometerSun } from "lucide-react";
-import { UserButton, useUser, SignInButton, SignedIn, SignedOut } from "@clerk/nextjs";
+import { Send, Bot, User, Loader2, Leaf, CloudSun, RotateCcw, Menu, X, MessageSquare, Plus, ShoppingCart, ShieldCheck } from "lucide-react";
+import { UserButton, useUser, SignInButton } from "@clerk/nextjs";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -166,15 +166,15 @@ export default function Home() {
         </div>
 
         <div className="p-4 border-t border-white/10">
-          <SignedIn>
+          {isSignedIn && (
             <div className="flex items-center gap-3 px-2">
-              <UserButton afterSignOutUrl="/" appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
+              <UserButton appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
               <div className="text-xs">
                 <div className="text-white/80 font-medium">My Account</div>
                 <div className="text-white/40">Settings</div>
               </div>
             </div>
-          </SignedIn>
+          )}
         </div>
       </aside>
 
@@ -196,11 +196,11 @@ export default function Home() {
           </div>
           
           <div className="flex items-center gap-4">
-            <SignedOut>
+            {!isSignedIn && (
               <SignInButton mode="modal">
                 <button className="text-xs bg-white text-black px-3 py-1.5 rounded-md font-medium hover:bg-white/90">Sign In</button>
               </SignInButton>
-            </SignedOut>
+            )}
             <div className="flex items-center gap-1.5 text-[10px] text-white/30 bg-white/5 px-2 py-1 rounded-full uppercase tracking-widest font-bold">
               <span className="w-1 h-1 rounded-full bg-[#10a37f] animate-pulse" />
               Beta
