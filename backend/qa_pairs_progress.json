@@ -14189,5 +14189,716 @@
       "market",
       "post-harvest"
     ]
+  },
+  {
+    "question": "Kya Pusa Shrestha sponge gourd ki kheti ke liye kharif ya rabi season mein bhi aayogya hai?",
+    "answer": "Pusa Shrestha ki visheshatain uski adhiktar rabi season mein aayogya hoti hain, lekin yeh kharif season mein bhi kuchh mausam mein aayogya ho sakti hai.",
+    "tags": [
+      "scheme",
+      "season",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya Pusa Shrestha ki kheti se jeevamrit ki aavashyakta hoti hai?",
+    "answer": "Pusa Shrestha ki kheti se jeevamrit ki aavashyakta nahin hoti hai, kyunki yeh ek hi jeevamrit se bhi aayogya hoti hai.",
+    "tags": [
+      "fertilizer",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya Pusa Shrestha ki kheti se koi vishesh kharabiyon ka samna karna padta hai?",
+    "answer": "Haan, Pusa Shrestha ki kheti se dryness ke kaaran bacterial diseases ka samna karna pad sakta hai, jo fruits par spots aur unki quality aur taste ko kam kar sakte hain.",
+    "tags": [
+      "disease_pest",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya mulch lagane se khet mein jeevamrit ki maang badh jaati hai?",
+    "answer": "Haan, mulch lagane se khet mein jeevamrit ki maang badh jaati hai, kyunki mulch se mitti garm rehti hai aur phalton ke root protsahit hota hai.",
+    "tags": [
+      "soil",
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kya row covers aur frost blankets kharif saason mein upyogi hain?",
+    "answer": "Nahin, row covers aur frost blankets shayad rabi saason mein upyogi hain, jab thande temperature ka khatar hota hai.",
+    "tags": [
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya greenhouse ya high tunnel lagane se phalton ki gunvatta badh jaati hai?",
+    "answer": "Haan, greenhouse ya high tunnel lagane se phalton ki gunvatta badh jaati hai, kyunki yeh structures ek niyantrit vatan mein phalton ko badhne ka mauka dete hain.",
+    "tags": [
+      "gunvatta",
+      "greenhouse"
+    ]
+  },
+  {
+    "question": "Kya main apne phal ke pedon ko kharif mein kate hue hain, unhein phir se lag sakta hoon?",
+    "answer": "Haan, aap apne phal ke pedon ko late fall mein kate hue hain, jo dead ya bimari se prabhavit hain, unhein phir se lag sakte hain. Isse winter ke dauran damage ki samasya kam hogi aur bahar ke mausam mein swasth vikas badhega.",
+    "tags": [
+      "disease_pest",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Mujhe pata hai ki jeevamrit se mitti ko swasth rakhna chahiye, lekin kya main isse winter ke dauran bhi lag sakta hoon?",
+    "answer": "Haan, aap jeevamrit se mitti ko swasth rakh sakte hain, lekin iske liye aapko mitti ko pehle hi winter ke dauran jald se jald jald kar dena chahiye.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Mere khet mein thanda hua mitti hai, aur maine apne phal ke pedon ko khatm kar diya hai. Kya main ab unhein phir se lag sakta hoon?",
+    "answer": "Haan, aap apne phal ke pedon ko phir se lag sakte hain, lekin aapko unhein late fall mein hi khatm kar dena chahiye, jo dead ya bimari se prabhavit hain.",
+    "tags": [
+      "disease_pest",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne fruit trees ko jeevamrit se behtar banane ke liye kuch karna chahiye?",
+    "answer": "Haan, hum apne soil health aur structure ko sudhar sakte hain organic matter amendments ka upyog karke.",
+    "tags": [
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton ko cold winds se bacha sakte hain?",
+    "answer": "Haan, hum apne kheton ko windbreaks jaise tall shrubs ya trees ke aas-paas plant kar sakte hain.",
+    "tags": [
+      "windbreaks"
+    ]
+  },
+  {
+    "question": "Kya hum apne crops ko kharif ya rabi season mein hi harvest kar sakte hain?",
+    "answer": "Nahin, hum apne crops ko coldest temperatures se pehle hi harvest karna chahiye, agar sambhav ho to."
+  },
+  {
+    "question": "Kya hum apne khet mein kharif aur rabi ke beech koi faida hoga agar hum crop rotation plan implement karein?",
+    "answer": "Haan, crop rotation se soil depletion aur disease-pest ke liye khet ki vulnerability kam hogi.",
+    "tags": [
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum jeevamrit ka upyog karke apne khet mein soil ki gunvatta badha sakte hain?",
+    "answer": "Nahin, is text mein jeevamrit ke baare mein koi jankari nahin di gayi hai.",
+    "tags": [
+      "soil",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya hum apne khet ke liye naye cold-resistant crop varieties ke baare mein jankari kaise payenge?",
+    "answer": "Aap market se jankari pay sakte hain ya local agricultural extension services ya anubhavi kisan se consult kar sakte hain.",
+    "tags": [
+      "market",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya plastic waste management amendment se kheti ke liye pesticide ki packaging mein koi badlaav aayega?",
+    "answer": "Nahin, kyunki amendment ne pesticide industry ko recycled plastic ka use karne se mukti di hai jabki CIB&RC ne virgin plastic ka use standardize kiya hai.",
+    "tags": [
+      "disease_pest",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ki packaging mein recycled plastic ka use zaroori hai?",
+    "answer": "Nahin, kyunki amendment ne bataya hai ki recycled plastic ka use sirf tabhi zaroori hai jab koi anya kanoon ya sarkari shakha uska upyog karne ka vishesh roop se pratinidhit karta hai.",
+    "tags": [
+      "fertilizer",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya yeh amendment kheti ke liye koi naya kanoon laayega?",
+    "answer": "Nahin, kyunki yeh amendment sirf pesticide industry ke liye ek prabhavi nirnay hai jo unke operational efficiency ko badhane mein madad karega.",
+    "tags": [
+      "scheme",
+      "policy"
+    ]
+  },
+  {
+    "question": "Kya sunflower khete hue kisanon ko koi khatra hai?",
+    "answer": "Nahin, sunflower ek chhoti duration ki fasal hai jo kam paani ke liye jati hai.",
+    "tags": [
+      "disease_pest",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Jeevamrit ka upyog karte hue kisanon ko koi nuksan hoga?",
+    "answer": "Nahin, is amendment ke baad jeevamrit ke packaging mein kamjori ka koi nuksan nahin hoga.",
+    "tags": [
+      "scheme",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya hybrid sunflower variety SUNH-3 ka upyog karna mahatvapurn hai?",
+    "answer": "Haan, SUNH-3 ek mazboot variety hai jo anya sunflower varietyon ke mukable sunkar accha return deti hai.",
+    "tags": [
+      "disease_pest",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya yeh sunflower hybrid kharif aur rabi ke mausam mein kharidna sambhav hai?",
+    "answer": "Haan, yeh hybrid donon kharif aur rabi ke mausam mein kharidna sambhav hai.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya yeh sunflower hybrid jeevamrit ka upyog karke bhi badhava de sakta hai?",
+    "answer": "Nahin, yeh text mein kaha gaya hai ki yeh hybrid rainfed aur irrigated conditions mein bhi badhava de sakta hai.",
+    "tags": [
+      "irrigation",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya yeh sunflower hybrid kheti ke liye koi vishesh jankari pradan karta hai?",
+    "answer": "Haan, yeh hybrid 87-90 dinon mein pukkar taiyaar hota hai, jisse iska phal kharidna sambhav hota hai.",
+    "tags": [
+      "crop",
+      "yield"
+    ]
+  },
+  {
+    "question": "Kya SUNH-3 sunflower ke liye kharif ya rabi season mein badiya hasil deti hai?",
+    "answer": "Text mein kuchh nahi likha hai, lekin sunflower ke liye kharif season aam taur par upyukt hota hai.",
+    "tags": [
+      "crop",
+      "season",
+      "regional"
+    ]
+  },
+  {
+    "question": "SUNH-3 sunflower ke liye jeevamrit ka upyog karna zaroori hai ya nahin?",
+    "answer": "Nahin, SUNH-3 mein downy mildew aur leafhopper ke prati madhyam se pratirodh hota hai, jisse jeevamrit ka upyog kam hota hai.",
+    "tags": [
+      "disease_pest",
+      "fertilizer",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya SUNH-3 sunflower ke liye market mein badiya daam milta hai?",
+    "answer": "Haan, SUNH-3 sunflower hybrid variety hai, jisse farmers ko better price realization aur consistent income milta hai.",
+    "tags": [
+      "crop",
+      "market",
+      "income"
+    ]
+  },
+  {
+    "question": "Kya sunflower ki fasal ke liye jeevamrit ka upyog karna zaroori hai?",
+    "answer": "Haan, jeevamrit ka upyog karna sunflower ki fasal ke liye mahatvapurn hai, kyunki yeh farmyard manure ka upyog karna balanced fertilization ke liye jaruri hai.",
+    "tags": [
+      "crop",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya sunflower ki fasal ke liye kharif aur rabi ke mausam mein bhi buniyaadi upyog kiya ja sakta hai?",
+    "answer": "Haan, sunflower ki fasal ko kharif aur rabi ke mausam mein bhi buniyaadi upyog kiya ja sakta hai, lekin timli sowing ki jarurat hai.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya sunflower ki fasal ko anya faslon ke saath rotate karne se koi nuksan hota hai?",
+    "answer": "Nahin, sunflower ki fasal ko anya faslon ke saath rotate karne se koi nuksan nahin hota hai, balki yeh land ko productive use karne mein madad karta hai.",
+    "tags": [
+      "crop",
+      "rotation"
+    ]
+  },
+  {
+    "question": "Kya SUNH-3 hybrid sunflower ko kharif ya rabi season mein badaa kar sakte hain?",
+    "answer": "SUNH-3 hybrid sunflower ko rainfed aur irrigated areas mein badaa kar sakte hain, iske liye high yield, short maturity period, aur good oil content hota hai.",
+    "tags": [
+      "crop",
+      "season",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog karke sunflower ki phalniyaan badh sakti hain?",
+    "answer": "Koi jeevamrit ka upyog nahi kiya gaya hai, lekin Nisha Agarwala ki garden mein permaculture principles ka upyog karke usne apne soil ko behtar banaya hai.",
+    "tags": [
+      "soil",
+      "fertilizer",
+      "permaculture"
+    ]
+  },
+  {
+    "question": "Kya sunflower ke beechon mein koi bimariyaan hoti hain aur kya SUNH-3 hybrid sunflower mein bhi yeh samasya hai?",
+    "answer": "SUNH-3 hybrid sunflower mein disease resistance hota hai, jisse farmers ko production risks kam hone se fayda hota hai.",
+    "tags": [
+      "disease_pest",
+      "crop",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya khaali bhumi par sugarcane ki kheti karna sambhav hai?",
+    "answer": "Haan, iski kheti karna sambhav hai. Ambrose ne apne rooftop par sugarcane ki kheti ki aur uska juice ghar par banaya.",
+    "tags": [
+      "crop",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog karna chahiye?",
+    "answer": "Iski zaroorat nahin hai. Is article mein jeevamrit ki koi bhi baat nahin di gayi hai.",
+    "tags": [
+      "soil",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya red okra aur white bitter gourd ke liye koi vishesh kheti ka upchar hai?",
+    "answer": "Haan, unke liye kuch vishesh kheti ka upchar ki zaroorat ho sakti hai. Lekin is article mein koi vishesh upchar nahin diya gaya hai.",
+    "tags": [
+      "crop",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya hum bhi apne kitchen waste ko compost karke kheti kar sakte hain?",
+    "answer": "Haan, aap bhi apne kitchen waste ko compost karke kheti kar sakte hain, jaise Nisha ne kiya hai.",
+    "tags": [
+      "soil",
+      "kheti"
+    ]
+  },
+  {
+    "question": "Kya Nisha ne apne compost se koi bhi disease ya pest control kiya hai?",
+    "answer": "Nisha ne kuchh bhi nahi kaha hai, lekin yeh samjhaya hai ki unke compost se papaya aur guava ke beej aate hain, jo ki nature ke anusaar hota hai.",
+    "tags": [
+      "disease_pest",
+      "kheti"
+    ]
+  },
+  {
+    "question": "Kya Nisha apne produce ko bechta hai ya deta hai?",
+    "answer": "Nisha apne produce ko nahin bechta hai, balki use deta hai, aur yeh bhi kaha hai ki jab aap ek plant ko pyaar se dete hain, toh log uski khaasagiri se samajhte hain.",
+    "tags": [
+      "market",
+      "kheti"
+    ]
+  },
+  {
+    "question": "Kya hum bhi apne terrace par jungle banakar permaculture kar sakte hain?",
+    "answer": "Haan, aapko sirf nature ki sunne aur samajhne ki jarurat hai. Isse aapki terrace bhi ek jungle ban sakti hai.",
+    "tags": [
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne khet mein compost banakar permaculture kar sakte hain?",
+    "answer": "Haan, compost banana permaculture ke ek hisse hai. Isse aapke khet ki mitti acchi ho jayegi aur aapke ped bhi swasth rahein ge.",
+    "tags": [
+      "compost"
+    ]
+  },
+  {
+    "question": "Kya hum apne khet mein jeevamrit ka upyog karke permaculture kar sakte hain?",
+    "answer": "Haan, jeevamrit ka upyog karke aap apne khet ki mitti ko acchi ban sakte hain aur aapke ped bhi swasth rahein ge. Isse aapke khet ki samridhi badh jayegi.",
+    "tags": [
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kya Teressa goat ko kharif ya rabi season mein upyog karne se fayda hoga?",
+    "answer": "Teressa goat ko koi bhi season mein upyog kiya ja sakta hai, kyunki yeh aise climate mein khushamad hai jahan resources kam hote hain.",
+    "tags": [
+      "season",
+      "climate"
+    ]
+  },
+  {
+    "question": "Teressa goat ki jeevamrit ki aavashyakta kya hai?",
+    "answer": "Teressa goat ko bahut kam input ya intervention ki aavashyakta hoti hai, yeh aise goat hai jo apne aas-paas ke environment mein khushamad rehta hai.",
+    "tags": [
+      "nutrition",
+      "sustainability"
+    ]
+  },
+  {
+    "question": "Teressa goat ki kya market value hai aur hum ise kaise bech sakte hain?",
+    "answer": "Teressa goat ka market value bahut accha hai, kyunki yeh ek hardy aur sustainable option hai, aur hum ise apne local market mein bech sakte hain.",
+    "tags": [
+      "market",
+      "livelihood"
+    ]
+  },
+  {
+    "question": "Kya Teressa goats ke liye garm aur mausam mein koi vishesh khadya avashyak hai?",
+    "answer": "Inhein garm aur mausam mein hair ke liye upyukt hota hai, jisse ve warm aur humid climates mein acchi tarah se rehte hain.",
+    "tags": [
+      "animal",
+      "climate"
+    ]
+  },
+  {
+    "question": "Teressa goats ke bachche ki janm ki wajan kitni hoti hai?",
+    "answer": "Teressa goats ke bachche ki janm ki wajan 1.2 se 1.4 kg ke beech hoti hai.",
+    "tags": [
+      "goat",
+      "weight"
+    ]
+  },
+  {
+    "question": "Kya Teressa goats ke mutton mein koi chemical additives hota hai?",
+    "answer": "Nahin, Teressa goats ke mutton mein chemical additives nahin hota hai, yeh tender, flavorful aur chemical additives se mukt hota hai.",
+    "tags": [
+      "meat",
+      "chemical"
+    ]
+  },
+  {
+    "question": "Kya Teressa goats ki milk production bahut jyada hoti hai?",
+    "answer": "Nahin, lekin ideal shartiyon mein ve 180 kg milk 1 lactation mein dete hain.",
+    "tags": [
+      "milk production",
+      "goat husbandry"
+    ]
+  },
+  {
+    "question": "Teressa goats ki bachchi kaise aur kya samay par janm leti hain?",
+    "answer": "Teressa goats ki bachchi 12-13 mahine ki umar mein pehli baar janm leti hain.",
+    "tags": [
+      "breeding",
+      "goat rearing"
+    ]
+  },
+  {
+    "question": "Kya Teressa goats ki herd growth ki gatividhi jeevamrit se badh sakti hai?",
+    "answer": "Nahin, Teressa goats ki herd growth ki gatividhi unke short kidding interval aur high litter size se badh sakti hai.",
+    "tags": [
+      "herd management",
+      "goat husbandry"
+    ]
+  },
+  {
+    "question": "Kya Teressa goats ko kharif aur rabi ke mausam mein grahan karna chahiye?",
+    "answer": "Teressa goats ko aasani se island conditions mein grahan karna aata hai, isliye inhein kharif aur rabi ke mausam mein bhi grahan karne ka koi zaroorat nahin hai.",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kya Teressa goats ko koi vishesh khaadya ki zaroorat hoti hai?",
+    "answer": "Teressa goats ko concentrated feed ki zaroorat nahin hoti hai, isliye inhein grahan karne ke liye hi khaana milta hai.",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kya Teressa goats ke liye koi vishesh jeevamrit ki zaroorat hoti hai?",
+    "answer": "Teressa goats ke liye basic healthcare support hi kafi hai, isliye inhein koi vishesh jeevamrit ki zaroorat nahin hoti hai.",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kya kharif aur rabi faslon ke liye tractor ka upyog zaroori hai?",
+    "answer": "Nahin, kyonki text mein kaha gaya hai ki tractor kai kshetron mein upyog kiya jata hai jahan khaali jameen aur jameen ki satah par tractor ka upyog karne se faisle ki gunvatta badh jati hai.",
+    "tags": [
+      "farming_practice",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Teressa bharal ki raksha ke liye kya karna hoga?",
+    "answer": "Sarkar aur anusandhan sansthanon ko is prakriya mein shamil hona hoga, jismein is prajati ki jankari, sahayta aur samarthan shamil hoga.",
+    "tags": [
+      "conservation",
+      "breed_preservation"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kharif aur rabi faslon ke liye karna chahiye?",
+    "answer": "Nahin, kyonki text mein koi jeevamrit ke upyog ke bare mein koi jankari nahin di gayi hai.",
+    "tags": [
+      "fertilizer",
+      "farming_practice"
+    ]
+  },
+  {
+    "question": "Kya used tractor market mein aapke liye koi loan ya financing option hai?",
+    "answer": "Haan, Ken Research Report ke anusaar used tractor market mein organised finance purchase ka CAGR lagbhag 29% hai.",
+    "tags": [
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya used tractor market mein koi difference hai kharif aur rabi season ke liye?",
+    "answer": "Nahin, yeh market sabhi season ke liye uplabdh hai.",
+    "tags": [
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ya fertilizers ke liye bhi used equipment market hai?",
+    "answer": "Nahin, yeh report ke anusaar used tractor market hi sabse bada contributor hai, lekin jeevamrit aur fertilizers ke liye bhi kuch options uplabdh ho sakte hain.",
+    "tags": [
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kitna paise lagte hain used tractor ke liye down payment ke liye?",
+    "answer": "INR 50,000 se 1 lakh tak",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kya used tractor ke liye credit easily milta hai?",
+    "answer": "Haan, kai bank aur NBFCs used tractor segment ke liye financing options pradan karte hain",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kya used tractor se kharif ya rabi ke liye kheti kaafi badh jaati hai?",
+    "answer": "Haan, used tractor se kai farmers apni kheti ki practices mein sudhar kar sakte hain",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kya tractor ki upyogatva se kisanon ki aay ka badhne ki sambhavana hai?",
+    "answer": "Haan, tractor ki upyogatva se kisanon ki aay ka badhne ki sambhavana hai, kyunki yeh unki utpadakta ko badhava deta hai.",
+    "tags": [
+      "productivity"
+    ]
+  },
+  {
+    "question": "Kya tractor ki upyogatva se kisanon ko nayi nivriti mil sakti hai?",
+    "answer": "Haan, tractor ki upyogatva se kisanon ko nayi nivriti mil sakti hai, kyunki yeh unhein nayi upyogikta aur uplabdhata pradaan karti hai.",
+    "tags": [
+      "income"
+    ]
+  },
+  {
+    "question": "Kya tractor ki upyogatva se kisanon ko jeevamrit ka upyog karne ki sambhavana hai?",
+    "answer": "Nahin, is text mein koi jeevamrit ke baare mein nahi diya gaya hai, lekin tractor ki upyogatva se kisanon ki utpadakta badh sakti hai, jisse unhein jeevamrit ka upyog karne ki sambhavana badh sakti hai.",
+    "tags": [
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kya humein used tractor ki quality check karne ke liye koi tareeka hai?",
+    "answer": "Haan, quality check ke liye tractors ki dependable aur achhi quality ka dhyan rakhna zaroori hai.",
+    "tags": [
+      "tractor",
+      "quality"
+    ]
+  },
+  {
+    "question": "Kya humein used tractor ki kharidari ke liye koi loan ya financing ki vajah se koi samasya hai?",
+    "answer": "Haan, financing ki samasya ke karan small farmers ko used tractor kharidne ke liye paise ka access milna mushkil hai.",
+    "tags": [
+      "loan",
+      "finance"
+    ]
+  },
+  {
+    "question": "Kya humein used tractor ki kharidari ke liye market mein poori jaankari mil jati hai?",
+    "answer": "Nahin, market mein poor price transparency hai, jisse kharidari ka rasta mushkil ho jata hai.",
+    "tags": [
+      "market",
+      "price"
+    ]
+  },
+  {
+    "question": "Kya ye naya 6M tractor kharif aur rabi ke liye upyukt hai?",
+    "answer": "Naya 6M tractor apne visheshatvaon aur 50kph transmission ke liye upyukt hai, lekin iska upyog kharif aur rabi ke liye karna hoga, iski aavashyaktaaon par nirbhar karta hai.",
+    "tags": [
+      "season",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog naya 6M tractor ke saath kiya jaa sakta hai?",
+    "answer": "Naya 6M tractor ki visheshatvaon aur upyog ke liye jeevamrit ka upyog kiya jaa sakta hai, lekin iski aavashyaktaaon par nirbhar karta hai.",
+    "tags": [
+      "fertilizer",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya microfinance yojanaon ke madhyam se hamein naya 6M tractor kharidne ke liye koi madad milegi?",
+    "answer": "Haan, microfinance yojanaon ke madhyam se hamein naya 6M tractor kharidne ke liye koi madad milegi, jisse hamein iske liye paise prapt karne mein madad milegi.",
+    "tags": [
+      "finance",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya 2025 mein 6M tractor ke liye koi naya scheme hai?",
+    "answer": "Nahin, lekin Deere & Company ek global leader hai jo apne customers ko agricultural, construction, aur forestry equipment delivery mein madad karta hai.",
+    "tags": [
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya 6M tractor mein jeevamrit ka upyog kiya jata hai?",
+    "answer": "Nahin, lekin tractor mein advanced instrumentation, connectivity, aur scalable precision technology ka upyog kiya jata hai.",
+    "tags": [
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kya 6M tractor mein koi naya tyre ya wheel option hai?",
+    "answer": "Haan, 6M tractor mein single ya dual rear wheels ya larger tyres ki options hai, jo improved traction ke liye upyukt hai.",
+    "tags": [
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya Rajasthan ke kheton mein jeevamrit ka upyog kiya jata hai?",
+    "answer": "Haan, Rajasthan ke kheton mein jeevamrit ka upyog kiya jata hai, kyonki yeh kheton ko surakshit aur samriddh banata hai.",
+    "tags": [
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Kanuj Kachhawaha ne kisi kisan se kheti ka adhyayan kiya hai?",
+    "answer": "Haan, Kanuj Kachhawaha ne Global Farmer Business Network (GFBN) se kheti ka adhyayan kiya hai, jahaan unhone kisanon, niti nirmaatkon, vigyanikon, kheti ki shuruaatkaranon aur anya utpadakon se sambandh banaya.",
+    "tags": [
+      "learning",
+      "networking"
+    ]
+  },
+  {
+    "question": "Kya Rajasthan ke kheton mein jal sanchaar ka upyog kiya jata hai?",
+    "answer": "Haan, Rajasthan ke kheton mein jal sanchaar ka upyog kiya jata hai, kyonki yeh kheton ko pani pradan karta hai aur unki samriddhi ko badhata hai.",
+    "tags": [
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya kheti ke liye humein itihasi gatividhiyon ko automate karne ke liye koi upkaran ya software mil sakta hai?",
+    "answer": "Haan, Kanuj kehte hain ki humin iske liye digital revolution ka upyog kar sakte hain, jaise ki automation, artificial intelligence, aur machine learning.",
+    "tags": [
+      "irrigation",
+      "crop monitoring",
+      "technology"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ki vajah se kheti ki laabhikarta badh jaati hai?",
+    "answer": "Kanuj kehte hain ki jeevamrit ke liye unhone kuchh naye tareeke seekhe hain, lekin yeh nahi keh rahe hain ki jeevamrit se kheti ki laabhikarta badh jaati hai.",
+    "tags": [
+      "jeevamrit",
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya humin kheti ke liye cooperative digital platforms ya shared infrastructure ka upyog kar sakte hain?",
+    "answer": "Haan, Kanuj kehte hain ki yeh ek shamil model ho sakta hai, jahan humin kheti ke liye saath mein karya kar sakte hain aur apas mein sahayata kar sakte hain.",
+    "tags": [
+      "cooperative",
+      "shared infrastructure",
+      "marketing"
+    ]
+  },
+  {
+    "question": "Kya MSP ka matlab hai aur iska kya fayda hai farmers ke liye?",
+    "answer": "MSP ka matlab hai Minimum Support Price, aur iska fayda hai ki yeh farmers ko apne phal ya fasal ko behtar darjey par bechne ka mauka deta hai.",
+    "tags": [
+      "scheme",
+      "market",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya GFBN ka kya fayda hai farmers ke liye?",
+    "answer": "GFBN ka fayda hai ki yeh farmers ko market ke saath judne ka mauka deta hai, jisse unhe behtar darjey par bechne ka mauka milta hai aur unki kharcha kam hota hai.",
+    "tags": [
+      "scheme",
+      "market",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog karna farmers ke liye faydemand hai?",
+    "answer": "Nahin, jeevamrit ka upyog karna farmers ke liye nahi diya gaya hai. Yeh text mein nahi diya gaya hai.",
+    "tags": [
+      "soil",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kheti mein karna avashyak hai?",
+    "answer": "Nahin, lekin paudhon ki suraksha aur unka vikas karne ke liye pani ka samay par upyog karna avashyak hai.",
+    "tags": [
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya kharif aur rabi faslon ke liye pani ka alag-alag samay hota hai?",
+    "answer": "Nahin, pani ka samay paudhon ki prajati aur unka vikas ke liye avashyak hai.",
+    "tags": [
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya kheti mein IT prabandhan ka upyog karna avashyak hai?",
+    "answer": "Nahin, lekin IT prabandhan se kheti ki prajati, pani ka upyog aur anya kshetron mein sudhar karne mein madad mil sakti hai.",
+    "tags": [
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya midday heat mein paani dene se koi nuksaan hota hai?",
+    "answer": "Haan, midday heat mein paani dene se pani ki evaporation zyada hoti hai aur pani ki kuch bhi matra plant roots tak nahin pahunchti.",
+    "tags": [
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya morning mein paani dene se jeevamrit ki zaroorat badh jaati hai?",
+    "answer": "Nahin, morning mein paani dene se plants apne daily growth cycle ko start karne ke liye moisture ki zaroorat hoti hai, jeevamrit ki zaroorat nahin hoti.",
+    "tags": [
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya August mein paani dene ki zaroorat badh jaati hai?",
+    "answer": "Nahin, August mein bhi paani dene ki zaroorat aisi hi hoti hai jaise ki anya mahino mein, lekin midday heat ko dhyan mein rakhna zaroori hai.",
+    "tags": [
+      "irrigation"
+    ]
   }
 ]

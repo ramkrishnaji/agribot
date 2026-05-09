@@ -16,7 +16,7 @@ const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:7860';
 
 export async function POST(request: Request) {
   try {
-    const { userId } = auth();
+    const { userId } = await auth();
     
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
