@@ -59,6 +59,6 @@ def retrieve_with_source(query: str, top_k: int = 5) -> dict:
         structured_context += "\n--- END HIGH PRECISION DATA ---\n"
 
     return {
-        "context": structured_context + "\n" + vector_results,
+        "context": structured_context + "\n" + "\n".join(vector_results),
         "has_financial_data": len(modern_results) > 0
     }
