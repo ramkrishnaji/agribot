@@ -1,6 +1,6 @@
 import os
 import json
-from .retriever import retrieve
+from retriever import retrieve
 
 def search_modern_kb(query: str) -> list[dict]:
     """
