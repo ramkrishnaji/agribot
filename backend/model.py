@@ -1,9 +1,75 @@
 import os
+import json
 from groq import Groq
 try:
     from together import Together
 except ImportError:
     Together = None
+
+BUDGET_TO_RECOMMENDATION = [
+    {
+        "max_budget_lakh": 2,
+        "recommendations": [
+            {
+                "crop": "Dragon Fruit",
+                "reason": "Low setup cost, drought tolerant, 25-year productive life",
+                "area": "0.4–0.5 acre open field",
+                "subsidy": "Check state NHM scheme"
+            },
+            {
+                "crop": "Vegetables (open field)",
+                "reason": "Quick returns in 60–90 days",
+                "area": "0.5–1 acre",
+                "subsidy": "PM-KISAN for input support"
+            }
+        ]
+    },
+    {
+        "max_budget_lakh": 5,
+        "recommendations": [
+            {
+                "crop": "Dragon Fruit",
+                "reason": "Full 1-acre setup possible",
+                "area": "1 acre",
+                "subsidy": "State NHM scheme"
+            },
+            {
+                "crop": "Shade Net Vegetables",
+                "reason": "Better quality than open field, lower cost than polyhouse",
+                "area": "500 sqm",
+                "subsidy": "NHB Scheme 1 — 40–50% back-ended"
+            }
+        ]
+    },
+    {
+        "max_budget_lakh": 15,
+        "recommendations": [
+            {
+                "crop": "Capsicum (Coloured) in NV Polyhouse",
+                "reason": "High value crop, ₹60–120/kg, NHB subsidy available",
+                "area": "500–1000 sqm polyhouse",
+                "subsidy": "NHB Scheme 1 — 40–50% of project cost"
+            },
+            {
+                "crop": "Tomato / Cucumber in Polyhouse",
+                "reason": "Steady demand, consistent price",
+                "area": "500 sqm",
+                "subsidy": "NHB Scheme 1"
+            }
+        ]
+    },
+    {
+        "max_budget_lakh": 50,
+        "recommendations": [
+            {
+                "crop": "Coloured Capsicum / Exotic Flowers in Fan & Pad Polyhouse",
+                "reason": "Premium crop, controlled environment, highest returns",
+                "area": "2000–4000 sqm polyhouse",
+                "subsidy": "NHB Scheme 1 — up to ₹56–70L subsidy"
+            }
+        ]
+    }
+]
 
 class QAEngine:
     def __init__(self):
@@ -15,28 +81,50 @@ class QAEngine:
         self.together_key = os.environ.get("TOGETHER_API_KEY")
         self.together_client = Together(api_key=self.together_key) if (self.together_key and Together) else None
         
-        self.system_prompt = """You are AgriBot, a premium Agricultural Intelligence System for Indian Farmers.
-        
-### GREETING RULE:
-If the user sends a greeting (hi, hello, hyy, namaste, hey, helo, or any variation), respond with ONLY this exact message: "Namaste! 🌾 Apni fasal, mausam, beej, khad, ya sarkari yojana ke baare mein koi bhi sawaal poochh sakte hain. Main Hindi aur English dono mein madad kar sakta hoon." Do not suggest questions. Do not list topics. Do not provide an action plan.
+        self.system_prompt = f"""You are AgriBot Beta, an Expert Agricultural Project Consultant for Indian Farmers.
 
-### RESPONSE STRUCTURE GUIDELINES (FOR NON-GREETINGS):
-1. **📍 Summary**: A 1-sentence direct answer to the user's primary concern.
-2. **📋 Action Plan**: Provide a clear, numbered list of steps.
-3. **💡 Expert Pro-Tip**: One high-value piece of advice.
+### GREETING RULE:
+If the user sends a greeting (hi, hello, namaste, etc.), respond with ONLY this exact message: "Namaste! 🌾 Apni fasal, modern farming (Hydroponics/Polyhouse), mausam, ya sarkari subsidy ke baare mein koi bhi sawaal poochh sakte hain. Main Hindi aur English dono mein madad kar sakta hoon."
+
+### SPECIAL BEHAVIOR — SUBSIDY AND SCHEME QUERIES:
+When a farmer asks about any government scheme, subsidy, or wants to set up a polyhouse/greenhouse/cold storage, do NOT give a full answer immediately.
+Instead, follow this ELIGIBILITY CHECKER flow (ask ONE question at a time):
+1. Ask "Aap kis state mein hain?" (To determine 40% vs 50% subsidy)
+2. Ask "Aapke paas kitni zameen hai — apni ya 10-saal ki registered lease par?"
+3. Ask "Kya aapka bank account hai aur kya aap loan lene mein interested hain?" (NHB is credit-linked)
+4. Ask "Aapka approximate budget kya hai?"
+
+Only after getting these answers, use the provided context to calculate their setup cost, net investment after subsidy, and ROI.
+
+### REVERSE CALCULATOR (If user mentions budget):
+Use this logic to recommend options if the user is unsure:
+{json.dumps(BUDGET_TO_RECOMMENDATION, indent=2)}
+
+### RESPONSE STRUCTURE (FOR NON-GREETINGS):
+1. **📍 Summary**: Direct 1-sentence answer.
+2. **📋 Action Plan**: Clear numbered steps.
+3. **💰 Financial Outlook**: Specifically mention costs and subsidy in LAKHS.
+4. **⚠️ Critical Warning**: "NHB scheme mein IPA milne se PEHLE koi bhi construction shuru mat karein — warna aap subsidy ke liye automatically disqualify ho jayenge."
+
+### FINANCIAL DATA RULE:
+Whenever you provide any cost or subsidy figure, ALWAYS end with:
+"📋 Source: [Name of Source from Context]
+✅ Verify latest figures at: [Verify URL from Context]
+⚠️ Costs and subsidy percentages may change annually. Always confirm with your nearest NHB/State Horticulture office."
 
 ### TONE & LANGUAGE:
-- Use Emojis (🌾, 🚜, 💧).
-- If the question is in Hindi, respond in Hindi. Otherwise English.
+- Use Hindi/English as per user preference.
+- Use Emojis (🌾, 🚜, 💰).
+- Be extremely precise with numbers.
 """
 
     def answer_question(self, context: str, question: str, history: list = None) -> dict:
         messages = [{"role": "system", "content": self.system_prompt}]
-        for entry in (history or [])[-4:]:
+        for entry in (history or [])[-6:]:
             messages.append({"role": "user", "content": entry.get("user", "")})
             messages.append({"role": "assistant", "content": entry.get("bot", "")})
         
-        user_msg = f"Context:\n{context}\n\nQuestion: {question}"
+        user_msg = f"CONTEXT DATA (Verified PDFs):\n{context}\n\nUSER QUESTION: {question}"
         messages.append({"role": "user", "content": user_msg})
 
         # 1. Try Groq
@@ -45,7 +133,7 @@ If the user sends a greeting (hi, hello, hyy, namaste, hey, helo, or any variati
                 completion = self.groq_client.chat.completions.create(
                     model="llama-3.1-8b-instant",
                     messages=messages,
-                    temperature=0.3, # Lower temperature for greeting consistency
+                    temperature=0.3,
                 )
                 return {"answer": completion.choices[0].message.content, "score": 1.0}
             except Exception as e:

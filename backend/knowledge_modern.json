@@ -1,0 +1,285 @@
+[
+  {
+    "id": "infra_polyhouse_nv",
+    "category": "infrastructure",
+    "subcategory": "greenhouse",
+    "title": "Naturally Ventilated (NV) Polyhouse",
+    "crop_suitability": ["capsicum", "tomato", "cucumber", "gerbera"],
+    "technical_specs": {
+      "structure": "GI tubular frame with UV polyfilm",
+      "ventilation": "Natural (roof + side openings)",
+      "temperature_control": "Passive only",
+      "suitable_climate": "Mild to moderate — not for extreme heat zones"
+    },
+    "costs": {
+      "per_sqm_inr": 844,
+      "per_acre_inr": 3415304,
+      "per_acre_lakh": 34.15,
+      "minimum_area_sqm": 500,
+      "note": "Costs as per NHB Cost Norms. Actual may vary by state."
+    },
+    "subsidy": {
+      "general_region_percent": 40,
+      "hilly_ne_region_percent": 50,
+      "type": "Back-ended credit-linked",
+      "scheme": "NHB Scheme 1",
+      "max_subsidy_general_lakh": 56,
+      "max_subsidy_hilly_lakh": 70,
+      "ipa_required": true,
+      "bank_linkage_required": true
+    },
+    "eligibility": {
+      "land_ownership": "Own land OR 10-year registered lease",
+      "who_can_apply": [
+        "Individual farmers",
+        "FPOs",
+        "SHGs",
+        "Cooperatives",
+        "Companies"
+      ],
+      "bank_account_required": true,
+      "ipa_before_construction": true
+    },
+    "procedure": [
+      "Apply online at nhb.gov.in for IPA (In Principle Approval)",
+      "Get IPA letter before starting any construction",
+      "Tie up with bank for project loan",
+      "Complete construction with bills and photographs",
+      "Submit completion report to NHB",
+      "Bank releases subsidy as back-ended payment"
+    ],
+    "warnings": [
+      "Construction started BEFORE IPA will be rejected",
+      "Subsidy is released AFTER project completion, not upfront",
+      "Keep all bills and contractor receipts for verification"
+    ],
+    "source": "NHB Cost Norms PDF, NHB Scheme 1 Guidelines",
+    "last_updated": "2024",
+    "verify_at": "nhb.gov.in or nearest NHB regional office"
+  },
+  {
+    "id": "infra_polyhouse_fanpad",
+    "category": "infrastructure",
+    "subcategory": "greenhouse",
+    "title": "Fan & Pad (Evaporative Cooling) Polyhouse",
+    "crop_suitability": ["capsicum", "exotic_flowers", "gerbera", "rose"],
+    "technical_specs": {
+      "structure": "GI tubular with cooling pads + exhaust fans",
+      "ventilation": "Forced — fan pulls air through wet pads",
+      "temperature_control": "Can reduce temp by 10–15°C vs outside",
+      "suitable_climate": "Hot and semi-arid regions — Gujarat, Rajasthan, AP"
+    },
+    "costs": {
+      "per_sqm_inr": 1400,
+      "per_acre_inr": 5665600,
+      "per_acre_lakh": 56.65,
+      "minimum_area_sqm": 500,
+      "note": "Higher cost due to electrical equipment. Power supply essential."
+    },
+    "subsidy": {
+      "general_region_percent": 40,
+      "hilly_ne_region_percent": 50,
+      "type": "Back-ended credit-linked",
+      "scheme": "NHB Scheme 1",
+      "ipa_required": true,
+      "bank_linkage_required": true
+    },
+    "eligibility": {
+      "land_ownership": "Own land OR 10-year registered lease",
+      "power_supply_required": true,
+      "who_can_apply": [
+        "Individual farmers",
+        "FPOs",
+        "Companies"
+      ]
+    },
+    "procedure": [
+      "Confirm reliable power supply before applying",
+      "Apply for IPA at nhb.gov.in",
+      "Get bank loan sanctioned",
+      "Install structure with certified vendor",
+      "Submit bills and geo-tagged photos to NHB",
+      "Receive back-ended subsidy after verification"
+    ],
+    "warnings": [
+      "Power cuts will affect crop quality — consider backup generator",
+      "Higher operating cost than NV polyhouse",
+      "Only viable if market price justifies the extra ₹22L/acre investment"
+    ],
+    "source": "NHB Cost Norms PDF",
+    "last_updated": "2024",
+    "verify_at": "nhb.gov.in"
+  },
+  {
+    "id": "crop_dragon_fruit",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "title": "Dragon Fruit Cultivation",
+    "also_known_as": ["Pitaya", "Kamalam"],
+    "technical_specs": {
+      "climate": "Tropical and subtropical, tolerates drought",
+      "temperature_range_c": "20–35°C optimum",
+      "soil_ph": "5.5–7.0",
+      "water_requirement": "Low — drought tolerant once established",
+      "spacing": "3m x 3m recommended",
+      "poles_per_acre": 450,
+      "plants_per_pole": 4,
+      "total_plants_per_acre": 1800,
+      "first_harvest_years": 1.5,
+      "full_production_years": 3,
+      "productive_life_years": 25
+    },
+    "costs": {
+      "setup_cost_per_acre_lakh": {
+        "min": 4,
+        "max": 5
+      },
+      "major_cost_heads": [
+        "Concrete poles: ₹150–200 each (450 poles = ₹67,500–90,000)",
+        "Planting material: ₹50–80 per cutting",
+        "Drip irrigation: ₹40,000–60,000/acre",
+        "Ring/support structure per pole: ₹300–400"
+      ],
+      "recurring_cost_per_year_lakh": 0.5
+    },
+    "income": {
+      "yield_per_acre_kg_year3_onwards": "8,000–10,000 kg",
+      "market_price_per_kg_inr": {
+        "min": 80,
+        "max": 200
+      },
+      "gross_income_per_acre_lakh": {
+        "min": 6.4,
+        "max": 20
+      },
+      "note": "Price varies significantly by variety and market. Red-fleshed commands premium."
+    },
+    "subsidy": {
+      "available": true,
+      "scheme": "NHM (National Horticulture Mission) via state govt",
+      "note": "Check with state horticulture department — varies by state",
+      "nhb_applicable": false
+    },
+    "suitability": {
+      "best_states": ["Gujarat", "Maharashtra", "Andhra Pradesh", "Karnataka", "Tamil Nadu"],
+      "not_suitable": "Waterlogged soils, frost-prone areas",
+      "ideal_for": "Farmers with low water availability seeking long-term income"
+    },
+    "source": "Dragon Fruit DPR PDF",
+    "last_updated": "2024",
+    "verify_at": "State Horticulture Department"
+  },
+  {
+    "id": "crop_capsicum_polyhouse",
+    "category": "crop",
+    "subcategory": "vegetable",
+    "title": "Capsicum (Coloured/Hybrid) in Polyhouse",
+    "also_known_as": ["Shimla Mirch", "Bell Pepper", "Sweet Pepper"],
+    "technical_specs": {
+      "soil_ph": "6.5–8.5",
+      "ec_range_ms_cm": "1.5–2.5",
+      "temperature_day_c": "20–25°C",
+      "temperature_night_c": "16–18°C",
+      "humidity_percent": "60–70",
+      "water_per_sqm_per_day_litres": "2–3",
+      "plant_spacing_cm": "45 x 45 or 60 x 45",
+      "plants_per_sqm": 2.5,
+      "support_system": "V-shape or single stem training on wire",
+      "irrigation": "Drip only — flood irrigation will cause disease"
+    },
+    "costs": {
+      "planting_material_per_sqm_inr": 140,
+      "note": "Seed cost only. Add polyhouse cost separately."
+    },
+    "income": {
+      "yield_per_sqm_kg": "8–12 kg per crop cycle",
+      "cycles_per_year": 1.5,
+      "market_price_per_kg_inr": {
+        "coloured": {"min": 60, "max": 120},
+        "green": {"min": 20, "max": 40}
+      },
+      "note": "Coloured capsicum (red/yellow) commands 3x price of green. Always grow coloured varieties in polyhouse."
+    },
+    "critical_tips": [
+      "Never grow in open field — quality drops, price collapses",
+      "Coloured varieties ONLY in polyhouse — green capsicum not viable",
+      "Maintain EC strictly — excess fertilizer burns roots",
+      "Harvest at colour-break stage for best shelf life"
+    ],
+    "source": "Capsicum DPR PDF",
+    "last_updated": "2024",
+    "verify_at": "ICAR-IIVR or nearest KVK"
+  },
+  {
+    "id": "subsidy_nhb_scheme1",
+    "category": "scheme",
+    "subcategory": "subsidy",
+    "title": "NHB Scheme 1 — Commercial Horticulture Development",
+    "implementing_agency": "National Horticulture Board (NHB)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "subsidy_structure": {
+      "general_regions": {
+        "percent": 40,
+        "max_project_cost_lakh": 140,
+        "max_subsidy_lakh": 56
+      },
+      "hilly_ne_regions": {
+        "percent": 50,
+        "max_project_cost_lakh": 140,
+        "max_subsidy_lakh": 70,
+        "states": [
+          "J&K", "Himachal Pradesh", "Uttarakhand",
+          "Arunachal Pradesh", "Assam", "Manipur",
+          "Meghalaya", "Mizoram", "Nagaland", "Sikkim", "Tripura"
+        ]
+      }
+    },
+    "eligible_components": [
+      "Naturally Ventilated Polyhouse",
+      "Fan & Pad Polyhouse",
+      "Shade Net House",
+      "Cold Storage (small)",
+      "Pack House",
+      "Integrated Pack House with pre-cooling"
+    ],
+    "who_can_apply": [
+      "Individual farmers (own land or 10-year lease)",
+      "Farmer Producer Organizations (FPOs)",
+      "Self Help Groups (SHGs)",
+      "Cooperatives",
+      "Companies and entrepreneurs"
+    ],
+    "critical_rules": [
+      "IPA (In Principle Approval) MUST be obtained BEFORE starting construction",
+      "Project MUST be linked to a scheduled bank",
+      "Subsidy is back-ended — paid AFTER project completion",
+      "Minimum project cost: ₹10 lakh",
+      "Land must be farmer's own OR 10-year registered lease"
+    ],
+    "application_process": [
+      "Step 1: Prepare project report (DPR)",
+      "Step 2: Apply online at nhb.gov.in for IPA",
+      "Step 3: NHB reviews and issues IPA letter (takes 30–60 days)",
+      "Step 4: Approach bank with IPA letter for project loan",
+      "Step 5: Bank sanctions loan and sends letter to NHB",
+      "Step 6: Begin construction ONLY after IPA + bank sanction",
+      "Step 7: Complete project and submit geo-tagged photos + bills",
+      "Step 8: NHB field inspection",
+      "Step 9: Subsidy released directly to bank loan account"
+    ],
+    "common_mistakes": [
+      "Starting construction before IPA — AUTOMATIC DISQUALIFICATION",
+      "Not maintaining bills — leads to rejection at verification",
+      "Using uncertified vendors — structure must meet NHB specs",
+      "Applying without bank linkage — scheme is credit-linked"
+    ],
+    "contact": {
+      "website": "nhb.gov.in",
+      "helpline": "0124-2340429",
+      "email": "nhb@nhb.gov.in"
+    },
+    "source": "NHB Scheme 1 Guidelines PDF",
+    "last_updated": "2024",
+    "verify_at": "nhb.gov.in — scheme details may be updated annually"
+  }
+]

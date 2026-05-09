@@ -10,12 +10,12 @@ from upstash_redis import Redis
 
 # Internal imports
 from model import qa_model
-from retriever import retrieve
+from retriever_modern import retrieve_with_source
 
 app = FastAPI(
-    title="AgriBot API",
-    description="Indian Agriculture AI Assistant — powered by Groq (Llama 3.1) + RAG",
-    version="2.2",
+    title="AgriBot Beta",
+    description="Modern Agriculture Expert — High ROI Crops & Subsidy Consultant",
+    version="3.0",
 )
 
 app.add_middleware(
@@ -39,7 +39,7 @@ CACHE_TTL_SECONDS = 6 * 60 * 60  # 6 hours
 
 def get_cache_key(query: str) -> str:
     normalized = query.lower().strip()
-    return "agribot:cache:" + hashlib.md5(normalized.encode()).hexdigest()
+    return "agribot:cache:v3:" + hashlib.md5(normalized.encode()).hexdigest()
 
 def get_cached_answer(query: str) -> str | None:
     if not redis_client:
@@ -48,7 +48,7 @@ def get_cached_answer(query: str) -> str | None:
         key = get_cache_key(query)
         cached = redis_client.get(key)
         if cached:
-            return cached # upstash-redis returns string or None
+            return cached 
     except Exception as e:
         print(f"Cache Read Error: {e}")
     return None
@@ -81,7 +81,7 @@ class QAResponse(BaseModel):
 
 @app.get("/health")
 def health_check():
-    return {"status": "ok", "service": "agribot-backend", "engine": "Groq/Llama-3.1"}
+    return {"status": "ok", "service": "agribot-modern-backend", "engine": "Groq/Llama-3.1"}
 
 @app.post("/ask", response_model=QAResponse)
 async def ask_question(query: QAQuery):
@@ -93,10 +93,9 @@ async def ask_question(query: QAQuery):
     if cached:
         return QAResponse(answer=cached, score=1.0, cached=True)
 
-    # 2. Retrieve Context (List of strings)
-    # The new retriever returns a list of reranked answers
-    context_list = retrieve(query.question)
-    context = "\n\n---\n\n".join(context_list)
+    # 2. Retrieve Context (Dual Search: Vector + Structured)
+    retrieval_data = retrieve_with_source(query.question)
+    context = retrieval_data["context"]
 
     # 3. Generate Answer with LLM
     history_list = [{"user": h.user, "bot": h.bot} for h in (query.history or [])]
