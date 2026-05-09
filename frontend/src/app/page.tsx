@@ -177,7 +177,7 @@ export default function Home() {
           <div className="flex items-center justify-between px-2">
             {isSignedIn && (
               <div className="flex items-center gap-3">
-                <UserButton afterSignOutUrl="/" appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
+                <UserButton appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
                 <div className="text-xs">
                   <div className="text-white/80 font-medium">My Account</div>
                   <div className="text-white/40">Settings</div>

@@ -14900,5 +14900,247 @@
     "tags": [
       "irrigation"
     ]
+  },
+  {
+    "question": "Kya sham ko paani dena achha hai ya midday mein?",
+    "answer": "Sham ko paani dena achha hai kyunki temperature thandi hoti hai aur evaporation kam hota hai.",
+    "tags": [
+      "irrigation",
+      "soil",
+      "watering"
+    ]
+  },
+  {
+    "question": "Kya sabhi phalton ko ek hi samay par paani dena chahiye?",
+    "answer": "Nahin, phalton ki paani ki aavashyakta alag-alag hoti hai, isliye unki aavashyakta ke anusar unhein paani dena chahiye.",
+    "tags": [
+      "crop",
+      "irrigation",
+      "watering"
+    ]
+  },
+  {
+    "question": "Kaise pata lagaya jaye ki hum khaad ya jeevamrit ka upyog karna chahiye?",
+    "answer": "Iske liye aapko apne phalton ki aavashyakta ke anusar khaad ya jeevamrit ka upyog karna hoga, lekin text mein koi jeevamrit ke baare mein nahi diya gaya hai.",
+    "tags": [
+      "fertilizer",
+      "manure",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya main apne khet mein rain gauge ka upyog karna chahiye?",
+    "answer": "Haan, rain gauge aapko apne khet mein aane wali barish ko adhik sahi se maapna mein madad karta hai aur aapke paani ka karyakram ko sahi se samay par badalne mein madad karta hai.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya main apne khet mein jeevamrit ka upyog karke paani ka karyakram badal sakta hoon?",
+    "answer": "Nahin, yah jhankar hai ki jeevamrit ek prakriya hai jiska upyog kheti mein kiya jata hai, lekin yah paani ka karyakram badalne mein madad nahin karta.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya main apne khet mein paani ka karyakram badalne ke liye din mein kai baar chek karna chahiye?",
+    "answer": "Haan, naye bhujon ko lagane ke baad, aapko din mein kai baar chek karna chahiye taki aap jaante rahein ki aapke paudhon ko paani ki zaroorat hai ya nahin.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya summer mein tractor ka tyre pressure badhne ki zaroorat hoti hai?",
+    "answer": "Haan, summer mein tyre pressure ko regular basis par check karna chahiye, manufacturer ki direktion ke anusaar.",
+    "tags": [
+      "tractor",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ki zaroorat hoti hai tractor ki maintenance ke liye?",
+    "answer": "Nahin, jeevamrit ki zaroorat kharif ya rabi ke liye hoti hai, tractor ki maintenance ke liye coolant aur oil fluids ki zaroorat hoti hai.",
+    "tags": [
+      "soil",
+      "tractor"
+    ]
+  },
+  {
+    "question": "Kya summer mein tractor ko start karne se pehle koi special cheezz ki zaroorat hoti hai?",
+    "answer": "Haan, summer mein tractor ko start karne se pehle fluid levels ko carefully check karna chahiye, coolant, transmission aur oil fluids ko full hona chahiye.",
+    "tags": [
+      "disease_pest",
+      "tractor"
+    ]
+  },
+  {
+    "question": "Kya tractor ki cleaning ke liye koi specific time nirdharit hoti hai?",
+    "answer": "Haan, tractor ki cleaning ko regular basis par karna chahiye, jaise ki wheel wells jaise jagahon par jyada paudhe ki jagahon par.",
+    "tags": [
+      "equipment",
+      "maintenance"
+    ]
+  },
+  {
+    "question": "Kya tractor ki engine ko overheating se bachne ke liye koi upay hai?",
+    "answer": "Haan, coolant ke level ko aadharit rakhna aur radiator ko saaf rakhna overheating se bachne ke liye zaroori hai.",
+    "tags": [
+      "equipment",
+      "maintenance"
+    ]
+  },
+  {
+    "question": "Kya tractor ko overwork karne se koi nuksan hota hai?",
+    "answer": "Haan, tractor ko overwork karne se engine ko adhik stres hota hai, jisse overheating aur mechanical issues ho sakte hain.",
+    "tags": [
+      "equipment",
+      "maintenance"
+    ]
+  },
+  {
+    "question": "Kya tractor ki dawaiyan kharif aur rabi sabhi season ke liye ek hi hain?",
+    "answer": "Nahin, preventative maintenance summer months ke liye karna jaruri hai.",
+    "tags": [
+      "equipment",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog tractor ki maintenance ke liye kiya ja sakta hai?",
+    "answer": "Nahin, jeevamrit ka upyog soil aur crops ke liye kiya jaata hai, tractor ki maintenance ke liye nahi.",
+    "tags": [
+      "fertilizer",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya VST Tillers Tractors Ltd. ki 'Series 9' range of compact tractors kharif season ke liye upyukt hain?",
+    "answer": "Haan, VST Tillers Tractors Ltd. ne 'Series 9' range of compact tractors ko 4WD Compact Tractor segment mein leadership prapt karne ke liye introduce kiya hai.",
+    "tags": [
+      "equipment",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya yeh tractor kharif aur rabi faslon ke liye upyukt hai?",
+    "answer": "Haan, yeh tractor traditional agriculture crops ke liye upyukt hai.",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Yeh tractor ka jeevamrit kya hai?",
+    "answer": "Yeh tractor ka EHC feature hai, jiska matlab hai ki driver ko implement ko button par chhune se control milta hai.",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kya yeh tractor chhoti jagahon mein bhi kaam kar sakta hai?",
+    "answer": "Haan, yeh tractor ka narrowest track width aur short turning radius hai, jisse farmer chhoti jagahon mein bhi kaam kar sakte hain.",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kya yeh tractor kharif season ke liye upyukt hain?",
+    "answer": "Haan, yeh tractor aisa design kiye gaye hain jo kharif season ke liye upyukt hain, aur ve sabhi aitihasik kheti upkaranon ke saath kaam kar sakte hain.",
+    "tags": [
+      "kharif",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya yeh tractor jeevamrit ka upyog kar sakte hain?",
+    "answer": "Haan, yeh tractor jeevamrit ka upyog kar sakte hain, jisse kheti ki gunvatta badh sakti hai.",
+    "tags": [
+      "jeevamrit",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya yeh tractor rabi season ke liye bhi upyukt hain?",
+    "answer": "Haan, yeh tractor rabi season ke liye bhi upyukt hain, aur ve sabhi aitihasik kheti upkaranon ke saath kaam kar sakte hain.",
+    "tags": [
+      "rabi",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Aapke power tiller ke kya faayde hain, aur kya yeh kharif aur rabi sabhe kheton mein upyog kar sakte hain?",
+    "answer": "VST ke power tiller mein aapko asani se khet kaatne aur seed bhiyaan karne ki sambhavna milti hai, jo kharif aur rabi donon kheton mein upyog karne ke liye upyukt hain.",
+    "tags": [
+      "kharif",
+      "rabi",
+      "power tiller"
+    ]
+  },
+  {
+    "question": "Aapke tractor ke 4WD compact segment mein kya naya hai, aur yeh kis prakaar se kheton mein madad karta hai?",
+    "answer": "VST ke 4WD compact tractor mein aapko asani se khet kaatne aur seed bhiyaan karne ki sambhavna milti hai, aur yeh jeevamrit aur anya kheti upkaranon ke saath bhi upyog kar sakte hain.",
+    "tags": [
+      "tractor",
+      "4WD",
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Aapke product ke market share mein kya badlaav hua hai, aur aapke product ke liye market mein kya avashyakta hai?",
+    "answer": "VST ke power tiller mein aapko 70% market share milti hai, aur aapke product ke liye market mein aapko asani se upyog karne ki sambhavna aur upyukt kheti upkaranon ke saath upyog karne ki sambhavna ki avashyakta hai.",
+    "tags": [
+      "market share",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya VST Tillers Tractors ki products hamari kheti ki zarooraton ko puri karegi?",
+    "answer": "Haan, VST Tillers Tractors ki products hamari kheti ki zarooraton ko puri karegi, kyunki ve hamari kheti ki samasyaon ko hal karne ke liye design ki gayi hain.",
+    "tags": [
+      "product"
+    ]
+  },
+  {
+    "question": "FMTTI Budni se hum kya seekh sakte hain?",
+    "answer": "FMTTI Budni se hum farm mechanization ke bare mein seekh sakte hain, jismein affordable solutions, region-specific technologies, aur sustainable agricultural practices shaamil hain.",
+    "tags": [
+      "training"
+    ]
+  },
+  {
+    "question": "Rashtriya Krishi Uday 2026 mein hum kya seekh sakte hain?",
+    "answer": "Rashtriya Krishi Uday 2026 mein hum cutting-edge technologies, knowledge exchange, aur high-impact business collaborations ke bare mein seekh sakte hain.",
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "question": "Kya zero tillage ki upyog se humare khet ke mausam mein badlav aayega?",
+    "answer": "Haan, zero tillage se humare khet ke mausam mein badlav aayega, jaise ki 7.01-23.90% ki utpaadakata mein vruddhi aur 72.88% ki kam koshish aur 33% ki kam jalvayu upyog.",
+    "tags": [
+      "soil",
+      "irrigation",
+      "crop"
+    ]
+  },
+  {
+    "question": "Agroforestry se humare khet ke mausam mein badlav kaise hoga?",
+    "answer": "Agroforestry se humare khet ke mausam mein badlav hoga, jaise ki malabar nim (Melia dubia) ki vruddhi se humare khet ke mausam mein badlav aayega, jaise ki 45% ki kam raw material ki avashyakta.",
+    "tags": [
+      "soil",
+      "irrigation",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ki upyog se humare khet ke mausam mein badlav aayega?",
+    "answer": "Haan, jeevamrit ki upyog se humare khet ke mausam mein badlav aayega, jaise ki malabar nim (Melia dubia) ki vruddhi se humare khet ke mausam mein badlav aayega, jaise ki 45% ki kam raw material ki avashyakta.",
+    "tags": [
+      "soil",
+      "irrigation",
+      "crop"
+    ]
   }
 ]
