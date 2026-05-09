@@ -1,0 +1,3498 @@
+[
+  {
+    "question": "Kya PM-KISAN yojana se koi kharif crop ke liye bhi income support milta hai?",
+    "answer": "Nahin, PM-KISAN yojana sirf kisan parivar ke liye income support deti hai, jismein sabhi jameen ke maalik kisan parivaar shaamil hain.",
+    "tags": [
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya ICAR jeevamrit ka upyog karta hai?",
+    "answer": "Haan, ICAR jeevamrit ka upyog karta hai, jisse kheti ki gunvatta badhne mein madad milti hai.",
+    "tags": [
+      "agriculture",
+      "technology"
+    ]
+  },
+  {
+    "question": "Kya ICAR ne kisi bhi prakar ki samasya ke liye koi nirmaan karte hain?",
+    "answer": "Haan, ICAR ne Green Revolution aur anya vikas ke liye nirmaan kiye hain, jo desh ki khadya aur pashudhan suraksha mein madad karte hain.",
+    "tags": [
+      "agriculture",
+      "development"
+    ]
+  },
+  {
+    "question": "Kya PMFBY yojana ke liye hamen kharif aur rabi crops ke liye premium kitna dena padta hai?",
+    "answer": "Kharif crops ke liye 2% aur rabi crops ke liye 1.5% premium dena padta hai.",
+    "tags": [
+      "crop",
+      "scheme",
+      "premium"
+    ]
+  },
+  {
+    "question": "Jeevamrit ka upyog karne se kya faayda hota hai?",
+    "answer": "Jeevamrit ka upyog karke hum soil health ko sudhar sakte hain aur isse hume kheti ki gunvatta badh sakti hai.",
+    "tags": [
+      "soil",
+      "fertilizer",
+      "productivity"
+    ]
+  },
+  {
+    "question": "MSP kya hai aur iske liye kya criteria hota hai?",
+    "answer": "MSP us price ke roop mein hai jo Government of India kheti ke liye farmers se khareedti hai. Iske liye Commission for Agricultural Costs and Prices (CACP) cost of production, demand-supply, market price trends, aur anya factors ko dekhte hain.",
+    "tags": [
+      "market",
+      "price",
+      "government"
+    ]
+  },
+  {
+    "question": "Kya Kisan Credit Card scheme ke liye interest rate kitna hai?",
+    "answer": "4% per annum hai, lekin yeh sirf loan up to Rs 3 lakh ke liye hai.",
+    "tags": [
+      "scheme",
+      "credit"
+    ]
+  },
+  {
+    "question": "Kya Paramparagat Krishi Vikas Yojana (PKVY) ke liye hume koi specific jeevamrit ya seed ki aavashyakta hai?",
+    "answer": "Haan, PKVY ke liye government Rs 50,000 per hectare ke liye organic inputs, seeds aur marketing ke liye pradaan karta hai.",
+    "tags": [
+      "scheme",
+      "organic farming",
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kya e-NAM se hume apne khet ke kharif aur rabi faslon ke liye alag-alag market mein bechne ki aavashyakta padegi?",
+    "answer": "Nahin, e-NAM ek ek hi national market hai jahan se hum apne produce ko bech sakte hain aur sabhi faslon ke liye ek hi market mein bech sakte hain.",
+    "tags": [
+      "market",
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya Mainein kharif aur rabi ke beech mein kya farak hai?",
+    "answer": "Ismein koi jankari nahin di gayi hai ki kya kharif aur rabi mein koi farak hai.",
+    "tags": [
+      "crop",
+      "market",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Mainein jeevamrit ka upyog karna chahiye aur kis prakaar se?",
+    "answer": "Ismein jeevamrit ke baare mein koi jankari nahin di gayi hai.",
+    "tags": [
+      "soil",
+      "market",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Mainein apne potato ke liye uttam sthan kya hai?",
+    "answer": "Potatoes grow best in cool climatic conditions with temperatures between 15-25°C, isliye Mainein apne potato ke liye uttam sthan jahan 15-25°C ki temperature hoti hai, uska chayan karna chahiye.",
+    "tags": [
+      "crop",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya red soil mein kya kharif crop lagaye ja sakte hain?",
+    "answer": "Red soil suitable hai millets, groundnut, aur pulses lagane ke liye.",
+    "tags": [
+      "crop",
+      "soil",
+      "kharif"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog karke laterite soil ki samasyaon ko door kiya ja sakta hai?",
+    "answer": "Haan, jeevamrit ka upyog karke laterite soil ki samasyaon ko door kiya ja sakta hai, lekin iska upyog karna jaruri hai.",
+    "tags": [
+      "soil",
+      "fertilizer",
+      "laterite"
+    ]
+  },
+  {
+    "question": "Kya PMKSY scheme se hum drip irrigation ka upyog kar sakte hain?",
+    "answer": "Haan, PMKSY scheme se hum drip irrigation ka upyog kar sakte hain, jisse paani bachaaya ja sakta hai aur faslon ki gunvatta badh sakti hai.",
+    "tags": [
+      "scheme",
+      "irrigation",
+      "drip"
+    ]
+  },
+  {
+    "question": "Kya vermikomposting ke madhyam se hum apne kheton mein jeevamrit bana sakte hain?",
+    "answer": "Haan, vermikomposting ek prakriya hai jismein mitti ke keede vermikompost banaate hain jo kharab kachra ko upyukt jeevamrit mein badal dete hain.",
+    "tags": [
+      "soil",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya hum fall armyworm ke liye koi upayikaran kar sakte hain?",
+    "answer": "Haan, integrated pest management ke madhyam se hum fall armyworm ke liye upayikaran kar sakte hain, jismein biological control agents, pheromone traps, aur judhmati pesticide ka upyog hota hai.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya kheton ki rotation se hum koi labh utha sakte hain?",
+    "answer": "Haan, kheton ki rotation se hum crop rotation ke madhyam se labh utha sakte hain, jismein pest aur disease ke prabhav ko kam kiya ja sakta hai aur soil ki gunvatta badhi ja sakti hai.",
+    "tags": [
+      "crop",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya koi upyukt varietiyen hain jo late blight se bachne ke liye?",
+    "answer": "Haan, resistant varietiyen ka upyog karna upyukt hai.",
+    "tags": [
+      "crop",
+      "disease_pest",
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kya koi upyukt tareeke hain jinke dwara hum apne gaay-pashuon ko behtar kheti se judne ke liye prarambh kar sakte hain?",
+    "answer": "National Livestock Mission ka upyog karna, jismein breed improvement, feed aur fodder development, innovation aur extension of livestock-based livelihoods shaamil hain.",
+    "tags": [
+      "livestock",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya koi upyukt tareeke hain jinke dwara hum apne machhli upkaranon ko behtar banayein?",
+    "answer": "Pradhan Mantri Matsya Sampada Yojana (PMMSY) ka upyog karna, jiska lakshya Blue Revolution laana hai.",
+    "tags": [
+      "fisheries",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya kharif aur rabi season mein kuchh aisa hai jo kheti ke liye upyukt hai?",
+    "answer": "Haan, kharif season mein rice aur maize jaise crops upyukt hain, jabki rabi season mein wheat aur mustard jaise crops upyukt hain.",
+    "tags": [
+      "crop",
+      "season",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kheti mein karna chahiye?",
+    "answer": "Haan, jeevamrit ka upyog karna chahiye kyunki yeh organic farming mein upyog hota hai aur chemical inputs ka kam upyog karta hai.",
+    "tags": [
+      "fertilizer",
+      "organic",
+      "soil"
+    ]
+  },
+  {
+    "question": "Rajasthan mein kheti ke liye paani bachaane ke liye kya upay kiye ja sakte hain?",
+    "answer": "Rainwater harvesting aur drip irrigation jaise paani bachaane ke upay kiye ja sakte hain.",
+    "tags": [
+      "irrigation",
+      "water",
+      "conservation"
+    ]
+  },
+  {
+    "question": "Kya galangal ko kharif ya rabi season mein badaana chahiye?",
+    "answer": "Galangal ko koi vishesh season mein nahin badaana chahiye, lekin yeh 10°C se adhik temperature mein achha lagta hai.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya hum jeevamrit ka upyog karke galangal ki fasal ki gunvatta badha sakte hain?",
+    "answer": "Haan, jeevamrit ya organic compost ka upyog karke galangal ki fasal ki gunvatta badh sakti hai.",
+    "tags": [
+      "soil",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Galangal ki kheti se hum kitna paisa kam sakte hain?",
+    "answer": "Galangal ki kheti se hum Rs. 250 se Rs. 700 per kilogram tak paisa kam sakte hain, is par nirbhar karta hai ki hum fresh roots ya dried slices ya powder bante hain.",
+    "tags": [
+      "market",
+      "income"
+    ]
+  },
+  {
+    "question": "Kya galangal ki kheti ke liye kharif ya rabi season achi hai?",
+    "answer": "Galangal ki kheti ke liye koi vishesh season nahi hai, lekin thandi region mein slow growth ya frost damage ho sakta hai.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya hum jeevamrit ka upyog karke galangal ki kheti mein faayda kar sakte hain?",
+    "answer": "Nahin, jeevamrit ke baare mein koi jikr nahin kiya gaya hai, lekin achhi drainage aur samay par mulching root ki raksha karta hai.",
+    "tags": [
+      "crop",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya hum galangal ki kheti se adhik aamat aur samriddhi prapt kar sakte hain?",
+    "answer": "Haan, galangal ki kheti se aap apne kamay mein vridhi kar sakte hain aur apne kamay ko stabil karne ke liye farmer groups ban sakte hain.",
+    "tags": [
+      "market",
+      "income"
+    ]
+  },
+  {
+    "question": "Kya yahaan jeevamrit aur organic farming practices ke bare mein koi vishesh workshop ya session hoga?",
+    "answer": "Haan, yahaan kisan pathshala ke madhyam se jeevamrit aur organic farming practices ke bare mein koi vishesh workshop ya session hoga.",
+    "tags": [
+      "scheme",
+      "market",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya yahaan kisanon ko kharif aur rabi ke liye seed aur fertiliser milenge?",
+    "answer": "Haan, yahaan kisanon ko kharif aur rabi ke liye seed aur fertiliser milenge.",
+    "tags": [
+      "kharif",
+      "rabi",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya yahaan kisanon ko crop insurance policies ke bare mein jankari mil sakti hai?",
+    "answer": "Haan, yahaan kisanon ko crop insurance policies ke bare mein jankari mil sakti hai, jaise ki premium sharing, claim procedures, reporting of crop losses, survey processes aur timely settlement of claims.",
+    "tags": [
+      "disease_pest",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya Kisan Credit Cards (KCC) se humein kharif aur rabi faslon ke liye loan mil sakta hai?",
+    "answer": "Kisan Credit Cards (KCC) se aapko kharif aur rabi faslon ke liye loan mil sakta hai, lekin aapko iske liye kuchh specific conditions puri karni hogi.",
+    "tags": [
+      "scheme",
+      "credit"
+    ]
+  },
+  {
+    "question": "JLG aur self-help group loans ke liye kya eligibility criteria hai?",
+    "answer": "JLG aur self-help group loans ke liye aapko bank aur financial institutions ke dwara specific eligibility criteria pura karna hoga, jismein aapki jeevamrit aur anya factors shaamil honge.",
+    "tags": [
+      "scheme",
+      "credit"
+    ]
+  },
+  {
+    "question": "Kya warehouse aur cold storage units ke liye government ki koi scheme hai?",
+    "answer": "Haan, government ne Agricultural Infrastructure Fund (AIF) ke liye warehouse aur cold storage units ke liye loan provide karne ka faisla kiya hai, jisse aapko apne produce ko proper storage karne mein madad milegi.",
+    "tags": [
+      "scheme",
+      "infrastructure"
+    ]
+  },
+  {
+    "question": "Kya hum apne khet mein jeevamrit ka upyog kar sakte hain?",
+    "answer": "Haan, jeevamrit ka upyog karke aap apne khet ke swasthya ko sudhar sakte hain aur phal ki utpaadakshata badha sakte hain.",
+    "tags": [
+      "soil",
+      "organic"
+    ]
+  },
+  {
+    "question": "Kya hum organic manure aur composting ka upyog karke apne phal ki gunvatta badha sakte hain?",
+    "answer": "Haan, organic manure aur composting ka upyog karke aap apne phal ki gunvatta badha sakte hain aur unhein swasth banaye rakh sakte hain.",
+    "tags": [
+      "organic",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne phal ko direct market mein bech sakte hain?",
+    "answer": "Haan, aap FPO-based direct marketing aur cooperative systems ka upyog karke apne phal ko direct market mein bech sakte hain aur unke liye acchi kisaam se prapt kar sakte hain.",
+    "tags": [
+      "market",
+      "direct"
+    ]
+  },
+  {
+    "question": "Kya Black Amber Plum ko Himachal Pradesh mein kharif ya rabi season mein bada hua jata hai?",
+    "answer": "Black Amber Plum ko Himachal Pradesh mein rabi season mein bada hua jata hai, kyunki yeh variety winter chilling period ke liye upyukt hai.",
+    "tags": [
+      "season",
+      "regional",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya Black Amber Plum ko kisi bhi mitti mein bada jaa sakta hai?",
+    "answer": "Nahin, Black Amber Plum ko loamy, well-drained mitti mein bada jaa sakta hai jismein achhi organic matter content ho.",
+    "tags": [
+      "soil",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya Black Amber Plum ko Uttarakhand ke kisi bhi hisse mein bada jaa sakta hai?",
+    "answer": "Haan, Black Amber Plum ko Uttarakhand ke kuch hisson mein bada jaa sakta hai, lekin yeh Kashmir aur Himachal Pradesh jaise regions mein adhik upyukt hai.",
+    "tags": [
+      "regional",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya Black Amber trees ko kharif ya rabi season mein lagana chahiye?",
+    "answer": "Black Amber trees ko shishir ritu mein lagana chahiye, jab ve dormant hoti hain.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog karna avashyak hai aur kya NPK fertilizer ka upyog karna chahiye?",
+    "answer": "Haan, jeevamrit aur NPK fertilizer ka upyog karna avashyak hai, kyunki Black Amber trees organic manure aur balanced NPK fertilization se acchi tarah se badh sakte hain.",
+    "tags": [
+      "soil",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya Black Amber fruits ko kharidne ke liye koi vishesh samay hota hai?",
+    "answer": "Haan, Black Amber fruits ko mid to late July ke beech mein kharidna chahiye, kyunki yeh timing se fruit sahi tarah se taiyaar hota hai aur acidic ya fir firmness khota nahi hota.",
+    "tags": [
+      "market",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya Black Amber Plum kharif ya rabi season mein bota hai?",
+    "answer": "Iske baare mein koi specific information nahin di gayi hai, lekin yeh kuchh cooler region mein bota hai, jahaan rabi season hota hai.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya Black Amber Plum ke liye koi vishesh jeevamrit ki aavashyakta hai?",
+    "answer": "Iske baare mein koi specific information nahin di gayi hai, lekin yeh kuchh fruit crops ke liye jeevamrit ka upyog kiya jata hai.",
+    "tags": [
+      "crop",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya Black Amber Plum ke liye koi vishesh IPM strategies ki aavashyakta hai?",
+    "answer": "Haan, Black Amber Plum ke liye pest attacks ko manage karne ke liye IPM strategies ki aavashyakta hai, jaise ki aphids aur fruit flies se ladne ke liye.",
+    "tags": [
+      "disease_pest",
+      "management"
+    ]
+  },
+  {
+    "question": "Maine apne pehle tractor ke liye kya karna hoga?",
+    "answer": "Aapko tractor aur unke upyog ke bare mein research karna hoga.",
+    "tags": [
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Mujhe kharif aur rabi ki kheti karna hai, tractor ke liye kya specifications chahiye?",
+    "answer": "Aapko tractor ke specifications ke bare mein jaankari honi chahiye jisse optimal performance ho sake.",
+    "tags": [
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Mere pas ek purana tractor hai, kya main use jeevamrit aur fertilizers chalane ke liye ek naya tractor kharidna hoga?",
+    "answer": "Nahin, agar aapka purana tractor theek se kaam karta hai to aap use jeevamrit aur fertilizers chalane ke liye hi use kar sakte hain.",
+    "tags": [
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya tractor ki horsepower se kharif aur rabi ke liye koi farak padta hai?",
+    "answer": "Haan, tractor ki horsepower se kharif aur rabi ke liye koi farak padta hai, lekin isse aapki anuvartta ke saath hi alag karna hoga.",
+    "tags": [
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Jeevamrit ka upyog karte samay tractor ki horsepower se koi sambandh hai?",
+    "answer": "Nahin, jeevamrit ka upyog karte samay tractor ki horsepower se koi sambandh nahin hai, lekin tractor ki horsepower se implement jaise ki mower ya baler ki kshamata alag hoti hai.",
+    "tags": [
+      "jeevamrit",
+      "implement"
+    ]
+  },
+  {
+    "question": "Kya 20 HP se kam ki tractor khaasatah chhote kisanon ke liye upyukt hai?",
+    "answer": "Haan, 20 HP se kam ki tractor khaasatah chhote kisanon ke liye upyukt hai, isliye agar aap ek low-budget tractor chahte hain to iske liye aapko yah article padhna chahiye.",
+    "tags": [
+      "kisan",
+      "budget"
+    ]
+  },
+  {
+    "question": "Kya main apne budget aur long-term goals ke anusaar tractor chun sakte hain?",
+    "answer": "Haan, aap apne budget aur long-term goals ke anusaar tractor chun sakte hain. Naye tractors mein latest features, lambi umar, aur kam initial maintenance hoti hai, lekin ve adhik mahanga hote hain.",
+    "tags": [
+      "market"
+    ]
+  },
+  {
+    "question": "Kya main apne khet ki jagaat ke anusaar tractor ki size chun sakti hoon?",
+    "answer": "Haan, aap apne khet ki jagaat ke anusaar tractor ki size chun sakti hain. Compact tractors narrow rows ya confined spaces ke liye ideal hote hain, jabki standard ya utility tractors larger fields aur tasks ke liye achhe hote hain.",
+    "tags": [
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya diesel engine se gasoline engine adhik mileage milta hai?",
+    "answer": "Haan, diesel engines gasoline engines ke tulne mein adhik mileage offer karte hain, isliye ve sabhi farming operations ke liye ek prasiddh chunav hote hain.",
+    "tags": [
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya tractor ke liye budget banane se pehle kuchh saavdhaaniyan leni chahiye?",
+    "answer": "Haan, budget banane se pehle kharid ki kimeat, repair, attachments aur fuel ki laagat bhi dhyan mein rakhni chahiye.",
+    "tags": [
+      "kharid",
+      "budget"
+    ]
+  },
+  {
+    "question": "Kya tractor ke liye 4WD ya 2WD achha hai?",
+    "answer": "4WD tractor challenging terrain ke liye achha hai, jabki 2WD tractor chhote kheton ke liye jismein even surface hai, achha hai.",
+    "tags": [
+      "tractor",
+      "terrain"
+    ]
+  },
+  {
+    "question": "Kya tractor ke liye financing options mil sakte hain?",
+    "answer": "Haan, financing options mil sakte hain, lekin unnecessary features se bachna chahiye jo aapke specific needs ko nahi add karte.",
+    "tags": [
+      "financing",
+      "features"
+    ]
+  },
+  {
+    "question": "Kya AC cabin ke liye koi vishesh vyavastha ki jaroori hai?",
+    "answer": "Haan, aapko tractor ki compatibility aur attachment ke liye dhyan dena hoga.",
+    "tags": [
+      "equipment",
+      "maintenance"
+    ]
+  },
+  {
+    "question": "Kya tractor ki hydraulic system ki performance se koi sambandh hai?",
+    "answer": "Haan, yeh tractor ki lifting aur hauling tasks ko handle karne ki kshamta ko nirdharit karta hai.",
+    "tags": [
+      "equipment",
+      "performance"
+    ]
+  },
+  {
+    "question": "Kya tractor ke lift capacity ko kaise tay kiya jaata hai?",
+    "answer": "Aapko tractor ke lift capacity ko apne anurodhon ke anusaar tay karna hoga aur front loaders aur anya equipment ke sath compatibility check karna hoga.",
+    "tags": [
+      "equipment",
+      "performance"
+    ]
+  },
+  {
+    "question": "Kya maine apne kheti ke liye tractor chunne se pehle test drive karna chahiye?",
+    "answer": "Haan, test drive aapko tractor ke controls, comfort aur performance ke baare mein hands-on experience milta hai. Isse aapko apne expectations ke aadhar par purchase karne mein madad milti hai.",
+    "tags": [
+      "test drive"
+    ]
+  },
+  {
+    "question": "Mujhe tractor chunne ke liye kya brand aur model chunna chahiye?",
+    "answer": "Aap established brand jaise Mahindra, John Deere, Swaraj, Sonalika, Kubota, aur Escorts ka chayan kar sakte hain. Ye brands quality, innovation aur spare parts ki availability ke liye jaane jate hain.",
+    "tags": [
+      "brand",
+      "model"
+    ]
+  },
+  {
+    "question": "Mere budget ke anusaar kya tractor chunna chahiye?",
+    "answer": "Aapko apne budget, needs aur long-term goals ko balance karna hoga. Iske liye aapko factors jaise purpose, horsepower, size, fuel efficiency, aur after-sales service ka dhyan rakhna hoga.",
+    "tags": [
+      "budget"
+    ]
+  },
+  {
+    "question": "Kya yeh swasth khan hone ke liye koi vishesh khadya padarthon ki aavashyakta hoti hai?",
+    "answer": "Nahin, yeh jankari nahi di gayi hai ki yeh swasth khan hone ke liye koi vishesh khadya padarthon ki aavashyakta hoti hai.",
+    "tags": [
+      "khan",
+      "swasthya"
+    ]
+  },
+  {
+    "question": "Kya iske beejon ko jeevamrit se faayda hota hai?",
+    "answer": "Nahin, jeevamrit ki jankari nahi di gayi hai, lekin yeh kaha gaya hai ki modern swin farming rural kshetron mein sudharit pashu prajnati par aadharit hai.",
+    "tags": [
+      "jeevamrit",
+      "swin farming"
+    ]
+  },
+  {
+    "question": "Kya yeh pashu kharif aur rabi ke mausam mein bhi paaye ja sakte hain?",
+    "answer": "Nahin, yeh jankari nahi di gayi hai ki yeh pashu kharif aur rabi ke mausam mein bhi paaye ja sakte hain, lekin yeh kaha gaya hai ki yeh pashu local market mein bahut demand mein hain.",
+    "tags": [
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya Foot-and-Mouth Disease ke liye koi vaccination karna hoga?",
+    "answer": "Programme ne vaccination se mukt kshetron ka vikas kiya hai.",
+    "tags": [
+      "disease_pest",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit aur veterinary sevaon ko modernize karne se Foot-and-Mouth Disease ki prabhavitata kam hogi?",
+    "answer": "Haan, jeevamrit aur veterinary sevaon ko modernize karne se Foot-and-Mouth Disease ki prabhavitata kam hogi.",
+    "tags": [
+      "disease_pest",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya Foot-and-Mouth Disease se milk aur meat ki utpaadakta prabhavit hoti hai?",
+    "answer": "Haan, Foot-and-Mouth Disease se milk aur meat ki utpaadakta prabhavit hoti hai.",
+    "tags": [
+      "disease_pest",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya humare desh mein bhi New Castle disease ke liye koi samadhan kiya ja raha hai?",
+    "answer": "Nahin, yeh article aapke desh ke baare mein nahin baat karta, lekin yeh batata hai ki USDA Mexico ke sath samarthan kar raha hai.",
+    "tags": [
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein jeevamrit ka upyog kar sakte hain?",
+    "answer": "Nahin, yeh article jeevamrit ke baare mein nahin baat karta, lekin yeh batata hai ki USDA ek tisra prakarn ki strategy implement kar raha hai jismein jansamuhik shiksha aur jansamuhik shiksha shamil hai.",
+    "tags": [
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein kharif ya rabi faslon ko banayein?",
+    "answer": "Nahin, yeh article kharif ya rabi faslon ke baare mein nahin baat karta, lekin yeh batata hai ki USDA New Castle disease ke liye ek samagri prakarn ki strategy implement kar raha hai.",
+    "tags": [
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya NWS (New World Screwworm) ke liye koi jeevamrit uplabdh hai?",
+    "answer": "NWS ke liye jeevamrit uplabdh nahin hai, lekin Sterile Insect Technique (SIT) ke madhyam se iski avritti ki ja sakti hai.",
+    "tags": [
+      "disease_pest",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya kharif aur rabi faslon se NWS ke liye koi sambandh hai?",
+    "answer": "NWS ke liye kharif aur rabi faslon se koi sambandh nahin hai, yeh ek khatarnaak parjiva hai.",
+    "tags": [
+      "disease_pest",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya NWS ke liye koi upchar uplabdh hai?",
+    "answer": "NWS ke liye upchar uplabdh nahin hai, lekin iski avritti ke liye Sterile Insect Technique (SIT) aur janimitti parivahan ki ja sakti hai.",
+    "tags": [
+      "disease_pest",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya yeh hybrid tomato ki kheti ke liye INDAM-13405 ka upyog karne se kya faayda hua?",
+    "answer": "Isse uski kheti mein adhik utpadan aur labh hua.",
+    "tags": [
+      "crop",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya yeh hybrid tomato ki kheti ke liye jeevamrit ka upyog kiya gaya tha?",
+    "answer": "Nahin, lekin yeh hybrid tomato ki kheti ke liye upyukt tha.",
+    "tags": [
+      "crop",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya yeh kheti kharif ya rabi ki thi?",
+    "answer": "Ismein yeh nahin bataya gaya hai, lekin yeh tomato ki kheti thi.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya tractor ka upyog karke mitti ko kharab nahin karta hai?",
+    "answer": "Nahin, tractor mitti ko aur acchi tarah se khaal karke uski gunvatta badhata hai.",
+    "tags": [
+      "soil",
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya tractor ki umar badhne par uska karyaarthavas badhta hai?",
+    "answer": "Haan, tractor ki umar badhne par uska karyaarthavas kam ho jata hai aur uska jeevamrit kam ho jata hai.",
+    "tags": [
+      "tractor",
+      "jeevamrit",
+      "kharif"
+    ]
+  },
+  {
+    "question": "Kya tractor ka upyog karke kheti ki laabh kam hota hai?",
+    "answer": "Nahin, tractor ka upyog karke kheti ki laabh badhta hai kyunki kaam tezi se ho jata hai aur kharch kam hota hai.",
+    "tags": [
+      "crop",
+      "laabh",
+      "kharif"
+    ]
+  },
+  {
+    "question": "Kya Pabda fish ko kharif ya rabi season mein pala jata hai?",
+    "answer": "Pabda fish ko kisi season mein pala jata hai, yeh ponds mein adaptability ke liye ideal hai.",
+    "tags": [
+      "fish",
+      "season",
+      "ponds"
+    ]
+  },
+  {
+    "question": "Pabda fish ki kya market value hai aur iski demand kya hai?",
+    "answer": "Pabda fish ki market value Rs. 400 to Rs. 500 per kg hai, lekin yeh Rs. 1000 tak bhi ho sakti hai, aur iski demand sabhi saal mein hoti hai.",
+    "tags": [
+      "market",
+      "demand",
+      "price"
+    ]
+  },
+  {
+    "question": "Pabda fish farming ke liye jeevamrit ka upyog karna zaroori hai?",
+    "answer": "Pabda fish farming ke liye jeevamrit ka upyog karna zaroori nahin hai, yeh fish ponds mein adaptability ke liye ideal hai.",
+    "tags": [
+      "fish",
+      "ponds",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya Pabda machhli ke liye 30% CP feed hi sabse accha hai?",
+    "answer": "Haan, 30% CP feed Pabda machhli ke liye sabse accha hai, kyunki iske alawa 35.2% CP feed ke beech mein koi mahatvapurn antar nahin paya gaya.",
+    "tags": [
+      "fish",
+      "nutrition"
+    ]
+  },
+  {
+    "question": "Pabda machhli ko kaise pahunchaya jaye?",
+    "answer": "Pabda machhli ko 4000 fingerlings per hectare ki darjaa se pahunchaya jaa sakta hai, jisse semi-intensive shartiyon mein unka vikas ho sakta hai.",
+    "tags": [
+      "fish",
+      "stocking"
+    ]
+  },
+  {
+    "question": "Pani ki gunvatta kaise check ki jaye?",
+    "answer": "Pani ki gunvatta ko niyamit roop se check karne ke liye pH, oxygen ke satah aur pani ki temperature ko dhyan mein rakhna hota hai, jo machhli ki swasthya par prabhav daal sakte hain.",
+    "tags": [
+      "water",
+      "quality"
+    ]
+  },
+  {
+    "question": "Kya Pabda ke liye aapke paas koi khaskar aavashyak hai?",
+    "answer": "Haan, Pabda ko major carps jaise Cirrhinus mrigala se alag rakha jana chahiye, kyunki ve khana aur jagah ke liye lad sakte hain, jisse Pabda ka vikas kam ho sakta hai.",
+    "tags": [
+      "fish",
+      "pond"
+    ]
+  },
+  {
+    "question": "Pabda ke liye kya khadya dana upyog karna chahiye?",
+    "answer": "Pabda ke liye groundnut cake, soybean meal, ya fishmeal ka upyog karna upyogi ho sakta hai, jo apne khadya dana mishran ko tayyar karne ke liye upyog kiya ja sakta hai.",
+    "tags": [
+      "fish",
+      "nutrition"
+    ]
+  },
+  {
+    "question": "Pabda ke liye kya jeevamrit ka upyog karna chahiye?",
+    "answer": "Haan, Pabda ke liye jeevamrit ka upyog karna upyogi ho sakta hai, jisse plankton ka vikas hota hai, jo Pabda ke pehli khadya sthiti mein madad karta hai.",
+    "tags": [
+      "fish",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya Pabda farming ke liye kharif ya rabi season achi hai?",
+    "answer": "Pabda farming year-round farming ke liye achi hai, isliye kharif ya rabi season dono mein karna sakte hain.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog Pabda farming mein aavashyak hai?",
+    "answer": "Haan, jeevamrit ka upyog Pabda farming mein aavashyak hai, isse fish ki growth aur health mein sudhar hota hai.",
+    "tags": [
+      "feed",
+      "nutrition"
+    ]
+  },
+  {
+    "question": "Kya sarkari agencyon se Pabda farming ke liye koi scheme mil sakti hai?",
+    "answer": "Haan, sarkari agencyon se Pabda farming ke liye technical training aur subsidized inputs mil sakte hain.",
+    "tags": [
+      "scheme",
+      "government support"
+    ]
+  },
+  {
+    "question": "Kya cotton ko kharif ya rabi season mein bada hua jaata hai?",
+    "answer": "Cotton primarily cultivated hot climate mein, jahan adhik suraj aur mausam mein avashyak varsha hoti hai.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit se cotton ke pedon ko koi labh hota hai?",
+    "answer": "Nahin, jeevamrit ki koi suchi text mein nahin di gayi hai.",
+    "tags": [
+      "fertilizer",
+      "crop"
+    ]
+  },
+  {
+    "question": "Cotton ke pedon ko bacterial leaf blight se bachane ke liye kya karna chahiye?",
+    "answer": "Cotton seeds ko concentrated sulphuric acid ke saath 100 ml/kg of seed mein delint kiya jaana chahiye.",
+    "tags": [
+      "disease_pest",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya hume Bronze Wilt se bachne ke liye kuchh vishesh kheti upchar karni hongi?",
+    "answer": "Haan, kharif aur rabi dono faslon mein kheti ki shuruaat karne se pehle jaldi karna chahiye, jisse khet mein garmi ki samasya na ho.",
+    "tags": [
+      "disease_pest",
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hume jeevamrit ka upyog karna chahiye ya nitrogen fertilizer?",
+    "answer": "Nitrogen fertilizer ka upyog karna chahiye, lekin iska upyog kam se kam karna chahiye, taaki phal ki gunvatta badhe.",
+    "tags": [
+      "fertilizer",
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hume Carboxin ya Oxycarboxin ka upyog karna chahiye?",
+    "answer": "Haan, delinted seeds ko Carboxin ya Oxycarboxin ka upyog karna chahiye, jisse unmein koi bimari na ho.",
+    "tags": [
+      "disease_pest",
+      "scheme",
+      "seeds"
+    ]
+  },
+  {
+    "question": "Kya hum root rot ke liye kuch specific treatment kar sakte hain?",
+    "answer": "Deep summer plowing aur infected plant debris ko jalana chahiye.",
+    "tags": [
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum kharif ya rabi season mein root rot se bach sakte hain?",
+    "answer": "Nahin, root rot ka samay bhi nahi bataya gaya hai, lekin deep summer plowing karne se madad mil sakti hai.",
+    "tags": [
+      "disease_pest",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya hum jeevamrit ke bajay koi aur soil enrichment ka tareeka kar sakte hain?",
+    "answer": "Haan, 4 tons of farmyard manure per acre ya 60 kg of neem cake per acre ka upyog kar sakte hain.",
+    "tags": [
+      "soil",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya Bacillus subtilis aur Trichoderma asperellum ka upyog kharif aur rabi faslon ke liye aisa hi hai?",
+    "answer": "Nahin, Bacillus subtilis aur Trichoderma asperellum ka upyog seed treatment ke liye kiya ja sakta hai.",
+    "tags": [
+      "seed",
+      "disease_pest",
+      "crop"
+    ]
+  },
+  {
+    "question": "Fusarium wilt ke liye kya karna chahiye jab yeh 30 se 120 DAS ke beech mein dikhai deta hai?",
+    "answer": "Fusarium wilt ke liye drench ka upyog spotting karke affected plants aur surrounding healthy plants ke neeche kiya ja sakta hai.",
+    "tags": [
+      "disease_pest",
+      "crop",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog Fusarium wilt ke liye kiya ja sakta hai?",
+    "answer": "Nahin, jeevamrit ka upyog seed treatment ke liye kiya ja sakta hai, Fusarium wilt ke liye drench ka upyog kiya ja sakta hai.",
+    "tags": [
+      "seed",
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya Bacillus subtilis aur Trichoderma asperellum dono hi ek saath upyog kiye ja sakte hain?",
+    "answer": "Nahin, Bacillus subtilis aur Trichoderma asperellum dono hi alag-alag upyog kiye ja sakte hain, lekin unki mulya alag-alag hain.",
+    "tags": [
+      "disease_pest",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya hum Trichoderma asperellum ko khet mein lagataar upyog kar sakte hain?",
+    "answer": "Nahin, Trichoderma asperellum ko sirf do baar upyog kiya ja sakta hai, ek baar sowing ke samay aur doosra baar 90 DAS par.",
+    "tags": [
+      "disease_pest",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya hum jeevamrit mein Trichoderma asperellum ko lagataar upyog kar sakte hain?",
+    "answer": "Haan, Trichoderma asperellum ko 100 kg jeevamrit mein 1 kg lagakar 15 din ke liye chhodna chahiye, tabhi yeh jeevamrit mein apne aap ko badhne ki anumati dega.",
+    "tags": [
+      "soil",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya Bacillus subtilis ka upyog kharif ya rabi faslon ke liye kiya ja sakta hai?",
+    "answer": "Bacillus subtilis ko 60, 90 aur 120 dinon ke baad sowing ke baad 400 g/ac me apply kiya jaana chahiye.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Cercospora leaf spot ke liye kya spray kiya jaata hai?",
+    "answer": "Cercospora leaf spot ke liye Mancozeb @ 400g/ acre, Copper oxychloride @ 500 g/ acre, Carbendazim 50% WP @ 200g/acre ya Propiconazole @ 200 ml/ acre spray kiya jaata hai.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kisi bhi faslon ke liye kiya ja sakta hai?",
+    "answer": "Nahin, Bacillus subtilis (BSC5) ko kuchh vishesh faslon ke liye upyog kiya ja sakta hai, jaise ki is text me bataya gaya hai.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya hum boll rot ko rokne ke liye kuchh aise upchar kar sakte hain jo khet mein uplabdh hain?",
+    "answer": "Haan, aap Copper oxychloride @1000 g/acre, Carbendazim @ 200 g /acre ya Mancozeb @ 800 g / acre ka upchar kar sakte hain.",
+    "tags": [
+      "crop",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Boll rot ke liye upchar karne ke baad kya karein?",
+    "answer": "Boll rot ke liye upchar karne ke baad aapko bollon ko dhyan se dekhna chahiye aur agar koi bhi samasya ho to phir se upchar karne ki zaroorat pad sakti hai.",
+    "tags": [
+      "crop",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Boll rot ke liye jeevamrit ka upyog karna zaroori hai ya nahin?",
+    "answer": "Nahin, jeevamrit ka upyog boll rot ke liye nahin kiya jata hai. Iske liye Copper oxychloride, Carbendazim ya Mancozeb ka upchar kiya jata hai.",
+    "tags": [
+      "crop",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya Kaveri University ne kisi kheti se sambandhit jeevamrit ka vikas kiya hai?",
+    "answer": "Haan, Kaveri University ne precision farming aur sustainable agricultural practices ke liye jeevamrit ka vikas kiya hai.",
+    "tags": [
+      "soil",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Kaveri University ne kheti mein robotics ka upyog kiya hai?",
+    "answer": "Haan, Kaveri University ne kheti mein robotics ka upyog kiya hai.",
+    "tags": [
+      "robotics",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Kaveri University ne kheti mein data science ka upyog kiya hai?",
+    "answer": "Haan, Kaveri University ne kheti mein data science ka upyog kiya hai.",
+    "tags": [
+      "data science",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya livebearers aur egg-layers dono hi apne tarah ke paani ki aavashyakta rakhte hain?",
+    "answer": "Haan, lekin livebearers ko thoda kam paani ki aavashyakta hoti hai.",
+    "tags": [
+      "irrigation",
+      "fish"
+    ]
+  },
+  {
+    "question": "Kya koi vishesh jeevamrit ka upyog karna jaruri hai ornamental fish breeding ke liye?",
+    "answer": "Nahin, lekin ek acchi tarah ka setup aur kuchh patience ke saath hi koi beginner bhi successful fish breeder ban sakta hai.",
+    "tags": [
+      "fish",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya guppies aur mollies jaise livebearers ko kharif ya rabi season mein breed kiya ja sakta hai?",
+    "answer": "Haan, yeh sab samay mein breed kiye ja sakte hain, lekin shuruat mein hardy aur asani se breed hone wale species se shuru karna achha hoga.",
+    "tags": [
+      "season",
+      "fish"
+    ]
+  },
+  {
+    "question": "Kya hum apne ghar ke peechhe ek jheel banane ke liye paani ki avashyakta hoti hai?",
+    "answer": "Haan, ek constant supply of clean paani ki avashyakta hoti hai.",
+    "tags": [
+      "irrigation",
+      "water"
+    ]
+  },
+  {
+    "question": "Kya hum koi vishesh jeevamrit ka upyog karna hoga?",
+    "answer": "Nahin, ek simple filtration system aur nitya saaf karne se hi paani ki gunvatta bani rahi hai.",
+    "tags": [
+      "fertilizer",
+      "water quality"
+    ]
+  },
+  {
+    "question": "Kya hum koi vishesh jaga chunne ke liye avashyak hain?",
+    "answer": "Haan, ek shaded area ya jahan paani ki flow ho, wahi jaga achhi lagti hai.",
+    "tags": [
+      "location",
+      "shading"
+    ]
+  },
+  {
+    "question": "Kya hum apne machhli pankhudi ke liye live food ki zaroorat hai?",
+    "answer": "Haan, machhli pankhudi ke liye live food jaise infusoria, artemia nauplii, rotifers, aur daphnia ki zaroorat hoti hai.",
+    "tags": [
+      "fish"
+    ]
+  },
+  {
+    "question": "Kitne din mein machhli ke beechon ke beechon se bachchay hote hain?",
+    "answer": "24-48 ghante mein machhli ke beechon se bachchay hote hain.",
+    "tags": [
+      "fish"
+    ]
+  },
+  {
+    "question": "Kya hum apne machhli pankhudi ke liye jeevamrit ki zaroorat hai?",
+    "answer": "Haan, machhli pankhudi ke liye jeevamrit ki zaroorat hoti hai, jisse bachchay ki survival achhi ho.",
+    "tags": [
+      "fish"
+    ]
+  },
+  {
+    "question": "Kya mandarin fish ke liye kharif aur rabi season mein uplabdh hain?",
+    "answer": "Nahin, is text mein koi jankari nahin di gayi hai ki mandarin fish kharif ya rabi season mein uplabdh hain.",
+    "tags": [
+      "fish",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya mandarin fish ke liye jeevamrit ka upyog kiya jaata hai?",
+    "answer": "Nahin, is text mein jeevamrit ke baare mein koi jankari nahin di gayi hai.",
+    "tags": [
+      "fish",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya mandarin fish ko transport karne ke liye koi vishesh upkaran kiya jaata hai?",
+    "answer": "Haan, oxygenated polythene bags ka upyog kiya jaata hai.",
+    "tags": [
+      "fish",
+      "transport"
+    ]
+  },
+  {
+    "question": "Kya koi yojana hai jo kheti ke saath saath ornamental fish farming karne mein madad karegi?",
+    "answer": "Haan, kai sarkari sansthan jaise ki CIFA, MPEDA, NFDB, aur rajya machhli vikas vibhag training aur samarthan pradan karte hain.",
+    "tags": [
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya koi jeevamrit uplabdh hai jo fish farming ke liye upyogi ho?",
+    "answer": "Haan, jeevamrit ka upyog fish farming ke liye kiya ja sakta hai.",
+    "tags": [
+      "market",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya is business se koi vishesh labh hoga jo anya kheti se alag hai?",
+    "answer": "Haan, is business se labh kiya ja sakta hai aur yeh rural aur shahari kisan dono ke liye upyogi hai.",
+    "tags": [
+      "market",
+      "income"
+    ]
+  },
+  {
+    "question": "Kya Dr. Raval ji ne kisi kisan sanstha mein kaam kiya hai?",
+    "answer": "Haan, unhone kai saal tak rural Gujarat mein Ayushman Bharat, Aadhaar shamilikaran aur PM-Kisan jaise kisanon ke liye upyogi yojanaon ki last-mile delivery par kaam kiya.",
+    "tags": [
+      "scheme",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Dr. Raval ji ne apne kheti kaushal ko badhaya hai?",
+    "answer": "Haan, unhone apne kheti kaushal ko badhaya hai aur ab ve precision farming, stevia upkaran aur organic horticulture jaise naye vikalpon ka upyog kar rahe hain.",
+    "tags": [
+      "soil",
+      "technique"
+    ]
+  },
+  {
+    "question": "Kya Dr. Raval ji ne kisi jeevamrit ka upyog kiya hai?",
+    "answer": "Nahin, is text mein jeevamrit ke upyog ke bare mein koi jankari nahin di gayi hai.",
+    "tags": [
+      "fertilizer",
+      "organic"
+    ]
+  },
+  {
+    "question": "Kya precision farming se humare khet ke jameen ka swasthya badal sakta hai?",
+    "answer": "Haan, precision farming mein soil testing aur precision soil health monitoring shamil hai, jo khet ke jameen ka swasthya badhane mein madad karta hai.",
+    "tags": [
+      "soil",
+      "crop",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya IAUF se humein kheti ke liye jeevamrit mil sakta hai?",
+    "answer": "Haan, IAUF se aapko customized agri-inputs mil sakte hain, jismein jeevamrit bhi shamil ho sakta hai.",
+    "tags": [
+      "scheme",
+      "irrigation",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya IAUF se humein kheti ke liye upyogi market linkages mil sakte hain?",
+    "answer": "Haan, IAUF se aapko strong market linkages mil sakte hain, jisse aapko fair aur profitable market mil sakta hai.",
+    "tags": [
+      "market",
+      "scheme",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya Dr. Raval aapke kshetra mein stevia ki kheti karne ke liye koi training pradaan karte hain?",
+    "answer": "Haan, Dr. Raval apne training events mein carbon credit systems aur sustainable agriculture practices par training pradaan karte hain.",
+    "tags": [
+      "training",
+      "market",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Dr. Raval ki yojna humein kharif ya rabi faslon ke liye upyukt hai?",
+    "answer": "Dr. Raval ki yojna sustainable agriculture development par dhyan dene wali hai, jo kharif aur rabi donon ke liye upyukt hai.",
+    "tags": [
+      "kharif",
+      "rabi",
+      "sustainability"
+    ]
+  },
+  {
+    "question": "Kya Dr. Raval ki yojna humein jeevamrit banane ke liye upyukt hai?",
+    "answer": "Dr. Raval ki yojna sustainable agriculture practices par dhyan dene wali hai, jismein jeevamrit banane ki visheshagya jaankari shamil ho sakti hai.",
+    "tags": [
+      "jeevamrit",
+      "soil",
+      "sustainability"
+    ]
+  },
+  {
+    "question": "Kya Dr. Raval ji organic fruits ki vikri karne ke liye koi naya yojana banayenge?",
+    "answer": "Haan, Dr. Raval ji guava aur custard apple jaise organic fruits ki vikri karne ke liye naya yojana banayenge.",
+    "tags": [
+      "market",
+      "organic farming"
+    ]
+  },
+  {
+    "question": "Kya Dr. Raval ji jeevamrit ka upyog karte hain?",
+    "answer": "Kuchh nahi, is text mein jeevamrit ke baare mein koi jankari nahin di gayi hai.",
+    "tags": [
+      "fertilizer",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya Dr. Raval ji kheti monitoring ke liye AI ka upyog karenge?",
+    "answer": "Haan, Dr. Raval ji kheti monitoring ke liye AI ka upyog karenge aur predictive analytics bhi karenge.",
+    "tags": [
+      "technology",
+      "agriculture"
+    ]
+  },
+  {
+    "question": "Kya kutch ki kheti kshetra mein kharif aur rabi faslon ki prabhavita hai?",
+    "answer": "Kutch ki kheti kshetra mein kharif aur rabi faslon ki prabhavita hai, lekin kuchh samayon mein kharif faslon ki prabhavita adhik hai.",
+    "tags": [
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kuchh kheti kshetron mein kiya ja sakta hai?",
+    "answer": "Haan, jeevamrit ka upyog kuchh kheti kshetron mein kiya ja sakta hai, jisse kheti ki gunvatta badh sakti hai.",
+    "tags": [
+      "jeevamrit",
+      "kheti"
+    ]
+  },
+  {
+    "question": "Kya kutch ki kheti kshetra mein kisanon ki aay badhane ke liye koi naya yojana shuru ki gayi hai?",
+    "answer": "Haan, kutch ki kheti kshetra mein kisanon ki aay badhane ke liye kuchh naye yojanaon ki shuruwat ki gayi hai, jaise ki jeevamrit ka upyog, naye pashu upkaranon ka upyog, adi.",
+    "tags": [
+      "yojana",
+      "aay"
+    ]
+  },
+  {
+    "question": "Kya Malvi cattle ko kharif aur rabi ke mausam mein koi khas faayda hota hai?",
+    "answer": "Malvi cattle ne Malwa ki mausam ke liye adhikaran kar liya hai, unhein khule ghaas ke kshetron aur adhikanshik pranaliyon mein bhi pasand aata hai.",
+    "tags": [
+      "regional"
+    ]
+  },
+  {
+    "question": "Malvi cattle ko kaise pehchanna ja sakta hai?",
+    "answer": "Malvi cattle ko unke strong aur sturdy bujha aur whitish-grey coat ke liye pehchanna ja sakta hai.",
+    "tags": [
+      "breed"
+    ]
+  },
+  {
+    "question": "Malvi cattle ko kaise khana milta hai?",
+    "answer": "Malvi cattle ko din bhar ghaas khana milta hai aur raat ko shed mein rahne ke liye khana milta hai.",
+    "tags": [
+      "nutrition"
+    ]
+  },
+  {
+    "question": "Kya Malvi cattle ke liye kharif season mein koi vishesh kheti ki jarurat hoti hai?",
+    "answer": "Nahin, kyonki unhein aamtaur par sorghum aur maize jaise fodder crops ke liye hi upyog kiya jata hai.",
+    "tags": [
+      "crop",
+      "kharif"
+    ]
+  },
+  {
+    "question": "Malvi cattle ko jeevamrit se kya fayda hota hai?",
+    "answer": "Jeevamrit ke liye koi jankari nahin di gayi hai, lekin unhein aamtaur par natural grasses aur fodder crops ke liye hi upyog kiya jata hai.",
+    "tags": [
+      "jeevamrit",
+      "nutrition"
+    ]
+  },
+  {
+    "question": "Kya Malvi cattle ke liye tractor ki aavashyakta hoti hai?",
+    "answer": "Nahin, kyonki unhein aamtaur par heavy work ke liye bullocks ko concentrate se takraav kiya jata hai.",
+    "tags": [
+      "equipment",
+      "transportation"
+    ]
+  },
+  {
+    "question": "Kya Malvi cattle ko kharif aur rabi season mein feed ki kami ke saamne bhi accha chalta hai?",
+    "answer": "Haan, unke paas common cattle diseases se ladne ki shakti hai aur unhe feed ki kami ke saamne bhi accha chalta hai.",
+    "tags": [
+      "disease_pest",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya Malvi cattle ko jeevamrit ka upyog karna chahiye?",
+    "answer": "Nahin, unke paas natural resilience hai aur unhe jeevamrit ka upyog nahi karna padta.",
+    "tags": [
+      "soil",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya sarkar Malvi cattle ki bachat aur unka upyog badhane ke liye koi yojana chal rahi hai?",
+    "answer": "Haan, sarkar ne Malvi cattle ki bachat aur unka upyog badhane ke liye farmer awareness programmes aur breeding support shuru kiye hain.",
+    "tags": [
+      "scheme",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya stubble burning ke liye koi sustainable alternatives hain?",
+    "answer": "Farm mechanisation techniques ka upyog karna jaruri hai, jisse stubble burning kam ho sakta hai.",
+    "tags": [
+      "disease_pest",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kharif aur Rabi crops ke beech kya faida hai farm mechanisation?",
+    "answer": "Farm mechanisation se kharif crops ke baad Rabi crops ke liye zameen taiyar karne mein madad milti hai.",
+    "tags": [
+      "market",
+      "regional"
+    ]
+  },
+  {
+    "question": "Stubble burning se kya nuksan hota hai?",
+    "answer": "Stubble burning se environment aur insanon ki swasthya par bura asar padta hai.",
+    "tags": [
+      "disease_pest",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya combine harvester ki upyog karne se khet ki jeevamrit ki khatam hone ki sambhavana badh jati hai?",
+    "answer": "Haan, combine harvester paddy ke 30 cm stem ko bacha ke chhod deti hai, jisse farmer jeevamrit ko jalane ka mauka milta hai.",
+    "tags": [
+      "mechanisation",
+      "crop",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya paddy ke jeevamrit ko jalane se khet ke liye koi nuksaan hota hai?",
+    "answer": "Haan, jeevamrit ko jalane se khet ke mitti ki gandagi badh jati hai aur khet ke faisle kam hota hai.",
+    "tags": [
+      "soil",
+      "crop",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya haryana aur punjab ke kheton mein jeevamrit ko jalane se delhi ki hawa mein kuch badlaav hota hai?",
+    "answer": "Haan, jeevamrit ko jalane se delhi ki hawa mein PM2.5 particles ki matra badh jati hai, jisse hawa ki gunvatta kam hoti hai.",
+    "tags": [
+      "regional",
+      "environment",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya baler aur shredder ki madad se hum apne khadya avsheshon ko mitti mein mila sakte hain?",
+    "answer": "Haan, baler aur shredder aapke khadya avsheshon ko mitti mein mila sakte hain, jisse mitti ki swasthya badhti hai aur aag jalne ki zaroorat kam hoti hai.",
+    "tags": [
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein seedon ko direct roop se bitha sakte hain?",
+    "answer": "Haan, farm mechanisation ke madhyam se hum apne kheton mein seedon ko direct roop se bitha sakte hain, jisse kheton ko mitti se kam hi dhokar lena padta hai.",
+    "tags": [
+      "farming_techniques"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit banane ke liye hum apne khadya avsheshon ko mitti mein mila sakte hain?",
+    "answer": "Haan, apne khadya avsheshon ko mitti mein milakar aap jeevamrit bana sakte hain, jisse mitti ki swasthya badhti hai.",
+    "tags": [
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne khet mein stubble ko jalne ki jarurat nahin hogi?",
+    "answer": "Nahin, yeh innovative farm machineries seed sow karke aur stubble ko cut karke soil mein shamil kar dete hain.",
+    "tags": [
+      "crop",
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne khet mein paddy aur wheat ki stubble ko kya upyog kar sakte hain?",
+    "answer": "Hum apne khet mein paddy aur wheat ki stubble ko fodder ya raw materials ke liye upyog kar sakte hain.",
+    "tags": [
+      "crop",
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya yeh innovative farm machineries hamare khet ki mitti ki swasthya ko badhava dengi?",
+    "answer": "Haan, yeh innovative farm machineries stubble ko mulch mein badal dete hain, jo khet ki mitti ki swasthya ko badhava deta hai aur uski utpatti ko badhata hai.",
+    "tags": [
+      "crop",
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya yeh motorised tricycles ke liye koi shulk pradan kiya jayega?",
+    "answer": "Ismein koi shulk pradan nahin kiya gaya hai, lekin yeh tricycles kisanon ki aarthik swatantrata ko badhava dene ke liye hai.",
+    "tags": [
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Yeh tricycles kisanon ke liye kya upyog kar sakte hain?",
+    "answer": "Yeh tricycles kisanon ko kheton mein jaane, paani aur jeevamrit pradan karne, aur kheti ke karyon mein shamil hone mein madad karengi.",
+    "tags": [
+      "soil",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya yeh tricycles Vidisha ke kshetra mein hi pradan kiye jayenge?",
+    "answer": "Haan, Union Agriculture Minister Shivraj Singh Chouhan ne Vidisha ke kshetra par vishesh dhyan dena ka aahaav diya hai.",
+    "tags": [
+      "regional",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya kharif crop ke daam mein koi badlaav aaya hai?",
+    "answer": "Nahin, kharif crop ke daam mein koi badlaav nahin diya gaya hai, lekin sugar production mein sudhar hua hai.",
+    "tags": [
+      "crop",
+      "market"
+    ]
+  },
+  {
+    "question": "Palm oil aur soybean oil ke daam mein kya badlaav aaya hai?",
+    "answer": "Palm oil aur soybean oil ke daam mein ghatna aayi hai, lekin sunflower aur rapeseed oil ke daam mein badha.",
+    "tags": [
+      "oil",
+      "market"
+    ]
+  },
+  {
+    "question": "Jeevamrit ka upyog karte samay kya dhyan rakna chahiye?",
+    "answer": "Jeevamrit ka upyog karte samay, jeevamrit ki maatra ko sahi se niyantrit karna chahiye, taaki kheti mein sudhar ho.",
+    "tags": [
+      "soil",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya 2025 mein India mein chawal, makka aur geu ke utpadan mein badhav hoga?",
+    "answer": "Haan, 2025 mein India mein chawal, makka aur geu ke utpadan mein badhav hoga, khaskar Australia, America aur India mein.",
+    "tags": [
+      "crop",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog karein aur kya isse kheti mein madad milegi?",
+    "answer": "Koi jeevamrit ka upyog nahi kiya gaya hai, lekin is text mein kheti ki sthiti aur jeevamrit ke upyog ke bare mein koi vishesh jankari nahi di gayi hai.",
+    "tags": [
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya dairy sector mein kheti se jama kiye gaye dudh ke liye feed ki kami ka samadhan hoga?",
+    "answer": "Haan, dairy sector mein kheti se jama kiye gaye dudh ke liye feed ki kami ka samadhan karne ke liye ek saath kiya gaya ek prabandhanik abhiyan shuru kiya jayega.",
+    "tags": [
+      "dairy",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya hum kharif aur rabi season mein dairy farming karna seekh sakte hain?",
+    "answer": "Nahin, dairy farming kharif aur rabi season mein nahin seekhi jaati hai, lekin hum ismein climate-resilient practices ka upyog karke apne dairy farming ko behtar bana sakte hain.",
+    "tags": [
+      "dairy farming",
+      "season",
+      "climate-resilient"
+    ]
+  },
+  {
+    "question": "Kya hum apne dairy farming mein jeevamrit ka upyog kar sakte hain?",
+    "answer": "Haan, hum apne dairy farming mein jeevamrit ka upyog kar sakte hain, jisse hum apne gaayon ki swasthya aur pashu padarthon ki gunvatta badh sakte hain.",
+    "tags": [
+      "jeevamrit",
+      "dairy farming",
+      "animal health"
+    ]
+  },
+  {
+    "question": "Kya NABARD humein dairy farming ke liye finance aur risk mitigation ka support pradan karega?",
+    "answer": "Haan, NABARD humein dairy farming ke liye finance aur risk mitigation ka support pradan karega, jisse hum apne dairy farming ko behtar bana sakte hain.",
+    "tags": [
+      "finance",
+      "risk mitigation",
+      "NABARD"
+    ]
+  },
+  {
+    "question": "Kya government ne kisi scheme ki shuruat ki hai jo kheti ko climate stress se bachane mein madad karegi?",
+    "answer": "Nahin, lekin policy, investment, aur implementation ko alag-alag stakeholders ke beech strong synergies ke saath alag kiya jana hoga.",
+    "tags": [
+      "scheme",
+      "climate",
+      "policy"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kheti mein climate-resilient aur productivity-enhancing practices ko badhava dene mein madad karega?",
+    "answer": "Haan, jeevamrit ka upyog kheti mein climate-resilient aur productivity-enhancing practices ko badhava dene mein madad karega, lekin iske liye supportive policies, innovative financing mechanisms, aur institutional coordination ki aavashyakta hogi.",
+    "tags": [
+      "jeevamrit",
+      "climate",
+      "productivity"
+    ]
+  },
+  {
+    "question": "Kya kheti ke liye jeevamrit ki bazaar mein uplabdhata badhane ke liye koi karyakram shuru kiya gaya hai?",
+    "answer": "Nahin, lekin policy, investment, aur implementation ko alag-alag stakeholders ke beech strong synergies ke saath alag kiya jana hoga, jisse jeevamrit ki bazaar mein uplabdhata badh sakti hai.",
+    "tags": [
+      "jeevamrit",
+      "market",
+      "policy"
+    ]
+  },
+  {
+    "question": "Kya hum apne gaayon ki pasina ko kharif aur rabi faslon ke liye upyog kar sakte hain?",
+    "answer": "Haan, pasina ko upyog karne se hum apne kheton ko behtar seva kar sakte hain, jisse unki gunvatta badh jayegi.",
+    "tags": [
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Jeevamrit ka upyog kaise hamari gaayon ki swasthya ko sudhar sakta hai?",
+    "answer": "Jeevamrit se hum apne gaayon ki swasthya ko sudhar sakte hain, jisse unki pasina aur dudh ki gunvatta badh jayegi.",
+    "tags": [
+      "jeevamrit",
+      "swasthya"
+    ]
+  },
+  {
+    "question": "Kya hum apne gaayon ki pasina ko upyog karke data-driven nirnay lene ke liye koi tareeka hai?",
+    "answer": "Haan, hum apne gaayon ki pasina ko upyog karke data-driven nirnay lene ke liye digital technologies ka upyog kar sakte hain.",
+    "tags": [
+      "data-driven",
+      "digital technologies"
+    ]
+  },
+  {
+    "question": "Kya Aseem Rawat ne apne dairy farming business ke liye koi government scheme ka upyog kiya?",
+    "answer": "Nahin, Aseem Rawat ne apne dairy farming business ke liye apni khud ki shuruaati, jismein usne apne 14 saal ke IT sector ka anubhav ka upyog kiya.",
+    "tags": [
+      "scheme",
+      "regional"
+    ]
+  },
+  {
+    "question": "Aseem Rawat ne apne dairy farming business ke liye kis prakaar ki gaiyon ka chayan kiya?",
+    "answer": "Aseem Rawat ne apne dairy farming business ke liye vridhhiya gaiyon ka chayan kiya, jo indigenous hain.",
+    "tags": [
+      "breed",
+      "soil"
+    ]
+  },
+  {
+    "question": "Aseem Rawat ne apne dairy farming business ke liye kya jeevamrit ka upyog kiya?",
+    "answer": "Nahin, text mein kisi jeevamrit ka upyog kiya jaane ki koi baat nahin hai, lekin Aseem Rawat ne apne dairy farming business ke liye organic farming ka upyog kiya hai.",
+    "tags": [
+      "organic",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya government organic farming ke liye koi scheme provide karta hai?",
+    "answer": "Haan, government organic farming ke liye do schemes provide karta hai.",
+    "tags": [
+      "scheme",
+      "market",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit organic farming ke liye zaroori hai?",
+    "answer": "Nahin, jeevamrit ki zaroorat organic farming ke liye nahin hai, lekin isse soil ki quality badh sakti hai.",
+    "tags": [
+      "scheme",
+      "market",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya kharif aur rabi season mein organic farming ki zaroorat hai?",
+    "answer": "Nahin, organic farming kisi bhi season mein ki ja sakti hai, lekin isse soil ki quality aur crop ki quality badh sakti hai.",
+    "tags": [
+      "scheme",
+      "market",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya Hetha Organic ke pas koi vishesh jeevamrit ka upyog hota hai?",
+    "answer": "Kuchh nahi diya gaya hai, lekin yah pata chalta hai ki Hetha Organic ke paas indigenous cows ke upar nirantar vikas kiya gaya hai.",
+    "tags": [
+      "jeevamrit",
+      "dairy",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Hetha Organic ke farm locations mein koi vishesh kharif ya rabi faslon ki jaankari hai?",
+    "answer": "Kuchh nahi diya gaya hai, lekin yah pata chalta hai ki Hetha Organic ke paas 5 farm locations hain, jinmein se kuchh Uttarakhand aur Uttar Pradesh mein hain.",
+    "tags": [
+      "kharif",
+      "rabi",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Hetha Organic ke pas indigenous cows ki milk ki gunvatta mein koi vishesh badlaav kiya gaya hai?",
+    "answer": "Haa, Hetha Organic ke paas Badri - Local hill breed of Uttarakhand, jo milk mein kam hota hai lekin dawaon ki gunvatta mein adhik hota hai.",
+    "tags": [
+      "milk",
+      "medicinal",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Hetha Organic ki sabzi aur dudh ki kheti ki jagah hai?",
+    "answer": "Nahin, Hetha Organic ki sabzi aur dudh ki kheti ki jagah nahin hai, lekin ve pure products banate hain.",
+    "tags": [
+      "market",
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Hetha Organic ki kheti ki jameen ki prakriti kya hai?",
+    "answer": "Text mein kuchh bhi nahi diya gaya hai, lekin hum aasani se kharif aur rabi ki kheti kar sakte hain.",
+    "tags": [
+      "crop",
+      "soil",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Hetha Organic ki jeevamrit ki prakriti kya hai?",
+    "answer": "Text mein kuchh bhi nahi diya gaya hai, lekin hum aasani se jeevamrit banate hain aur iska upyog karte hain.",
+    "tags": [
+      "market",
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Aapke paas kya kharif aur rabi faslon ke liye jeevamrit aur anya organic inputs hain?",
+    "answer": "Aseem Rawat ne kuchh hi indigenous cow breeds ke saath kaam kiya hai, lekin unke paas kharif aur rabi faslon ke liye jeevamrit aur anya organic inputs ki jaankari nahin di gayi hai.",
+    "tags": [
+      "market",
+      "soil"
+    ]
+  },
+  {
+    "question": "Aapke paas kya modern farming tools hain jo humein upyog karne ke liye uplabdh hain?",
+    "answer": "Aapke paas AI systems hain jo mitti ki swasthya ko monitor karte hain aur aakarshak tatvon ki kami ko real time mein pehchan sakte hain.",
+    "tags": [
+      "market",
+      "technology"
+    ]
+  },
+  {
+    "question": "Aapke paas kya shiksha pranali hai jo hamen modern farming tools aur AI systems ke baare mein sikhati hai?",
+    "answer": "Aapke paas FarmBeats for Students kits hain jo ready-to-use environmental sensors aur ek comprehensive curriculum ke saath aate hain, jo shikshakon ke liye taiyar kiye gaye hain aur unhein prior technical experience ki aavashyakta nahin hai.",
+    "tags": [
+      "education",
+      "technology"
+    ]
+  },
+  {
+    "question": "Kya yeh FarmBeats kit hamen kharif aur rabi faslon ke liye upyogi hoga?",
+    "answer": "Haan, yeh kit aapko apne kshetra ki vishisht chunautiyon ke anusaar prabandhan karne ke liye upyogi hoga.",
+    "tags": [
+      "crop",
+      "scheme",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya yeh kit hamen jeevamrit banaane ke liye madad karega?",
+    "answer": "Haan, yeh kit aapko apne kshetra ki vishisht chunautiyon ke anusaar prabandhan karne ke liye upyogi hoga.",
+    "tags": [
+      "crop",
+      "scheme",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kitni rupaye mein hum yeh FarmBeats kit khareed sakte hain?",
+    "answer": "Aap yeh kit sirf $35 mein khareed sakte hain.",
+    "tags": [
+      "market",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya aapke paas koi jeevamrit ki jankari hai jo kharif aur rabi faslon ke liye upyogi hai?",
+    "answer": "Kya jeevamrit ki baat hai, to aapko MANAGE ke alumni aur associates ke kahaaniyon mein padhne ke liye 'The Far Acre' book padhna hoga.",
+    "tags": [
+      "jeevamrit",
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya aapke paas koi sujhav hai kis tarah se kisanon ko rural technology ka upyog karke apne faslon ki kheti mein sudhar kar sakte hain?",
+    "answer": "Haan, rural technology ka upyog karke kisan apne faslon ki kheti mein sudhar kar sakte hain. Aapko MANAGE ke alumni aur associates ke kahaaniyon mein padhne ke liye 'The Far Acre' book padhna hoga.",
+    "tags": [
+      "rural technology",
+      "kisan"
+    ]
+  },
+  {
+    "question": "Kya aapke paas koi jankari hai ki kaise kisanon ko post-harvest losses se bachaya ja sakta hai?",
+    "answer": "Haan, post-harvest losses se bachne ke liye aapko MANAGE ke alumni aur associates ke kahaaniyon mein padhne ke liye 'The Far Acre' book padhna hoga.",
+    "tags": [
+      "post-harvest losses"
+    ]
+  },
+  {
+    "question": "Kya MANAGE ek aisi sanstha hai jo kisanon ko warehouse aur mandi mein kya madad karti hai?",
+    "answer": "MANAGE ne kisanon ko warehouse aur mandi mein ek naya drishtikon pradan kiya hai, jahan par change thode se darshaye jata hai, lekin yah change bahut mahatvapurn hai.",
+    "tags": [
+      "market",
+      "extension"
+    ]
+  },
+  {
+    "question": "Kya MANAGE jeevamrit aur kharif/rabi faslon ke liye koi upyogkaran pradan karta hai?",
+    "answer": "Kuchh upyogkaran pradan nahi kiye gaye hain, lekin MANAGE ek prabhavi sanstha hai jo kisanon ko unke kheti ke liye upyogkaran pradan kar sakta hai.",
+    "tags": [
+      "fertilizer",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya MANAGE Alumni Association kisanon ko kis prakaar ki madad karti hai?",
+    "answer": "MANAGE Alumni Association kisanon ko ek sath aane aur karyanvayan karne mein madad karti hai, jisse unke jeevan mein sudhar aata hai.",
+    "tags": [
+      "community",
+      "extension"
+    ]
+  },
+  {
+    "question": "Kya MANAGE kiye ja rahen hain iske liye ki Punjab ki kheti mein paani ki kami ka samadhan ho?",
+    "answer": "MANAGE ne kaha hai ki Punjab ki kheti mein paani ki kami ka samadhan ke liye ek samgathit yojana ki aavashyakta hai, jismein phalak-udharit paani ka upyog, adhunik kheti tehnology ka upyog aur paani ka samayik niyantran shamil hoga.",
+    "tags": [
+      "scheme",
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Arya.ag ki kya bhoomika hai kheti ke mulya chain mein?",
+    "answer": "Arya.ag kheti ke mulya chain mein samanata pradaan karne ki koshish karta hai, jisse kisanon ko apne phal ko beech-bichhav se bechne ki aazadi milti hai.",
+    "tags": [
+      "market",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kheti mein paani ki kami ko kam karne mein madad karta hai?",
+    "answer": "Nahin, yeh shabda MANAGE kiye gaye shabdon mein nahin aaya hai, lekin kheti mein paani ki kami ko kam karne ke liye kuchh anya upaayon ki aavashyakta hai.",
+    "tags": [
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Punjab mein paani ki kami ka sabse bada karan hai rice ki kheti?",
+    "answer": "Haan, Punjab mein rice ki kheti ka over-reliance ne paani ki kami ka sabse bada karan ban gaya hai.",
+    "tags": [
+      "crop",
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog Punjab mein kheti mein upyukt hai?",
+    "answer": "Nahin, jeevamrit ka upyog Punjab mein kheti mein upyukt nahin hai, kyunki isse paani ki kami badh sakti hai.",
+    "tags": [
+      "irrigation",
+      "regional",
+      "sustainability"
+    ]
+  },
+  {
+    "question": "Kya Punjab mein paani ki kami ka koi upay hai?",
+    "answer": "Haan, Punjab mein paani ki kami ka upay banane ke liye, kheti mein rice aur wheat ki jodi ko badalna aur paani ki bachat karne ki zaroorat hai.",
+    "tags": [
+      "irrigation",
+      "regional",
+      "sustainability"
+    ]
+  },
+  {
+    "question": "Kya paddy cultivation ke liye jeevamrit ka upyog karna upyogi hoga?",
+    "answer": "Nahin, ismein kharif season ke liye agro-technologies ki suchi di gayi hai.",
+    "tags": [
+      "crop",
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya paddy cultivation ke liye paani ka upyog karna sambhav hai?",
+    "answer": "Haan, lekin ismein bahut paani ki avashyakta hoti hai aur iska upyog karna mahanga ho sakta hai.",
+    "tags": [
+      "crop",
+      "irrigation",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya paddy cultivation ke liye kharif season mein paani ka upyog karna upyogi hoga?",
+    "answer": "Haan, kharif season mein paddy cultivation ka upyog karna upyogi hoga, lekin ismein paani ka upyog karna mahanga ho sakta hai.",
+    "tags": [
+      "crop",
+      "irrigation",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya basmati chawal ki kheti mein jeevamrit ka upyog kiya jata hai?",
+    "answer": "Nahin, basmati chawal ki kheti mein kam paani ki avashyakta hoti hai, jisse jeevamrit ka upyog nahin kiya jata hai.",
+    "tags": [
+      "crop",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya gandhi kapas ki kheti mein parawilt ka samasya hota hai?",
+    "answer": "Haan, gandhi kapas ki kheti mein parawilt ka samasya hota hai, jisse paani ki avashyakta hoti hai aur paani ki suraksha ki zaroorat hoti hai.",
+    "tags": [
+      "disease_pest",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya gandhi kapas ki kheti mein drip irrigation ka upyog kiya jata hai?",
+    "answer": "Haan, gandhi kapas ki kheti mein drip irrigation ka upyog kiya jata hai, jisse paani ki bachat hoti hai aur seed cotton ki utpaadakta badhti hai.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya maize kharif mein bhi sata sakta hai?",
+    "answer": "Haan, maize kharif mein bhi sata sakta hai, lekin iske liye bed/ridge par sataana achha hai jisse bheegne se bacha ja sakta hai.",
+    "tags": [
+      "crop",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Jeevamrit ki aavashyakta kya hai maize ke liye?",
+    "answer": "Maize ke liye 80% NPK ki aavashyakta hai, jismein N 7 splits, P 5 splits aur K 5 splits mein fertigate kiya jaata hai.",
+    "tags": [
+      "fertilizer",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya sorghum aur maize ke liye irrigation ki aavashyakta hoti hai?",
+    "answer": "Haan, sorghum aur maize ke liye 5 irrigations ki aavashyakta hoti hai summer season mein, aur kharif mein irrigations rains ke anusaar ki jaati hai.",
+    "tags": [
+      "crop",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya hum arhar aur soybean ke liye 3-4 irrigations ki zaroorat hoti hai?",
+    "answer": "Haan, arhar aur soybean ke liye 3-4 irrigations ki zaroorat hoti hai, lekin isse mid-September ke baad arhar ke liye na karein, kyunki yeh maturation ko delay karta hai.",
+    "tags": [
+      "crop",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum jeevamrit ka upyog karke pani bacha sakte hain?",
+    "answer": "Haan, jeevamrit ka upyog karke pani bachaya ja sakta hai, aur isse crop ko heavy rainfall se bhi bachaya ja sakta hai.",
+    "tags": [
+      "irrigation",
+      "soil",
+      "water management"
+    ]
+  },
+  {
+    "question": "Kya hum kashmiri mirch ke liye raised beds ka upyog kar sakte hain?",
+    "answer": "Haan, kashmiri mirch ke liye raised beds ka upyog kiya ja sakta hai, aur isse pani bachaya ja sakta hai aur crop ko heavy rainfall se bhi bachaya ja sakta hai.",
+    "tags": [
+      "crop",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya Kashi Anmol mirch ko kharif ya rabi season mein badaana chahiye?",
+    "answer": "Kashi Anmol mirch ko koi vishisht season mein badaana nahin chahiye, lekin yeh aamtaur par rabi season mein badaaya jaa sakta hai.",
+    "tags": [
+      "crop",
+      "season",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog Kashi Anmol mirch ke liye aavashyak hai?",
+    "answer": "Nahin, jeevamrit ka upyog Kashi Anmol mirch ke liye aavashyak nahin hai, lekin yeh aapke jameen ki gunvatta ko badha sakta hai.",
+    "tags": [
+      "soil",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya Kashi Anmol mirch ke liye drip irrigation ka upyog karna aavashyak hai?",
+    "answer": "Haan, drip irrigation ka upyog Kashi Anmol mirch ke liye aavashyak hai, kyonki yeh paani bachaane aur jameen ke nirmalata ko banaye rakhne mein madad karta hai.",
+    "tags": [
+      "irrigation",
+      "water_conservation"
+    ]
+  },
+  {
+    "question": "Kya Kashi Anmol mirch ke liye kharif ya rabi season best hai?",
+    "answer": "Iske liye koi specific season nahi diya gaya hai, lekin sahi paani prabandhan aur samay par kheti karne se high yields aur achhi fruit quality mil sakti hai.",
+    "tags": [
+      "crop",
+      "season",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya Kashi Anmol mirch ko koi jeevamrit ka upyog karna chahiye?",
+    "answer": "Haan, sahi paani prabandhan, samay par kheti aur prabandhit rog niyantran ke saath sahi jeevamrit ka upyog karke high yields aur achhi fruit quality mil sakti hai.",
+    "tags": [
+      "crop",
+      "soil",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya Kashi Anmol mirch se koi rog niyantran ki aavashyakta hoti hai?",
+    "answer": "Haan, Bhut Jolokia mirch ke liye rog niyantran ki aavashyakta hoti hai, lekin Kashi Anmol mirch ke liye iske baare mein koi jankari nahi di gayi hai.",
+    "tags": [
+      "crop",
+      "disease_pest",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya Kashi Anmol mirch ko pani se kam jatil hone ki wajah se iski fasal lagbhag kya hoti hai?",
+    "answer": "Kashi Anmol mirch irrigated conditions mein acchi tarah se chalti hai, lekin semi-arid regions mein bhi iski fasal lagbhag ho sakti hai.",
+    "tags": [
+      "crop",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya Kashi Anmol mirch ki upyogita sirf fresh market sales ke liye hai ya iska upyog processing industries mein bhi kiya ja sakta hai?",
+    "answer": "Kashi Anmol mirch ki upyogita fresh market sales ke liye, dry chili powder, pickles, sauces jaise processing industries mein bhi ki ja sakti hai.",
+    "tags": [
+      "market",
+      "processing"
+    ]
+  },
+  {
+    "question": "Kya Kashi Anmol mirch ko jeevamrit dene se koi faayda hota hai?",
+    "answer": "Kashi Anmol mirch ko jeevamrit dene ki koi baat nahi di gayi hai, lekin iski upyogita aur jeevika mein sudhar ke liye iski upyogita ki ja sakti hai.",
+    "tags": [
+      "crop",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kitne prakaar ke phoolon ko kharif aur rabi mein bhaajha jaa sakta hai?",
+    "answer": "India mein 300 se adhik prakaar ke phoolon ki kheti hoti hai, jismein gomphrena, statice, strawflower, marigold, globe amaranth, lavender, roses aur grasses shaamil hain.",
+    "tags": [
+      "kharif_rabi",
+      "soil",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog phoolon ki kheti mein kiya ja sakta hai?",
+    "answer": "Koi jeevamrit ka upyog phoolon ki kheti mein kiya nahin jaata hai, lekin phoolon ki kheti mein aam taur par khaad aur paani ka upyog hota hai.",
+    "tags": [
+      "fertilizer",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Phoolon ko kaise sunishchit kiya jaata hai ki ve sahi sthiti mein hain?",
+    "answer": "Phoolon ko sahi sthiti mein sunishchit karne ke liye unhein pahle hi phool poore roop se khilne se pehle utha liya jaata hai, isse unke petal firm aur vibrant color aur accha shape rah jaata hai.",
+    "tags": [
+      "disease_pest",
+      "irrigation",
+      "market"
+    ]
+  },
+  {
+    "question": "Kitna paani lagta hai phoolon ki drying ke liye?",
+    "answer": "Paani ki avashyakta kam hai, isliye yeh farming bahut achhi hai jahan paani ki kami hoti hai.",
+    "tags": [
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya koi kheti yojana hai jo iski madad karegi?",
+    "answer": "Haan, yeh floriculture ek branch of horticulture hai, jismein phoolon ki kheti ki jaati hai, ismein koi vishesh yojana nahi hai lekin yeh kheti ki madad karegi.",
+    "tags": [
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya koi chemical inputs ki avashyakta hoti hai phoolon ki kheti ke liye?",
+    "answer": "Nahin, kyonki pest attacks kam hote hain aur yeh kheti bahut achhi hai jahan chemical inputs ki avashyakta nahi hoti.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya iske liye koi kisan sansthaon ya FPOs ke liye vishesh yojana hai?",
+    "answer": "Haan, SMART yojana ke madhyam se kisan sansthaon ko majboot kiya ja raha hai, jisse unhe bada bazaar mil sakta hai.",
+    "tags": [
+      "scheme",
+      "market",
+      "regional"
+    ]
+  },
+  {
+    "question": "Iske liye kya vishesh prakriya ki aavashyakta hai?",
+    "answer": "Iske liye drying, pressing aur crafting jaise kaam indoor mein kiye ja sakte hain, jisse saal bhar tak jeevan bharne ka mauka milta hai.",
+    "tags": [
+      "crop",
+      "processing"
+    ]
+  },
+  {
+    "question": "Kya iske liye koi vishesh jeevamrit ya kheti ki aavashyakta hai?",
+    "answer": "Iske liye koi vishesh jeevamrit ya kheti ki aavashyakta nahin hai, yeh kisi bhi kheti ke liye upyukt hai.",
+    "tags": [
+      "soil",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya SMART yojana se humein kharif ya rabi crop ke liye upyogi upkaran milenge?",
+    "answer": "SMART yojana ne 110 capacity building trainings diye hain, jisse 4,500 farmers ko labh mila hai.",
+    "tags": [
+      "scheme",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya SMART yojana se humein apne aaspaas ke market mein apna produce bechne ki sambhavna hai?",
+    "answer": "SMART yojana ne 250+ MoUs sign kiye hain aur 9 Buyer-Seller meets ke madhyam se 444 MT commodities ki trade facilitate ki hai.",
+    "tags": [
+      "market",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Kya SMART yojana se humein apne kheti ke liye jeevamrit ki sambhavna hai?",
+    "answer": "SMART yojana ne 110 capacity building trainings diye hain, jisse 4,500 farmers ko labh mila hai, lekin yeh text mein jeevamrit ke baare mein koi jankari nahin di gayi hai.",
+    "tags": [
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya yeh women's Bachat Gat ke liye kharif ya rabi season mein rice processing kiya jata hai?",
+    "answer": "Yeh rice processing seasonal activity hai, typically kharif season mein hota hai.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya yeh women's Bachat Gat ke paas jeevamrit ki upyog kiya jata hai?",
+    "answer": "Nahin, yeh Bachat Gat ne mechanised system ka upyog kiya hai.",
+    "tags": [
+      "fertilizer",
+      "mechanization"
+    ]
+  },
+  {
+    "question": "Kya yeh women's Bachat Gat ke liye market access ki zaroorat hoti hai?",
+    "answer": "Haan, yeh Bachat Gat ko market access ki zaroorat thi, jisse unhein apne rice oil milling product bechne mein madad mili.",
+    "tags": [
+      "market",
+      "marketing"
+    ]
+  },
+  {
+    "question": "Kya hum apne khet mein rice oil processing kar sakte hain?",
+    "answer": "Haan, aap apne khet mein rice oil processing kar sakte hain, lekin aapko iske liye visheshikaran ki aavashyakta hogi.",
+    "tags": [
+      "crop",
+      "processing"
+    ]
+  },
+  {
+    "question": "Kya mechanised processing se kheti ki income badh jati hai?",
+    "answer": "Haan, mechanised processing se kheti ki income badh jati hai, aur isse aapko ₹ 400 per day ki stable income mil sakti hai.",
+    "tags": [
+      "income",
+      "mechanisation"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog rice oil processing ke liye karna avashyak hai?",
+    "answer": "Nahin, jeevamrit ka upyog rice oil processing ke liye karna avashyak nahin hai, lekin aapko iske liye anya upkaranon ka upyog karna hogi.",
+    "tags": [
+      "soil",
+      "fertiliser"
+    ]
+  },
+  {
+    "question": "Aapke paas kya khaas tareeke se chawal ki kheti hoti hai?",
+    "answer": "Aapke paas SMART project ke madhyam se machinery aur training milta hai, jisse chawal ki processing mechanically hoti hai.",
+    "tags": [
+      "crop",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya aapke paas koi jeevamrit ka upyog hota hai?",
+    "answer": "Nahin, is text mein jeevamrit ke bare mein kuchh nahi diya gaya hai.",
+    "tags": [
+      "fertilizer",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya aapke paas koi kharif ya rabi season ke liye koi naya tareeka hai?",
+    "answer": "Nahin, is text mein kharif ya rabi season ke liye koi naya tareeka nahi diya gaya hai.",
+    "tags": [
+      "season",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya woolly apple aphid se bachne ke liye koi upay hain?",
+    "answer": "Haan, yeh aphid apne shareer ko wax ki filament se dhak kar apne shareer ko sakht banati hai, isliye yeh aur bhi mushkil se peechha kiya ja sakta hai. Isse bachne ke liye kisan ko apne sabji aur phal ke pedon ko niramay aur swasth rakhna hoga.",
+    "tags": [
+      "disease_pest",
+      "soil",
+      "market"
+    ]
+  },
+  {
+    "question": "Spiti Valley mein kya karna chahiye jab woolly apple aphid ke khatre se bachne ke liye?",
+    "answer": "Spiti Valley mein kisan ko apne sabji aur phal ke pedon ko niramay aur swasth rakhna hoga. Iske liye unhein jeevamrit ka upyog karna chahiye aur apne pedon ko niramay aur swasth rakhna hoga. Isse unke pedon ki vitality aur phal ki kheti mein sudhar hoga.",
+    "tags": [
+      "disease_pest",
+      "soil",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya woolly apple aphid se bachne ke liye koi upay hain jo kisan apne khet mein kar sakte hain?",
+    "answer": "Haan, kisan apne khet mein apne pedon ko niramay aur swasth rakhne ke liye jeevamrit ka upyog kar sakte hain. Iske alawa, unhein apne pedon ko niramay aur swasth rakhne ke liye koi bhi upay kar sakte hain, jaise ki apne pedon ko paani aur khad se bharne ke liye.",
+    "tags": [
+      "disease_pest",
+      "soil",
+      "market"
+    ]
+  },
+  {
+    "question": "Kitna prabhavi hai Agniastr homemade pesticide, aur kya yeh kisi bhi kheti ke liye upyogi hai?",
+    "answer": "Agniastr homemade pesticide bahut prabhavi hai woolly apple aphids ke liye, lekin yeh kuchh khetein ke liye upyogi nahi hai. Iska upyog Spiti Valley mein apple kheti ke liye kiya jata hai.",
+    "tags": [
+      "disease_pest",
+      "crop",
+      "regional"
+    ]
+  },
+  {
+    "question": "Prakritik Kheti Khushhal Kisan Yojana (PK3Y) ke madhyam se kya kheti ka vikas hoga?",
+    "answer": "Prakritik Kheti Khushhal Kisan Yojana (PK3Y) ke madhyam se kheti ka vikas hoga, jismein kheti, van aur jeev-pashu ka samavesh hota hai, jo bhedbhav aur jeevamrit ko badhava deta hai.",
+    "tags": [
+      "scheme",
+      "soil",
+      "regional"
+    ]
+  },
+  {
+    "question": "Thuklang ka upyog kya hai aur yeh kis tarah se kheti ke liye upyogi hai?",
+    "answer": "Thuklang ka upyog Agniastr homemade pesticide mein kiya jata hai, jismein yeh Thuklang ke alkaloid compounds ke karan insecticidal properties ko badhava deta hai.",
+    "tags": [
+      "disease_pest",
+      "crop",
+      "regional"
+    ]
+  },
+  {
+    "question": "Aap Agniastr ko kaise banate hain?",
+    "answer": "Thuklang ke patte ko crush karke, tobacco powder, hari mirch ki paste, aur lehsun ki paste ko gai ki pusti mein milakar low flame par pakayein. Is solution ko 48 ghante ke liye rakhkar periodically stir karein aur dilayein. Is mixture ko 3 mahine ke andar hi use karna hoga.",
+    "tags": [
+      "scheme",
+      "crop"
+    ]
+  },
+  {
+    "question": "Agniastr ke upyog se kya faayda hain?",
+    "answer": "Agniastr se woolly apple aphid ke population mein significant kam hua hai aur parasitoid wasps ki population bach gayi hai, jo aphids ke natural predators hain.",
+    "tags": [
+      "disease_pest",
+      "scheme"
+    ]
+  },
+  {
+    "question": "Agniastr ke upyog se kya kharab hota hai?",
+    "answer": "Agniastr ke upyog se synthetic pesticides ki aavashyakta kam hoti hai aur isse biodiversity badh jaati hai, jisse farmers ki aay mein vruddhi hoti hai.",
+    "tags": [
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya natural farming methods se hum apne seetafeel ke pedon ko khatarnaak jeevon se bacha sakte hain?",
+    "answer": "Haan, natural farming methods se aap apne seetafeel ke pedon ko khatarnaak jeevon se bacha sakte hain.",
+    "tags": [
+      "crop",
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya integrated farming se hum apne kheton ki jameen ki jeev bhaavna ko badha sakte hain?",
+    "answer": "Haan, integrated farming se aap apne kheton ki jameen ki jeev bhaavna ko badha sakte hain.",
+    "tags": [
+      "soil",
+      "jameen"
+    ]
+  },
+  {
+    "question": "Kya China mein integrated farming ke dauraan rice aur jaljeeviyon ka saath-jeeviyan se koi faayda hota hai?",
+    "answer": "Haan, China mein integrated farming ke dauraan rice aur jaljeeviyon ka saath-jeeviyan se kai faayde hota hain.",
+    "tags": [
+      "crop",
+      "jaleeji"
+    ]
+  },
+  {
+    "question": "Kya manual crop collection aur compilation karne se koi samasya hoti hai?",
+    "answer": "Haan, yeh manual collection aur compilation karne se samay ki kami aur galtiyon ka khatra hota hai.",
+    "tags": [
+      "crop",
+      "market",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ki upyog se soil ki gunvatta badhti hai?",
+    "answer": "Haan, jeevamrit ki upyog se soil ki gunvatta badhti hai, aur isse nutrient cycling aur symbiotic interactions mein bhi sudhar hota hai.",
+    "tags": [
+      "soil",
+      "fertilizer",
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kya integrated rice-crayfish farming system ke liye koi environmental risk hoti hai?",
+    "answer": "Haan, is system ke liye environmental risk hoti hai, jaise greenhouse gas emissions, antibiotic resistance, aur human infections.",
+    "tags": [
+      "rice",
+      "crayfish",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein jeevamrit ka upyog karke soil ki sthiti sudhar sakte hain?",
+    "answer": "Haan, jeevamrit ka upyog karke soil ki sthiti sudhar sakte hain, jaise ki Ashish Kumar Tripathi ne apne kheton mein kuchal pani ka upyog karke kuchal pani ka upyog kiya tha.",
+    "tags": [
+      "soil",
+      "irrigation",
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein chemical farming se pehle alternative options ka upyog kar sakte hain?",
+    "answer": "Haan, Mangala Maruti Waghmare ne apne bete ki bimari se pehle apne kheton mein chemical farming se pehle alternative options ka upyog kiya tha, jaise ki organic farming.",
+    "tags": [
+      "market",
+      "crop",
+      "soil",
+      "organic farming"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein input costs ko kam kar sakte hain?",
+    "answer": "Haan, hum apne kheton mein input costs ko kam kar sakte hain, jaise ki jeevamrit ka upyog karke soil ki sthiti sudharne se, aur apne kheton mein organic farming ka upyog karke.",
+    "tags": [
+      "input costs",
+      "market",
+      "soil",
+      "organic farming"
+    ]
+  },
+  {
+    "question": "Kya hum bhi apne kheton mein jeevamrit ka upyog kar sakte hain?",
+    "answer": "Haan, Chhotelal ne bhi apne khet mein jeevamrit ka upyog karke Bansi wheat variety ko bachaya hai.",
+    "tags": [
+      "soil",
+      "regional",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein paani ki bachat kar sakte hain?",
+    "answer": "Haan, Chhotelal ne apne khet mein paani ki bachat karke irrigation ke rounds ko kam karke paani aur kharch ki bachat ki hai.",
+    "tags": [
+      "irrigation",
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein seed aur fertiliser ke liye shopkeepers par nirbhar nahi hona padega?",
+    "answer": "Nahin, ab farmers apne self-help groups mein seed aur fertiliser ke liye sahayata kar rahe hain aur apne produce ko ek saath bech rahe hain.",
+    "tags": [
+      "scheme",
+      "market",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya mango hopper ke liye koi prabhavi upchaar hai jo kheti mein upyog kiya ja sakta hai?",
+    "answer": "Timely identification aur prabhavi prabandhan strategies ka upyog karna zaroori hai mango hopper ke prabhav ko kam karne ke liye.",
+    "tags": [
+      "crop",
+      "disease_pest",
+      "market"
+    ]
+  },
+  {
+    "question": "Mango hopper ke prabhav ko kam karne ke liye kya karna chahiye?",
+    "answer": "Mango hopper ke prabhav ko kam karne ke liye prabhavi prabandhan strategies ka upyog karna zaroori hai, jaise ki samay par pehchan aur prabhavi upchaar.",
+    "tags": [
+      "crop",
+      "disease_pest",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit mango hopper ke liye upyog kiya ja sakta hai?",
+    "answer": "Koi jeevamrit ke bare mein nahi diya gaya hai jo mango hopper ke liye upyog kiya ja sakta hai, lekin prabhavi prabandhan strategies ka upyog karna zaroori hai mango hopper ke prabhav ko kam karne ke liye.",
+    "tags": [
+      "crop",
+      "disease_pest",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya Mangohoppers ke liye kharif aur rabi ke mausam mein koi alag-alag tareeke se upchaar kiya jata hai?",
+    "answer": "Nahin, Mangohoppers ke liye kharif aur rabi ke mausam mein ek hi upchaar kiya jata hai.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Mangohoppers ke kya karan hain ki ve phal, patte, aur anjali ke sap se aahar lete hain?",
+    "answer": "Mangohoppers ke nymphs aur adults phal, patte, aur anjali ke sap se aahar lete hain kyonki ve ismein jeevamrit ki maatra adhik hoti hai.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Mangohoppers ke kya lakshanon par unhe pehchaana jata hai?",
+    "answer": "Mangohoppers ke lakshanon mein unke rang, spots, aur wings ki sthiti shaamil hain.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya mango hoppers ke liye koi nishkarsh upchaar hai?",
+    "answer": "Haan, imidacloprid ka prayog karke upchaar kiya ja sakta hai, lekin isse panicle formation ke pahle hi karna zaroori hai.",
+    "tags": [
+      "disease_pest",
+      "crop"
+    ]
+  },
+  {
+    "question": "Mango hoppers ke karan kya photosynthesis kam hoti hai?",
+    "answer": "Sooty mold ki vrikshakarshakta ke kaaran photosynthesis kam hoti hai, jise hoppers neekar deta hai.",
+    "tags": [
+      "disease_pest",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit mango hoppers ke liye upyukt hai?",
+    "answer": "Nahin, is text mein jeevamrit ke baare mein koi jankari nahin di gayi hai.",
+    "tags": [
+      "soil",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya hum mango ke khet mein jeevamrit ka upyog kar sakte hain?",
+    "answer": "Nahin, kyonki jeevamrit ke baare mein koi jikr nahin kiya gaya hai.",
+    "tags": [
+      "crop",
+      "disease_pest",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Mango ke khet mein kis samay kharab kheti ka upyog karna chahiye?",
+    "answer": "December mein kharab kheti ka upyog karna chahiye, jismein saafai, nishchit plowing, adhik jangal ke hatane aur adhik jangal wale shakhon ka kaatna shamil hai.",
+    "tags": [
+      "crop",
+      "disease_pest",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya hum cypermethrin jaise synthetic pyrethroids ka upyog kar sakte hain?",
+    "answer": "Nahin, kyunki yeh synthetic pyrethroids insani swasthya ke liye nuksandayak hote hain.",
+    "tags": [
+      "crop",
+      "disease_pest",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya kharif aur rabi faslon ke liye alag-alag kheti upkaranon ki aavashyakta hoti hai?",
+    "answer": "Haan, kharif aur rabi faslon ke liye alag-alag kheti upkaranon ki aavashyakta hoti hai, kyunki kheti upkaranon ka chayan farming practice ke anusaar kiya jata hai.",
+    "tags": [
+      "kharif",
+      "rabi",
+      "farming_practice",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kheti upkaranon ke liye kiya ja sakta hai?",
+    "answer": "Nahin, jeevamrit ka upyog kheti upkaranon ke liye nahin kiya ja sakta hai. Jeevamrit ka upyog kheti ki mitti ko mazboot banane ke liye kiya jaata hai.",
+    "tags": [
+      "jeevamrit",
+      "soil",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya kheti upkaranon ki market mein badhti aavashyakta se kisanon ki aay mein sudhar hoga?",
+    "answer": "Haan, kheti upkaranon ki market mein badhti aavashyakta se kisanon ki aay mein sudhar hoga, kyunki kheti upkaranon ka upyog karke kisanon ki utpadan mein badti hui aavashyakta ko poora kiya ja sakta hai.",
+    "tags": [
+      "market",
+      "income",
+      "productivity"
+    ]
+  },
+  {
+    "question": "Kya Indian sarkar kharif aur rabi faslon ke liye koi naya yojana la rahi hai?",
+    "answer": "Nahin, lekin sarkar farm mechanization ki gunvatta badhane ke liye kuch naye kadam utha rahi hai.",
+    "tags": [
+      "scheme",
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Jeevamrit ka upyog karna kya farm equipment market mein sudhar la sakta hai?",
+    "answer": "Haan, jeevamrit ka upyog karke farm equipment design aur quality mein sudhar ho sakta hai.",
+    "tags": [
+      "market",
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Doodh utpaadan ke liye machine milking ka upyog karna kya fayda deta hai?",
+    "answer": "Machine milking animal ki udder par kam jaroorat hoti hai aur isse doodh utpaadan mein sudhar hota hai.",
+    "tags": [
+      "dairy",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kitna samay lagta hai is machine ko operate karna?",
+    "answer": "Is machine ko operate karne mein lagbhag 4-6 minute ka samay lagta hai.",
+    "tags": [
+      "dairy"
+    ]
+  },
+  {
+    "question": "Kya is machine ko manual taur par bhi operate kiya ja sakta hai?",
+    "answer": "Haan, kuch models battery ya manual use par operate kar sakte hain.",
+    "tags": [
+      "dairy"
+    ]
+  },
+  {
+    "question": "Kya is machine se milk ki quality acchi hoti hai?",
+    "answer": "Haan, is machine se milk ki quality acchi hoti hai kyonki isse hair ya dirt milk mein nahin ja sakta hai.",
+    "tags": [
+      "dairy"
+    ]
+  },
+  {
+    "question": "Kya buffalo ki milk collection ke liye koi vishesh machine ki aavashyakta hoti hai?",
+    "answer": "Haan, kuchh vishesh buffalo milk collection machine India mein design ki gayi hain jo unke liye upyukt hain.",
+    "tags": [
+      "buffalo"
+    ]
+  },
+  {
+    "question": "Kya high vacuum pressure buffalo ki udder ko nuksan pahuncha sakta hai?",
+    "answer": "Haan, high vacuum pressure buffalo ki udder ko nuksan pahuncha sakta hai aur somatic cell count badh sakta hai.",
+    "tags": [
+      "buffalo"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit se buffalo ki milk production badh sakti hai?",
+    "answer": "Koi jeevamrit ki baat nahi di gayi hai, lekin milk collection ke liye sahi vacuum pressure aur pulsation rate ki aavashyakta hoti hai.",
+    "tags": [
+      "buffalo"
+    ]
+  },
+  {
+    "question": "Kya main apne jeevamrit se machine ka dhokha nahin hoga?",
+    "answer": "Haan, machine ka dhokha hoga, isliye aapko apne jeevamrit ko acchhi tarah se prabhaavit karna hoga.",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kya main apne heifers ko pehle hi machine se milk kar sakta hoon?",
+    "answer": "Haan, heifers ko machine se milk karne ka prarambh karein, lekin pehle unhein machine ka sound aur smell dekhne do.",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Agar ek buffalo machine se darta hai, to kya karna chahiye?",
+    "answer": "Agar buffalo machine se darta hai, to isey milk karne ke liye haath se milk karein, jab tak vah thanda nahin ho jata.",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "question": "Kaise machine ko saaf rakhein, agar milk ki quality badhne ki baat hai?",
+    "answer": "Machine ko har use ke baad saaf karna zaroori hai, aur iske alawa regular checks bhi karna chahiye ki koi bhi part cracked ya leaking nahin hai.",
+    "tags": [
+      "quality"
+    ]
+  },
+  {
+    "question": "Machine milking se milk ki quantity kitni badhti hai?",
+    "answer": "Machine milking se milk ki quantity badh jati hai, aur isse farmers ko milk produce karne mein adhik speed aur kam logon ki zaroorat hoti hai.",
+    "tags": [
+      "production"
+    ]
+  },
+  {
+    "question": "Machine milking se udder ki health kitni badhti hai?",
+    "answer": "Machine milking se udder ki health badhti hai, kyunki isse hand pressure aur irregular milking kam hota hai.",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "question": "Kya machine milking ke liye koi vishesh training ya shiksha jaruri hai?",
+    "answer": "Haan, machine milking ke liye sahi training, gendle introduction, aur nitya maintenance zaroori hai.",
+    "tags": [
+      "dairy",
+      "training"
+    ]
+  },
+  {
+    "question": "CNG tractor ke liye kitna kharcha aata hai aur kya yeh hamare desh ke kisanon ke liye upyogi hai?",
+    "answer": "CNG tractor ka kharcha diesel-run tractor ke mukable kam hai aur yeh hamare desh ke kisanon ke liye upyogi hai kyunki yeh eco-friendly hai aur emissions ko kam karta hai.",
+    "tags": [
+      "cost",
+      "sustainability"
+    ]
+  },
+  {
+    "question": "Machine milking se kya faayda hota hai aur kya yeh hamare desh ke kisanon ke liye upyogi hai?",
+    "answer": "Machine milking se samay aur mehnat bachti hai, dudh ki gunvatta badhti hai, aur jeevamrit mein sudhar hota hai.",
+    "tags": [
+      "dairy",
+      "efficiency"
+    ]
+  },
+  {
+    "question": "Kya is CNG tractor ke liye paise bachne ki aadhar par koi yojana hai?",
+    "answer": "Anticipated savings of Rs 100 per hour over diesel tractors further underscore its economic appeal.",
+    "tags": [
+      "scheme",
+      "irrigation",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya is CNG tractor ko kharif aur rabi ke liye upyogi hoga?",
+    "answer": "Equipped with CNG technology, the tractor adeptly handles various agricultural and haulage applications, matching the capabilities of existing diesel tractors.",
+    "tags": [
+      "kharif",
+      "rabi",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya Mahindra ka CNG tractor jeevamrit aur anya khadya upcharak upkaranon ke saath upyogi hoga?",
+    "answer": "No specific information is provided about the compatibility of Mahindra's CNG tractor with jeevamrit or other agricultural inputs.",
+    "tags": [
+      "jeevamrit",
+      "fertilizers",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya Mahindra Tractors ke liye kharif aur rabi season mein alag-alag model chahiye?",
+    "answer": "Nahin, Mahindra Tractors apne behtareen build quality aur performance ke liye jaane jaate hain, jo kisi bhi season mein karyaksham hain.",
+    "tags": [
+      "season",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya Mahindra Tractors ke liye jeevamrit aur pesticide ki zaroorat padti hai?",
+    "answer": "Nahin, Mahindra Tractors ke liye jeevamrit aur pesticide ki zaroorat nahin padti, kyunki yeh tractor behtareen build quality aur performance ke liye jaane jaate hain.",
+    "tags": [
+      "fertilizer",
+      "pesticide"
+    ]
+  },
+  {
+    "question": "Kya Mahindra Tractors ke liye service aur spares ki availability bahut mushkil hai?",
+    "answer": "Nahin, Mahindra Tractors ke liye country's sabse bada tractor sales, service, aur spares network hai, jo sabse kam total cost of ownership aur sabse adhik tractor resale value pradan karta hai.",
+    "tags": [
+      "service",
+      "spares"
+    ]
+  },
+  {
+    "question": "Kya mini tractor ke liye koi vishesh kharif crop ke liye upyog kiya jata hai?",
+    "answer": "Mini tractors ke liye koi vishesh kharif crop ke liye upyog kiya nahi jata, balki ve sabhi prakaar ke kheti ke kaam aate hain.",
+    "tags": [
+      "kharif",
+      "crop"
+    ]
+  },
+  {
+    "question": "Mini tractor ke dauraan kheti ke kaam ke dauraan kya jeevamrit ka upyog kiya jata hai?",
+    "answer": "Jeevamrit ka upyog mini tractor ke dauraan kheti ke kaam ke dauraan nahi kiya jata, balki ve manual labor ke dauraan upyog kiye jate hain.",
+    "tags": [
+      "jeevamrit",
+      "manual_labor"
+    ]
+  },
+  {
+    "question": "Mini tractor ke liye kya rabi season mein upyog kiya jata hai?",
+    "answer": "Mini tractor rabi season mein bhi upyog kiye jate hain, kyonki ve sabhi prakaar ke kheti ke kaam aate hain.",
+    "tags": [
+      "rabi",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya agrivoltaics ke madhyam se hum apne kheton mein solar panel lagaa sakte hain?",
+    "answer": "Haan, agrivoltaics aapko apne kheton mein solar panel lagane ka avsar pradaan karta hai, jisse aap apne kheton ko doosri upyog ke liye pradaan kar sakte hain.",
+    "tags": [
+      "scheme",
+      "khet",
+      "solar panel"
+    ]
+  },
+  {
+    "question": "Agrivoltaics se humein kya labh milenge?",
+    "answer": "Agrivoltaics se aapko ek nishchit aay ki pradaan karega, jisse aap apne kheton ke liye upyog kar sakte hain, aur aap apne kheton ke liye electricity ki aavashyakata ko pura kar sakte hain.",
+    "tags": [
+      "labh",
+      "khet",
+      "electricity"
+    ]
+  },
+  {
+    "question": "Kya hum apne FPO mein jeevamrit ka upyog kar sakte hain agrivoltaics ke madhyam se?",
+    "answer": "Haan, agrivoltaics se aap apne FPO mein jeevamrit ka upyog kar sakte hain, jisse aap apne kheton ki gunvatta badha sakte hain aur unke liye behtar upyog kar sakte hain.",
+    "tags": [
+      "jeevamrit",
+      "FPO",
+      "khet"
+    ]
+  },
+  {
+    "question": "Kya hum FPO mein jeevamrit ka upyog kar sakte hain?",
+    "answer": "Haan, FPOs agrivoltaics mein jeevamrit ka upyog kar sakte hain, jaise ki grasses aur legumes, jisse gaiyon ke liye green fodder ki vishwasit sthiti mein uplabdh ho jayega.",
+    "tags": [
+      "crop",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya Pradhan Mantri Kisan Urja Suraksha evam Utthan Mahabhiyaan (PM KUSUM) yojana se hum arthik madad prapt kar sakte hain?",
+    "answer": "Haan, PM KUSUM yojana ke madhyam se aap concessional loans prapt kar sakte hain, jisse aapke liye arthik madad prapt ho sakti hai.",
+    "tags": [
+      "scheme",
+      "market",
+      "finance"
+    ]
+  },
+  {
+    "question": "Kya hum arid, semi-arid aur rain-fed zones mein agrivoltaics ka upyog kar sakte hain?",
+    "answer": "Haan, arid, semi-arid aur rain-fed zones mein agrivoltaics ka upyog karne se aapko dual land use ke labh prapt honge, jisse aapko adhik manfaata milegi.",
+    "tags": [
+      "region",
+      "scheme",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya agrivoltaics ke liye kharif aur rabi ke kheton mein upyog kiya ja sakta hai?",
+    "answer": "Agrivoltaics ke liye koi vishesh kheton ke liye avashyak nahin hai, lekin yeh kharif aur rabi ke kheton mein bhi upyog kiya ja sakta hai.",
+    "tags": [
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog agrivoltaics ke saath kiya ja sakta hai?",
+    "answer": "Jeevamrit ka upyog agrivoltaics ke saath kiya ja sakta hai, lekin iske liye aur adhik jaankari aur upyog kiya ja sakta hai.",
+    "tags": [
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kya FPOs agrivoltaics ke liye institutional handholding ki avashyakta hai?",
+    "answer": "Haan, FPOs ko agrivoltaics ke liye institutional handholding ki avashyakta hai, jisse unhein technical aur regulatory challenges se nipatna mein madad milegi.",
+    "tags": [
+      "FPOs",
+      "institutional handholding"
+    ]
+  },
+  {
+    "question": "Kya Green Pufferfish ko kharif ya rabi season mein uplabdh hoga?",
+    "answer": "Green Pufferfish brackishwater conditions mein uplabdh hota hai, isliye yeh kharif ya rabi season mein uplabdh ho sakta hai.",
+    "tags": [
+      "fish",
+      "season",
+      "aquaculture"
+    ]
+  },
+  {
+    "question": "Kya Green Pufferfish ko pani ke liye koi vishesh jagah ki aavashyakta hoti hai?",
+    "answer": "Green Pufferfish thodi namak wali pani mein acha rehta hai, lekin yeh chhoti umar mein paani ke liye apne aap ko behtar kar sakte hain.",
+    "tags": [
+      "water",
+      "conditions",
+      "adaptability"
+    ]
+  },
+  {
+    "question": "Kya Green Pufferfish ka uplabdh karne ke liye koi vishesh jeevamrit ki aavashyakta hoti hai?",
+    "answer": "Nahin, Green Pufferfish ka uplabdh karne ke liye Recirculatory Aquaculture Systems (RAS) ki aavashyakta hoti hai, jo ek prakar ki jeevamrit hai.",
+    "tags": [
+      "fertilizer",
+      "aquaculture",
+      "technology"
+    ]
+  },
+  {
+    "question": "Kya Green Pufferfish ko kharif aur rabi mein uplabdh paani ki gunvatta mein koi antar hai?",
+    "answer": "Nahin, yeh paani ki gunvatta mein bahut adhik samarth hai, jisse mass mortality ka khatra kam hota hai.",
+    "tags": [
+      "irrigation",
+      "water_quality"
+    ]
+  },
+  {
+    "question": "Kya Green Pufferfish ko jeevamrit ka upyog karna zaroori hai?",
+    "answer": "Nahin, yadi paani ki gunvatta acchi rakhni hoti hai to jeevamrit ka upyog nahin karna padta hai.",
+    "tags": [
+      "fertilizer",
+      "water_quality"
+    ]
+  },
+  {
+    "question": "Kya Green Pufferfish ko hard-shelled food jaise snails ya clams ki zaroorat hoti hai?",
+    "answer": "Haan, yeh unke danton ko trim karne ke liye zaroori hai, jisse unke oral health mein sudhar hota hai.",
+    "tags": [
+      "nutrition",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya hum apne ghar ke baahar tank mein Green Pufferfish rekh sakte hain?",
+    "answer": "Haan, aap apne ghar ke baahar tank mein Green Pufferfish rekh sakte hain, lekin aapko unki stock density ko moderate rakhna hoga.",
+    "tags": [
+      "fish",
+      "aquaculture",
+      "tank"
+    ]
+  },
+  {
+    "question": "Kya RAS system se paani ki bachat hoti hai?",
+    "answer": "Haan, RAS system se paani ki bachat hoti hai, kyunki ismein paani ka upyog kam hota hai.",
+    "tags": [
+      "RAS",
+      "water",
+      "conservation"
+    ]
+  },
+  {
+    "question": "Kya hum apne jeevamrit se Green Pufferfish ki growth period ko badha sakte hain?",
+    "answer": "Nahin, jeevamrit se growth period badhne ki koi guarantee nahin hai, lekin aapko apne fish ko acchi care dene ki zaroorat hogi.",
+    "tags": [
+      "jeevamrit",
+      "growth",
+      "care"
+    ]
+  },
+  {
+    "question": "Kitna investment lagta hai Green Pufferfish seed production ke liye?",
+    "answer": "Yeh species ke liye bahut kam investment lagta hai, aisa kiya ja sakta hai training aur initial support ke saath.",
+    "tags": [
+      "scheme",
+      "investment"
+    ]
+  },
+  {
+    "question": "Kya Green Pufferfish farming se koi disease hoti hai?",
+    "answer": "Haan, market fluctuations aur disease outbreaks se bachne ke liye farmers ko diversify karna hota hai.",
+    "tags": [
+      "disease_pest",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya bael tree ke paudhe ko jeevamrit se benefit milti hai?",
+    "answer": "Nahin, yeh text me kaha gaya hai ki bael tree ke paudhe ke fruits aur leaves ayurvedic medicine aur home remedies ke liye use hote hain.",
+    "tags": [
+      "jeevamrit",
+      "ayurvedic"
+    ]
+  },
+  {
+    "question": "Kya CISH-Bael-2 ki kheti karne ke liye koi vishesh jameen ki avashyakta hai?",
+    "answer": "Nahin, yeh variety sodic jameen, namakine shartiyon aur pH 6.0 se 8.5 tak ke beech mein bhi phaldehi ho sakti hai.",
+    "tags": [
+      "soil"
+    ]
+  },
+  {
+    "question": "CISH-Bael-2 ki kheti mein kya jeevamrit ka upyog kiya jata hai?",
+    "answer": "Nahin, is text mein jeevamrit ki koi jaankari nahin di gayi hai, lekin yeh variety open-pollinated seedlings se viksit ki gayi hai.",
+    "tags": [
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "CISH-Bael-2 ki phal ki kheti ke liye kya samay ki avashyakta hai?",
+    "answer": "April aur May ke mausam mein phal pooree hoti hai, jabki yeh variety subtropical climate mein thirikar hoti hai.",
+    "tags": [
+      "season"
+    ]
+  },
+  {
+    "question": "Kya June aur July ke beech patch budding karne se bael ke pedon ki varietal gunvatta badh jati hai?",
+    "answer": "Haan, patch budding June aur July ke beech karne se 90 percent tak ka success rate hota hai.",
+    "tags": [
+      "crop",
+      "scheme",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya bael ke pedon ko jeevamrit ka upyog karna zaroori hai?",
+    "answer": "Haan, bael ke pedon ko jeevamrit ka upyog karna zaroori hai, jaise ki khet ki goobar, nimboo ka cake ya hone meal.",
+    "tags": [
+      "crop",
+      "scheme",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya bael ke pedon ko zinc aur boron ka upyog karna zaroori hai?",
+    "answer": "Haan, bael ke pedon ko zinc aur boron ka upyog karne se defisiensiyan rokne aur phal ka cracking kam hone mein madad milti hai.",
+    "tags": [
+      "crop",
+      "scheme",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya CISH-Bael-2 ko kharif ya rabi season mein badaana chahiye?",
+    "answer": "CISH-Bael-2 ko koi vishesh season nahi di gayi hai, lekin orchard hygiene aur upyukt jameen ki sthiti ko dhyan mein rakhkar koi bhi season mein badaana ho sakta hai.",
+    "tags": [
+      "crop",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog CISH-Bael-2 ke liye aavashyak hai?",
+    "answer": "Jeevamrit ka upyog CISH-Bael-2 ke liye nahi diya gaya hai, lekin orchard hygiene aur upyukt jameen ki sthiti ko dhyan mein rakhkar jeevamrit ka upyog karne se kuchh labh ho sakta hai.",
+    "tags": [
+      "crop",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "CISH-Bael-2 ke phal ko kaise aur kis sthiti mein bheja jaye?",
+    "answer": "CISH-Bael-2 ke phal ko fresh market ke liye color-break stage mein bheja jana chahiye, jisse shelf life aur gunvatta behtar hoti hai.",
+    "tags": [
+      "crop",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya CISH-Bael-2 ki kheti karna aisa hai jo kharif ya rabi season mein ho sakta hai?",
+    "answer": "CISH-Bael-2 ki kheti karna koi specific season mein nahi hai, yeh kisi bhi season mein ho sakta hai jahan yeh pasand aaye.",
+    "tags": [
+      "season",
+      "kharif",
+      "rabi"
+    ]
+  },
+  {
+    "question": "Jeevamrit ka upyog karna se kya faayda hota hai?",
+    "answer": "Jeevamrit ka upyog karke farmers apne fasal ki utpatti badha sakte hain.",
+    "tags": [
+      "jeevamrit",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Kya CISH-Bael-2 ki kheti se humein aisa paisa milta hai jo hum apne parivaar ki sehat ke liye upyog kar sakte hain?",
+    "answer": "Haan, CISH-Bael-2 ki kheti se humein aisa paisa milta hai jo hum apne parivaar ki sehat ke liye upyog kar sakte hain.",
+    "tags": [
+      "income",
+      "health"
+    ]
+  },
+  {
+    "question": "Kya climate-related events ke karan kheti mein nuksan hota hai?",
+    "answer": "Haan, climate-related events ne 18 deshon ko crisis mein daala hai, jismein Southern Africa, Southern Asia, aur Horn of Africa shaamil hain.",
+    "tags": [
+      "climate",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kheti mein madad karta hai?",
+    "answer": "Kuchh jaankari nahin di gayi hai, lekin climate-related events aur economic turmoil ke karan kheti mein nuksan hota hai.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya kharif aur rabi season mein kheti ke liye koi vishesh tareeke hain?",
+    "answer": "Kuchh jaankari nahin di gayi hai, lekin economic turmoil aur climate-related events ke karan kheti mein nuksan hota hai.",
+    "tags": [
+      "season",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jhinga kharif ya rabi season mein bada hota hai?",
+    "answer": "Jhinga kharif season mein bada hota hai, jaise ki Litopenaeus vannamei.",
+    "tags": [
+      "crop",
+      "season"
+    ]
+  },
+  {
+    "question": "Kya jhinga ki bimariyon ko rokne ke liye koi vishesh upchaar ki aavashyakta hoti hai?",
+    "answer": "Haan, jhinga ki bimariyon ko rokne ke liye upchaar ki aavashyakta hoti hai, jaise ki jeevamrit ka upyog.",
+    "tags": [
+      "disease_pest",
+      "management"
+    ]
+  },
+  {
+    "question": "Kya jhinga ki bimariyon se bachne ke liye koi vishesh samay ki aavashyakta hoti hai?",
+    "answer": "Haan, jhinga ki bimariyon se bachne ke liye samay ki aavashyakta hoti hai, jaise ki WSD ki rooprekhaon ko pehchanne ke liye.",
+    "tags": [
+      "disease_pest",
+      "management"
+    ]
+  },
+  {
+    "question": "Kya hum apne pond ko kharif aur rabi ke beech disinfect karna chahiye?",
+    "answer": "Haan, apne pond ko har season ke shuruat par disinfect karna chahiye.",
+    "tags": [
+      "irrigation",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog karna shamil hai EMS ke niyantran mein?",
+    "answer": "Haan, jeevamrit ka upyog karna shamil hai EMS ke niyantran mein, lekin iske alawa probiotics ka upyog bhi karna chahiye.",
+    "tags": [
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne shrimp ko overfeeding karna chahiye jab ve 20-30 din ke baad hote hain?",
+    "answer": "Nahin, overfeeding se bachna chahiye, kyonki yeh EMS ke liye karan ban sakta hai.",
+    "tags": [
+      "disease_pest",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya hum apne prabandhit jharon mein EHP-free seed ka upyog karna chahiye?",
+    "answer": "Haan, EHP-free seed ka upyog karna zaroori hai, isse EHP ka prabandhan karne mein madad milti hai.",
+    "tags": [
+      "seed",
+      "disease"
+    ]
+  },
+  {
+    "question": "Pani ke ghanatva ko kaise samay par badla jaye?",
+    "answer": "Pani ke ghanatva ko samay par badhane ke liye, apne jharon ko nishchit samay par sikhraavne aur jalne ki prakriya ko puri karna zaroori hai.",
+    "tags": [
+      "irrigation",
+      "water"
+    ]
+  },
+  {
+    "question": "Kya hum apne jharon mein jeevamrit ka upyog kar sakte hain?",
+    "answer": "Haan, gut probiotics aur enzyme supplements ka upyog karke, apne jharon mein shrimp ke gut ko swasth rakha jaa sakta hai.",
+    "tags": [
+      "jivamrit",
+      "health"
+    ]
+  },
+  {
+    "question": "Kya hum apne pond mein paani ko filter karne ke liye koi vishesh upkaran ki aavashyakta hai?",
+    "answer": "Haan, paani ko filter karne ke liye ek vishesh upkaran ki aavashyakta hai, jisse paani mein upasthit viranjan ko hataya ja sake.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne pond mein vannamei prajati ki aadat se judi sanchayata ki aavashyakta hai?",
+    "answer": "Haan, vannamei prajati ke liye 40-60 PL/m² ki sanchayata ki aavashyakta hai, jo pond ki aayata aur aeration par nirbhar karti hai.",
+    "tags": [
+      "disease_pest",
+      "irrigation"
+    ]
+  },
+  {
+    "question": "Kya hum apne pond mein probiotics ka upyog karna aavashyak hai?",
+    "answer": "Haan, probiotics ka upyog karna aavashyak hai, jisse paani aur mitti mein upasthit hane wale haniyaak bakteriyon ko niyantrit kiya ja sake.",
+    "tags": [
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya humein apne shrimp farm mein footbaths ka upyog karna chahiye?",
+    "answer": "Haan, footbaths ka upyog karke aap shrimp farm mein rogon ko rok sakte hain.",
+    "tags": [
+      "disease_pest",
+      "scheme",
+      "irrigation",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya FPOs aur cooperative societies humein seed aur rog nidan ke liye madad kar sakte hain?",
+    "answer": "Haan, FPOs aur cooperative societies humein seed aur rog nidan ke liye madad kar sakte hain.",
+    "tags": [
+      "scheme",
+      "irrigation",
+      "market",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya humein jeevamrit ka upyog karke pond jeevan ko behtar bana sakte hain?",
+    "answer": "Nahin, yeh text mein koi jeevamrit ke baare mein nahi diya gaya hai.",
+    "tags": [
+      "disease_pest",
+      "scheme",
+      "irrigation",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog kheti mein photosynthesis ko badhava deta hai?",
+    "answer": "Nahin, jeevamrit cyanobacteria jaise bacterias ke liye hai, jo photosynthesis mein madad karte hain.",
+    "tags": [
+      "soil",
+      "fertilizer"
+    ]
+  },
+  {
+    "question": "Turbo-charged photosynthesis se kheti ki faslon ki ghanta badh jaati hai?",
+    "answer": "Haan, photosynthesis ko badhava dene se kheti ki faslon ka vikas tez ho sakta hai.",
+    "tags": [
+      "crop growth",
+      "farming"
+    ]
+  },
+  {
+    "question": "Kya hum kheti mein photosynthesis ko badhava karne ke liye koi khaskariya upchar ki zaroorat padti hai?",
+    "answer": "Haan, photosynthesis ko badhava karne ke liye kuchh khaskariya upchar ki zaroorat pad sakti hai, jaise ki cyanobacteria ke upyog se.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya kheti ki prakriti mein photosynthesis ki kami hoti hai?",
+    "answer": "Haan, photosynthesis ki kami kai karanon se hoti hai, jaise ki suraj ki upalabdhata, carbon dioxide ki sthiti, aur phalak ki aantarik metabolic prakriya.",
+    "tags": [
+      "kheti",
+      "phalak"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit se photosynthesis ki kami door ho sakti hai?",
+    "answer": "Nahin, jeevamrit se photosynthesis ki kami door nahin ho sakti hai. Photosynthesis ki kami kai karanon se hoti hai, jaise ki suraj ki upalabdhata, carbon dioxide ki sthiti, aur phalak ki aantarik metabolic prakriya.",
+    "tags": [
+      "jeevamrit",
+      "phalak"
+    ]
+  },
+  {
+    "question": "Kya hum kharif ya rabi faslon mein C4 photosynthesis ka upyog kar sakte hain?",
+    "answer": "Haan, kuch faslon jaise corn aur sugarcane C4 photosynthesis ka upyog karte hain. Lekin, C3 faslon jaise wheat aur rice mein C4 photosynthesis ka upyog karne ke liye vijigyanikon ne kuchh koshish ki hai.",
+    "tags": [
+      "kharif",
+      "rabi",
+      "faslon"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein photo-synthesis ko badhane ke liye jeevamrit ka upyog kar sakte hain?",
+    "answer": "Nahin, jeevamrit ka upyog kisanon ke kheton mein nahin kiya jaata hai. Is text mein jeevamrit ka upyog kiya gaya hai, lekin yeh kisanon ke kheton mein nahin kiya gaya hai.",
+    "tags": [
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum apne kheton mein photo-synthesis ko badhane ke liye koi prakriya ki ja sakti hai?",
+    "answer": "Haan, hum apne kheton mein photo-synthesis ko badhane ke liye vaayumandalik sharton ko niyantrit kar sakte hain, jaise ki prakash, tapan aur carbon dioxide ke satah ko niyantrit kar sakte hain.",
+    "tags": [
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya is photo-synthesis ko badhane ke liye humein koi jatil prakriya ki jaani hogi?",
+    "answer": "Haan, is photo-synthesis ko badhane ke liye humein kai jatil prakriyaon ka palan karna hoga, jaise ki jeevanshastriya sambandhon ka palan, vaayumandalik sharton ka niyantran, aur iske alawa kai anya prakriyaon ka palan karna hoga.",
+    "tags": [
+      "scheme",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya sunflower tel ka daam badh raha hai?",
+    "answer": "Haan, sunflower tel ka daam 1.4% badhkar 3 saal mein sabse uchai par pahunch gaya hai.",
+    "tags": [
+      "crop",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya gaay dudh ka daam kam ho raha hai?",
+    "answer": "Haan, gaay dudh ka daam 1.3% kam ho gaya hai, kyonki Asian kharidaron ki kammandi ka karan.",
+    "tags": [
+      "livestock",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya chawal ka daam kam ho raha hai?",
+    "answer": "Haan, chawal ka daam kam ho raha hai kyonki videshi vikrayiyon ko mazboot competition ka samna karna pad raha hai.",
+    "tags": [
+      "crop",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya kharif aur rabi crops ke liye nitrogen fertilizer ki kami ka prabhav hoga?",
+    "answer": "Nitrogen fertilizer ki kami se kheti ki utpaadakta prabhavit ho sakti hai, jisse kharif aur rabi crops ki kami ho sakti hai.",
+    "tags": [
+      "crop",
+      "scheme",
+      "market",
+      "soil"
+    ]
+  },
+  {
+    "question": "Jeevamrit ki kami se kya prabhav pad sakta hai?",
+    "answer": "Jeevamrit ki kami se kheti ki utpaadakta prabhavit ho sakti hai, jisse kheti ki kami ho sakti hai.",
+    "tags": [
+      "crop",
+      "scheme",
+      "market",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya kheti ke liye nitrogen fertilizer ki kami se koi upchaar hai?",
+    "answer": "Nitrogen fertilizer ki kami se kheti ke liye upchaar ke roop mein, kheti ke liye anya paudhe jaise jeevamrit ka upyog kiya ja sakta hai.",
+    "tags": [
+      "crop",
+      "scheme",
+      "market",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog karne se hum is samasya ko door kar sakte hain?",
+    "answer": "Jeevamrit ka upyog karke hum soil ki gatividhi ko sudhar sakte hain, jisse poori gatividhi mein paani aur pashu aavashyaktaaon ka upyog karne mein madad milegi.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya kharif ya rabi faslon mein is samasya ka samna karna padta hai?",
+    "answer": "Is samasya ka samna karna kisi bhi faslon mein padta hai, chaahe vah kharif ya rabi ho.",
+    "tags": [
+      "disease_pest",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya poori pustakon ka khatam hone se hum is samasya ka samadhan payenge?",
+    "answer": "Poori pustakon ka khatam hone se hum is samasya ka samadhan nahin payenge, kyunki is samasya ka uttar aise kadamon se mil sakta hai jaise ki paani ka upyog, jeevamrit ka upyog, aur soil ki gatividhi ko sudharne ka.",
+    "tags": [
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya kharif aur rabi season mein koi kheti karne wala kanoon hai jo khet ki mitti ki pH level ko dhyan mein rakhta hai?",
+    "answer": "Haan, kuch ped phal lagbhag mitti ki pH level se adhik ya kam ho jati hai, isse pedon ko pashan kee avashyaktaa mein kuchh samasya aati hai, jisse pedon ke patte kala ho jate hain.",
+    "tags": [
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya jeevamrit ka upyog karne se pedon ke patte kala hone ki samasya door ho jati hai?",
+    "answer": "Nahin, jeevamrit ka upyog karne se pedon ke patte kala hone ki samasya door nahin hoti hai, kyunki iski wajah se pedon ke patte kala hone ki samasya hamesha se hi hoti rehti hai.",
+    "tags": [
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya pedon ko ek jagah se doosri jagah le jana pedon ko transplant shock ka khatra deta hai?",
+    "answer": "Haan, pedon ko ek jagah se doosri jagah le jana pedon ko transplant shock ka khatra deta hai, jisse pedon ke patte kala ho sakte hain.",
+    "tags": [
+      "transplant"
+    ]
+  },
+  {
+    "question": "Kya hum khet mein jeevamrit ka upyog karke bhi yellow pattiyan hote hain?",
+    "answer": "Haan, jeevamrit ka bhi upyog karna galat ho sakta hai, isse bhi yellow pattiyan aati hain. Isliye, jeevamrit ka upyog karke bhi samay-samay par pani aur anya upyog karne ki zaroorat hoti hai.",
+    "tags": [
+      "disease_pest",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum khet mein kharif ya rabi faslon ke liye yellow pattiyan aati hain?",
+    "answer": "Haan, kharif ya rabi faslon ke liye bhi yellow pattiyan aati hain, lekin iske liye samay-samay par pani aur anya upyog karne ki zaroorat hoti hai.",
+    "tags": [
+      "disease_pest",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya hum khet mein overwatering se bhi yellow pattiyan hote hain?",
+    "answer": "Haan, overwatering se bhi yellow pattiyan aati hain. Isliye, samay-samay par pani aur anya upyog karne ki zaroorat hoti hai.",
+    "tags": [
+      "disease_pest",
+      "irrigation",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya humein soil pH ko kaise check karna hai?",
+    "answer": "Soil pH ko test karke, agar zarurat ho to isey adjust karna hai taaki isey khas plant ki zaroorat ke anusaar suitable rakh sakte hain.",
+    "tags": [
+      "soil",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya humein kharif ya rabi crop ke liye alag-alag fertilizer ka upyog karna padta hai?",
+    "answer": "Haan, kuch plants ko full sun ki zaroorat hoti hai, to kuch plants ko partial ya shade ki zaroorat hoti hai, isliye fertilizer ka upyog karna padta hai jisein khas plants ke liye suitable ho.",
+    "tags": [
+      "fertilizer",
+      "kharif_rabi"
+    ]
+  },
+  {
+    "question": "Kya humein jeevamrit ka upyog karke soil ko kaise nutrient-rich banaya ja sakta hai?",
+    "answer": "Haan, humein balanced aur nutrient-rich soil ya organic compost ka upyog karke soil ko nutrient-rich banaya ja sakta hai, jisse plants ko essential nutrients mil sakte hain.",
+    "tags": [
+      "soil",
+      "jeevamrit"
+    ]
+  },
+  {
+    "question": "Kya hum kharif aur rabi faslon ke liye alag-alag kheti tareeke apnana chahiye?",
+    "answer": "Haan, kharif aur rabi faslon ke liye alag-alag kheti tareeke apnana chahiye, lekin yah text kheti tareekon ke baare mein nahin hai.",
+    "tags": [
+      "kharif",
+      "rabi",
+      "kheti_tareeka"
+    ]
+  },
+  {
+    "question": "Jeevamrit ka upyog kaise karein?",
+    "answer": "Jeevamrit ka upyog nahin kiya gaya hai, lekin yah text jeevamrit ke baare mein nahin hai.",
+    "tags": [
+      "jeevamrit",
+      "fertilizer",
+      "pesticide"
+    ]
+  },
+  {
+    "question": "Kya hum apne phal ko transplant karne ke baad jaldi se paani de sakte hain?",
+    "answer": "Nahin, transplant karne ke baad jaldi se paani nahin de sakte hain, kyunki yah transplant shock ko badhava deta hai.",
+    "tags": [
+      "transplant",
+      "irrigation",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya hum apne khet mein humidity ke liye koi upkaran ka upyog karna chahiye?",
+    "answer": "Haan, aap ek humidity tray ya room humidifier ka upyog kar sakte hain.",
+    "tags": [
+      "soil",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya kharif ya rabi crop ke liye yeh humidity nirdharan mahatvapurn hai?",
+    "answer": "Haan, yeh sabhi crop ke liye mahatvapurn hai, khaskar indoor plants ke liye.",
+    "tags": [
+      "crop",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya hum apne khet mein jeevamrit ka upyog kar sakte hain?",
+    "answer": "Nahin, yeh text mein jeevamrit ke baare mein kuch nahin diya gaya hai.",
+    "tags": [
+      "soil",
+      "crop"
+    ]
+  },
+  {
+    "question": "Kya USDA jeevamrit ke liye genetically modified flies ka upyog kar rahi hai?",
+    "answer": "Haan, USDA genetically modified flies ka upyog kar rahi hai, jiska vishleshan karna hoga.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya USDA nayi sterilization technologies jaise e-beam radiation ka upyog kar rahi hai?",
+    "answer": "Haan, USDA nayi sterilization technologies jaise e-beam radiation ka upyog kar rahi hai.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya USDA nayi traps aur lures ke liye koi naya upyog kar rahi hai?",
+    "answer": "Haan, USDA nayi traps aur lures ke liye koi naya upyog kar rahi hai.",
+    "tags": [
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Kya UPL company sugarcane ke kheti ke liye sustainable solutions pradaan karega?",
+    "answer": "Haan, UPL ke Shashwat Mithaas - Sustainable Sugar Program ke under sugarcane farmers ke liye sustainable solutions pradaan ki jaayegi.",
+    "tags": [
+      "crop",
+      "sugarcane",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya climate solutions ke liye koi naya tareeka UPL company se jaankari mil sakti hai?",
+    "answer": "Haan, UPL company climate solutions ke liye technology ka upyog karke sustainable practices ko badhaane ke liye kuch naya tareeka jaankari pradaan karegi.",
+    "tags": [
+      "climate",
+      "disease_pest",
+      "soil"
+    ]
+  },
+  {
+    "question": "Kya UPL company jeevamrit ka upyog karegi?",
+    "answer": "No answer found in the text, but UPL company is focused on sustainability and reducing environmental impact, which might include the use of jeevamrit in some form.",
+    "tags": [
+      "soil",
+      "regional"
+    ]
+  },
+  {
+    "question": "Kya Toolsvilla se hum kharif aur rabi ke liye upyukt machinein khareed sakte hain?",
+    "answer": "Haan, Toolsvilla par aap 50,000+ products ke saath kharif aur rabi ke liye upyukt machinein khareed sakte hain.",
+    "tags": [
+      "kharif",
+      "rabi",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya Toolsvilla se hum jeevamrit aur anya kheti upkaran khareed sakte hain?",
+    "answer": "Haan, Toolsvilla par aap jeevamrit aur anya kheti upkaran khareed sakte hain, jaise ki Kisankraft, Neptune, aur Falcon jaise brandon ke products.",
+    "tags": [
+      "jeevamrit",
+      "kheti_upkaran"
+    ]
+  },
+  {
+    "question": "Kya Toolsvilla se hum dairy aur poultry ke liye upyukt machinein khareed sakte hain?",
+    "answer": "Haan, Toolsvilla par aap dairy aur poultry ke liye upyukt machinein khareed sakte hain, jaise ki 50,000+ products ke saath.",
+    "tags": [
+      "dairy",
+      "poultry",
+      "market"
+    ]
+  },
+  {
+    "question": "Kya Toolsvilla aapke liye equipment ke liye market mein connect karta hai?",
+    "answer": "Haan, Toolsvilla 3 lakh+ buyers ko 2,000+ sellers ke saath connect karta hai, jisse equipment buying ke liye ek badhta hua ecosystem ban raha hai.",
+    "tags": [
+      "market",
+      "equipment"
+    ]
+  },
+  {
+    "question": "Kya Toolsvilla humein equipment ke liye guidance deta hai?",
+    "answer": "Haan, Toolsvilla team hai jo users ko har charan mein guide karta hai, chaahe equipment compare karna ho ya specific need ke liye kya suit karta hai, ya purchase se pehle clarity milne ke liye.",
+    "tags": [
+      "equipment",
+      "guidance"
+    ]
+  },
+  {
+    "question": "Kya Toolsvilla humein equipment ke baad bhi support deta hai?",
+    "answer": "Haan, Toolsvilla support continue karta hai, jisse users ko purchase ke baad bhi confidence milta hai ki ve sahi equipment liye hain.",
+    "tags": [
+      "equipment",
+      "support"
+    ]
+  },
+  {
+    "question": "Kya Fusarium graminearum kheti ke kai fasalon ko nuksan pahunchata hai?",
+    "answer": "Haan, yeh fungus wheat, barley, maize aur rice ko nuksan pahunchata hai.",
+    "tags": [
+      "crop",
+      "disease_pest"
+    ]
+  },
+  {
+    "question": "Fusarium graminearum se kya swasthya samasyaen utpann hoti hain?",
+    "answer": "Yeh fungus apne mycotoxins ke kaaran manushyaon aur jeevon ko swasthya samasyaen deta hai, jaise ki vomiting, liver damage aur reproductive problems.",
+    "tags": [
+      "disease_pest",
+      "health"
+    ]
+  },
+  {
+    "question": "Kya yeh pathogen kheti ke liye ek bada nuksan hai?",
+    "answer": "Haan, yeh pathogen ne duniya bhar mein kharab kheti kee hai aur kai crore rupaye ke nuksan kee hai.",
+    "tags": [
+      "crop",
+      "economy"
+    ]
+  }
+]
