@@ -1,13 +1,16 @@
-# 🌿 AgriBot: AI-Powered Indian Agriculture Assistant
+# 🌿 AgriBot: Premium AI-Powered Indian Agriculture Assistant
 
-AgriBot is a production-ready Conversational AI system designed to empower Indian farmers with verified agricultural knowledge. It uses **Retrieval-Augmented Generation (RAG)** to provide answers grounded in official data, preventing AI "hallucinations."
+AgriBot is a high-performance, production-ready Conversational AI system designed to empower Indian farmers with verified agricultural intelligence. It leverages a modern **RAG (Retrieval-Augmented Generation)** architecture to provide expert-level advice grounded in official data.
 
 ## 🚀 Key Features
-- **RAG Architecture**: Answers are grounded in a knowledge base of 2,700+ Indian agricultural documents.
-- **Multi-Turn Memory**: Powered by **Upstash Redis**, allowing the bot to remember previous questions in a session.
-- **Live Weather Integration**: Injects real-time weather data from Open-Meteo for any Indian city.
-- **Multilingual Support**: Optimized for English and Hindi agricultural queries.
-- **Hybrid Cloud Deployment**: Backend on Hugging Face Spaces (GPU-optimized) and Frontend on Vercel (Edge-optimized).
+
+- **Advanced RAG Pipeline**: Uses **Upstash Vector** for cloud-scale retrieval and a **Cross-Encoder reranker** for pinpoint accuracy.
+- **Ultra-Fast Inference**: Powered by **Groq (Llama 3.1 8B)** with sub-second response times.
+- **High Availability**: Automated fallback to **Together AI** ensures the bot stays online even if primary rate limits are hit.
+- **Smart Caching**: Integrated **Redis Query Cache** (Upstash) serves repeated questions in <50ms.
+- **Live Weather Injection**: Real-time environmental context from Open-Meteo for 30+ major Indian cities.
+- **Production Observability**: Full tracing with **LangSmith** to monitor RAG performance and latency.
+- **Zero Cold Starts**: Custom GitHub Action "Heartbeat" keeps the Hugging Face Space active 24/7.
 
 ## 🏗️ Technical Architecture
 
@@ -15,50 +18,63 @@ AgriBot is a production-ready Conversational AI system designed to empower India
 graph TD
     User((Farmer)) -->|Asks Question| FE[Next.js Frontend - Vercel]
     FE -->|API Request| BE[FastAPI Backend - HF Spaces]
-    BE -->|Semantic Search| Retriever[Sentence Transformers]
-    Retriever <-->|Retrieve Context| KB[(Knowledge Base JSON)]
-    BE -->|Inject Context + Weather| LLM[Groq / Llama 3.1]
+    BE -->|1. Check Cache| Redis[(Upstash Redis Cache)]
+    BE -->|2. Semantic Search| Vector[(Upstash Vector DB)]
+    BE -->|3. Rerank| Reranker[Cross-Encoder Reranker]
+    BE -->|4. AI Generation| LLM[Groq / Together AI Fallback]
     LLM -->|Generates Answer| BE
+    BE -->|Background Trace| LS[LangSmith Observability]
     BE -->|JSON Response| FE
     FE -->|Displays UI| User
-    FE <-->|Session Memory| Redis[(Upstash Redis)]
 ```
 
 ## 🛠️ Tech Stack
+
 - **Frontend**: Next.js 16, Tailwind CSS 4, Lucide React.
 - **Backend**: FastAPI (Python 3.10), Uvicorn.
+- **Infrastructure**:
+  - **Vector DB**: Upstash Vector (Cosine Similarity, 384 dimensions).
+  - **Caching/Memory**: Upstash Redis (Serverless).
+  - **CI/CD**: GitHub Actions, Docker.
 - **AI Models**:
-  - **Inference**: Groq (Llama 3.1 8B) for ultra-fast generation.
-  - **Embeddings**: `all-MiniLM-L6-v2` (Sentence-Transformers).
-- **Database**: Upstash Redis (Serverless).
-- **Deployment**: GitHub Actions (CI/CD), Docker, Vercel.
+  - **Primary**: Llama 3.1 8B (via Groq).
+  - **Fallback**: Llama 3.1 8B (via Together AI).
+  - **Reranker**: `cross-encoder/ms-marco-MiniLM-L-6-v2`.
+  - **Embedder**: `all-MiniLM-L6-v2`.
 
 ## 📦 Project Structure
-- `/backend`: Python API, RAG logic, and Knowledge Base.
-- `/frontend`: Modern React chat interface with Markdown support.
-- `.github/workflows`: Fully automated deployment pipeline.
+
+- `/backend`: FastAPI service, RAG logic, and data processing scripts.
+- `/backend/scripts`: Data cleaning, Q&A generation (LLM-based), and migration tools.
+- `/frontend`: Modern React chat interface optimized for mobile farmers.
+- `.github/workflows`: Keep-alive heartbeat and automated deployment pipelines.
 
 ## 🔧 Installation & Setup
 
-### Local Development
-1. **Backend**:
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   uvicorn main:app --reload
-   ```
-2. **Frontend**:
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
+### 1. Data Preparation (Local)
+Before deploying, you must clean and migrate your data:
+```bash
+# Clean raw data
+python backend/scripts/clean_knowledge.py
 
-### Deployment Configuration
-Ensure the following environment variables are set:
-- **GitHub Secrets**: `HF_TOKEN`, `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.
-- **Hugging Face Secrets**: `GROQ_API_KEY`.
-- **Vercel Environment Variables**: `BACKEND_URL`, `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`.
+# Generate expert Q&A pairs (requires GROQ_API_KEY)
+python backend/scripts/generate_qa.py
+
+# Migrate to Upstash Vector
+python backend/scripts/migrate_to_upstash_vector.py
+```
+
+### 2. Deployment Configuration
+Ensure the following secrets are configured:
+
+**Hugging Face Secrets (Backend)**:
+- `GROQ_API_KEY`, `TOGETHER_API_KEY`
+- `UPSTASH_VECTOR_REST_URL`, `UPSTASH_VECTOR_REST_TOKEN`
+- `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`
+- `LANGCHAIN_API_KEY` (Optional)
+
+**GitHub Secrets (Keep-Alive)**:
+- `HF_SPACE_URL`, `HF_TOKEN`, `VERCEL_TOKEN`
 
 ---
 *Created with ❤️ for Indian Agriculture.*
