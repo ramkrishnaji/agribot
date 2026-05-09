@@ -9,13 +9,13 @@ const redis = new Redis({
 
 export async function GET(
   request: Request,
-  { params }: { params: { sessionId: string } }
+  { params }: { params: Promise<{ sessionId: string }> }
 ) {
   try {
     const { userId } = auth();
     if (!userId) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
-    const { sessionId } = params;
+    const { sessionId } = await params;
     const historyKey = `user:${userId}:session:${sessionId}`;
     
     const raw = await redis.lrange(historyKey, 0, -1);
