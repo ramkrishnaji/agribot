@@ -1,3 +1,13 @@
+---
+title: AgriBot
+emoji: 🌾
+colorFrom: green
+colorTo: emerald
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # AgriBot: Modern Agriculture Consultant 🌾🚜
 
 **AgriBot** is a high-precision Conversational AI consultant designed to help Indian farmers transition from traditional agriculture to high-value, modern farming. It bridges the information gap between complex government subsidies and practical, on-ground implementation.
