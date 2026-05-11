@@ -221,7 +221,10 @@ export default function Home() {
             >
               <Menu className="w-5 h-5" />
             </button>
-            <div className="flex items-center gap-3">
+            <button 
+              onClick={startNewChat}
+              className="flex items-center gap-3 hover:opacity-80 transition-opacity text-left"
+            >
               <div className="bg-gradient-to-br from-accent-agri to-emerald-700 p-2 rounded-xl shadow-lg shadow-accent-agri/10">
                 <Leaf className="w-5 h-5 text-white" />
               </div>
@@ -229,7 +232,7 @@ export default function Home() {
                 <span className="text-lg font-black tracking-tight text-white/95 uppercase">AgriBot</span>
                 <span className="text-[10px] font-bold text-accent-agri/80 uppercase tracking-[0.15em]">Modern Agriculture Consultant</span>
               </div>
-            </div>
+            </button>
           </div>
           
           <div className="flex items-center gap-3">
