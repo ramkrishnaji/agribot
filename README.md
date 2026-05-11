@@ -4,14 +4,13 @@ emoji: 🌾
 colorFrom: green
 colorTo: emerald
 sdk: docker
+app_port: 7860
 pinned: false
 ---
 
 # AgriBot: Modern Agriculture Consultant 🌾🚜
 
 **AgriBot** is a high-precision Conversational AI consultant designed to help Indian farmers transition from traditional agriculture to high-value, modern farming. It bridges the information gap between complex government subsidies and practical, on-ground implementation.
-
----
 
 ## 🌟 Key Features
 
@@ -32,8 +31,6 @@ pinned: false
 - **Premium Web Dashboard**: A modern, glassmorphic interface built for desktop and mobile.
 - **WhatsApp Integration**: Interact with AgriBot directly via WhatsApp (powered by Twilio) — no app installation required.
 
----
-
 ## 🛠️ Technical Architecture
 
 - **LLM**: Llama 3.1 (8B/70B) running on **Groq** for ultra-fast (LPU) inference.
@@ -42,14 +39,10 @@ pinned: false
 - **Backend**: **FastAPI** (Python) with Twilio Webhooks.
 - **Frontend**: **Next.js 16** + **Tailwind CSS** + **Clerk Auth**.
 
----
-
 ## 🇮🇳 Optimized for Indian Agriculture
 - **Simple English**: Clear, jargon-free communication.
 - **Indian Numbering**: Always uses Lakhs and Crores (₹2 lakh instead of ₹200,000).
 - **Consultative Tone**: Acts as a professional advisor, not just a chatbot.
-
----
 
 ## 🚀 Getting Started
 
@@ -72,13 +65,9 @@ npm install
 npm run dev
 ```
 
----
-
 ## 🏗️ Future Roadmap
 - [ ] **Voice-First Interaction**: Support for voice notes in regional languages.
 - [ ] **Soil Test Analysis**: Uploading soil reports for customized crop recommendations.
 - [ ] **Market Prediction**: AI-based price trend forecasting.
-
----
 
 **Disclaimer**: AgriBot provides advice based on official data. Always verify specific subsidy amounts with your local Horticulture officer.
