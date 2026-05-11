@@ -79,6 +79,15 @@ class QAResponse(BaseModel):
 
 # ─── Endpoints ───────────────────────────────────────────────────────────────
 
+@app.get("/")
+def read_root():
+    return {
+        "message": "Welcome to AgriBot Beta API",
+        "status": "online",
+        "documentation": "/docs",
+        "health": "/health"
+    }
+
 @app.get("/health")
 def health_check():
     return {"status": "ok", "service": "agribot-modern-backend", "engine": "Groq/Llama-3.1"}
