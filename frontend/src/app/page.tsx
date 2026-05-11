@@ -1,7 +1,11 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Send, Bot, User, Loader2, Leaf, CloudSun, RotateCcw, Menu, X, MessageSquare, Plus, ShoppingCart, ShieldCheck } from "lucide-react";
+import { 
+  Send, Bot, User, Loader2, Leaf, CloudSun, RotateCcw, 
+  Menu, X, MessageSquare, Plus, ShoppingCart, ShieldCheck, 
+  TrendingUp, Coins, Landmark, Sprout, ChevronRight
+} from "lucide-react";
 import { UserButton, useUser, SignInButton } from "@clerk/nextjs";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
@@ -18,10 +22,30 @@ interface ChatSession {
 }
 
 const QUICK_ACTIONS = [
-  { label: "Mandi Prices", icon: <ShoppingCart className="w-4 h-4 text-orange-400" />, query: "What are the latest mandi prices for wheat and rice in my area?" },
-  { label: "Weather Forecast", icon: <CloudSun className="w-4 h-4 text-yellow-400" />, query: "What is the weather forecast for today?" },
-  { label: "Govt Schemes", icon: <ShieldCheck className="w-4 h-4 text-green-400" />, query: "Tell me about the latest government schemes for farmers." },
-  { label: "Pest Management", icon: <Leaf className="w-4 h-4 text-red-400" />, query: "How do I identify and treat common crop pests?" },
+  { 
+    label: "NHB Subsidy Checker", 
+    description: "Check eligibility for 40-50% government support",
+    icon: <Landmark className="w-5 h-5 text-emerald-400" />, 
+    query: "Tell me about NHB subsidies for new agricultural projects." 
+  },
+  { 
+    label: "High ROI Crops", 
+    description: "Investment analysis for Dragon Fruit & Kamalam",
+    icon: <TrendingUp className="w-5 h-5 text-blue-400" />, 
+    query: "Which crops give the highest ROI with a budget of 5-10 lakhs?" 
+  },
+  { 
+    label: "Polyhouse Strategy", 
+    description: "Fan & Pad vs Natural Ventilated ROI",
+    icon: <Sprout className="w-5 h-5 text-green-400" />, 
+    query: "What is the setup cost and profit for a 1000 sqm polyhouse?" 
+  },
+  { 
+    label: "Live Weather & Rain", 
+    description: "Real-time forecast for your specific location",
+    icon: <CloudSun className="w-5 h-5 text-yellow-400" />, 
+    query: "What is the live weather forecast for my area?" 
+  },
 ];
 
 export default function Home() {
@@ -94,7 +118,7 @@ export default function Home() {
         ...prev,
         {
           role: "bot",
-          content: "Sorry, I encountered an error. Please check your connection and try again.",
+          content: "I encountered a technical issue. Please try again or check your connection.",
         },
       ]);
     } finally {
@@ -129,169 +153,207 @@ export default function Home() {
     }
   };
 
-  if (!isLoaded) return <div className="h-screen bg-[#212121] flex items-center justify-center"><Loader2 className="animate-spin text-white/20" /></div>;
+  if (!isLoaded) return <div className="h-screen bg-[#0c0d0c] flex items-center justify-center"><Loader2 className="animate-spin text-accent-agri/40" /></div>;
 
   return (
-    <div className="h-[100dvh] bg-[#212121] text-[#ececec] flex font-sans overflow-hidden">
+    <div className="h-[100dvh] bg-[#0c0d0c] text-[#f0f2f0] flex font-sans overflow-hidden">
+      {/* Sidebar Overlay */}
       {isSidebarOpen && (
         <div 
-          className="fixed inset-0 bg-black/50 z-40 lg:hidden" 
+          className="fixed inset-0 bg-black/60 z-40 lg:hidden backdrop-blur-sm" 
           onClick={() => setIsSidebarOpen(false)}
         />
       )}
 
-      <aside className={`fixed lg:relative inset-y-0 left-0 w-72 bg-[#171717] border-r border-white/10 z-50 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 transition-transform duration-200 ease-in-out flex flex-col`}>
-        <div className="p-4">
+      {/* Sidebar */}
+      <aside className={`fixed lg:relative inset-y-0 left-0 w-80 bg-[#111211] border-r border-white/5 z-50 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 transition-transform duration-300 ease-out flex flex-col`}>
+        <div className="p-6">
           <button 
             onClick={startNewChat}
-            className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg border border-white/10 hover:bg-white/5 transition-colors text-sm font-medium"
+            className="w-full flex items-center justify-between gap-3 px-4 py-3 rounded-xl bg-accent-agri/10 border border-accent-agri/20 hover:bg-accent-agri/20 transition-all text-sm font-semibold text-accent-agri"
           >
-            <Plus className="w-4 h-4" />
-            New Chat
+            <div className="flex items-center gap-3">
+              <Plus className="w-4 h-4" />
+              New Consultation
+            </div>
+            <ChevronRight className="w-4 h-4 opacity-50" />
           </button>
         </div>
 
         <div className="flex-1 overflow-y-auto px-4 py-2 space-y-1">
-          <div className="text-[11px] font-semibold text-white/30 uppercase tracking-wider mb-2 px-3">Recent Conversations</div>
+          <div className="text-[10px] font-bold text-white/20 uppercase tracking-[0.2em] mb-4 px-4">Consultation History</div>
           {sessions.map((s) => (
             <button
               key={s.id}
               onClick={() => loadSession(s.id)}
-              className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg text-left text-sm transition-colors ${sessionId === s.id ? 'bg-white/10 text-white' : 'text-white/60 hover:bg-white/5 hover:text-white/80'}`}
+              className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left text-sm transition-all ${sessionId === s.id ? 'bg-white/5 border border-white/10 text-white' : 'text-white/40 hover:bg-white/[0.02] hover:text-white/80'}`}
             >
-              <MessageSquare className="w-4 h-4 shrink-0" />
-              <span className="truncate">{s.title}</span>
+              <MessageSquare className="w-4 h-4 shrink-0 opacity-40" />
+              <span className="truncate font-medium">{s.title}</span>
             </button>
           ))}
         </div>
 
-        <div className="p-4 border-t border-white/10">
-          {isSignedIn && (
-            <div className="flex items-center gap-3 px-2">
-              <UserButton appearance={{ elements: { userButtonAvatarBox: "w-8 h-8" } }} />
+        <div className="p-6 border-t border-white/5 bg-black/20">
+          {isSignedIn ? (
+            <div className="flex items-center gap-4">
+              <UserButton appearance={{ elements: { userButtonAvatarBox: "w-9 h-9 border border-white/10" } }} />
               <div className="text-xs">
-                <div className="text-white/80 font-medium">My Account</div>
-                <div className="text-white/40">Settings</div>
+                <div className="text-white/90 font-bold tracking-tight">Account Managed</div>
+                <div className="text-white/30 font-medium">Premium Access</div>
               </div>
             </div>
+          ) : (
+            <SignInButton mode="modal">
+              <button className="w-full py-2.5 rounded-lg border border-white/10 text-xs font-bold uppercase tracking-widest hover:bg-white/5 transition-all">Unlock Full Analysis</button>
+            </SignInButton>
           )}
         </div>
       </aside>
 
+      {/* Main Content */}
       <div className="flex-1 flex flex-col h-full overflow-hidden relative">
-        <header className="border-b border-white/10 bg-[#212121] px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-3">
+        <header className="glass px-6 py-4 flex items-center justify-between z-30">
+          <div className="flex items-center gap-4">
             <button 
               onClick={() => setIsSidebarOpen(true)}
-              className="lg:hidden p-1.5 hover:bg-white/5 rounded-md text-white/60"
+              className="lg:hidden p-2 hover:bg-white/5 rounded-xl text-white/40 transition-colors"
             >
               <Menu className="w-5 h-5" />
             </button>
-            <div className="flex items-center gap-2.5">
-              <div className="bg-[#10a37f] p-1 rounded-md">
-                <Leaf className="w-4 h-4 text-white" />
+            <div className="flex items-center gap-3">
+              <div className="bg-gradient-to-br from-accent-agri to-emerald-700 p-2 rounded-xl shadow-lg shadow-accent-agri/10">
+                <Leaf className="w-5 h-5 text-white" />
               </div>
-              <span className="text-base font-semibold text-white/90">AgriBot</span>
+              <div className="flex flex-col -space-y-0.5">
+                <span className="text-lg font-black tracking-tight text-white/95 uppercase">AgriBot</span>
+                <span className="text-[10px] font-bold text-accent-agri/80 uppercase tracking-[0.15em]">Modern Agriculture Consultant</span>
+              </div>
             </div>
           </div>
           
-          <div className="flex items-center gap-4">
-            {!isSignedIn && (
-              <SignInButton mode="modal">
-                <button className="text-xs bg-white text-black px-3 py-1.5 rounded-md font-medium hover:bg-white/90">Sign In</button>
-              </SignInButton>
-            )}
-            <div className="flex items-center gap-1.5 text-[10px] text-white/30 bg-white/5 px-2 py-1 rounded-full uppercase tracking-widest font-bold">
-              <span className="w-1 h-1 rounded-full bg-[#10a37f] animate-pulse" />
-              Beta
+          <div className="flex items-center gap-3">
+            <div className="hidden md:flex items-center gap-1.5 text-[9px] text-accent-agri/60 bg-accent-agri/5 border border-accent-agri/10 px-2.5 py-1 rounded-full uppercase tracking-[0.2em] font-black">
+              <span className="w-1 h-1 rounded-full bg-accent-agri animate-pulse" />
+              Live Intelligence v3.0
             </div>
           </div>
         </header>
 
-        <main className="flex-1 overflow-y-auto scrollbar-hide">
-          <div className="max-w-[760px] mx-auto px-4 w-full">
+        <main className="flex-1 overflow-y-auto scrollbar-hide bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-white/[0.02] via-transparent to-transparent">
+          <div className="max-w-[840px] mx-auto px-6 w-full">
             {messages.length === 0 ? (
-              <div className="flex flex-col items-center justify-center min-h-[75vh] text-center">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#10a37f] to-[#0d8a6a] rounded-2xl flex items-center justify-center mb-6 shadow-xl shadow-[#10a37f]/10">
-                  <Leaf className="w-7 h-7 text-white" />
+              <div className="flex flex-col items-center justify-center min-h-[85vh] text-center animate-fade-in">
+                <div className="relative mb-8">
+                  <div className="absolute inset-0 bg-accent-agri/20 blur-3xl rounded-full" />
+                  <div className="relative w-20 h-20 bg-gradient-to-br from-accent-agri to-emerald-800 rounded-[2rem] flex items-center justify-center shadow-2xl shadow-accent-agri/20 rotate-3">
+                    <Sprout className="w-10 h-10 text-white" />
+                  </div>
                 </div>
-                <h1 className="text-2xl font-bold mb-3 text-white/95 tracking-tight">Kisan Saathi — AgriBot</h1>
-                <p className="text-white/40 max-w-sm text-[13px] leading-relaxed mb-10">
-                  Reliable agricultural advice grounded in verified Indian data. Ask about crops, weather, or mandi prices.
+                
+                <h1 className="text-4xl font-black mb-4 text-white tracking-tighter sm:text-5xl">
+                  Precision Consulting for <span className="text-accent-agri">Modern Farmers.</span>
+                </h1>
+                <p className="text-white/40 max-w-lg text-sm sm:text-base font-medium leading-relaxed mb-12">
+                  Ground-breaking agricultural intelligence powered by verified Indian data. Analyze ROI, check subsidies, and scale your farming business.
                 </p>
 
-                <div className="grid grid-cols-2 gap-3 w-full max-w-xl">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-2xl">
                   {QUICK_ACTIONS.map((action) => (
                     <button
                       key={action.label}
                       onClick={() => handleSubmit(undefined, action.query)}
-                      className="flex items-center gap-3 text-left text-[13px] px-5 py-4 rounded-xl border border-white/10 text-white/60 hover:bg-white/5 hover:text-white/90 hover:border-white/20 transition-all group"
+                      className="group flex flex-col items-start gap-3 text-left p-5 rounded-2xl bg-surface-agri/40 border border-white/5 hover:bg-surface-agri/60 hover:border-accent-agri/30 transition-all duration-300"
                     >
-                      {action.icon}
-                      <span className="font-medium">{action.label}</span>
+                      <div className="p-2.5 rounded-xl bg-white/5 group-hover:bg-accent-agri/10 transition-colors">
+                        {action.icon}
+                      </div>
+                      <div className="space-y-0.5">
+                        <div className="text-sm font-bold text-white/90 group-hover:text-accent-agri transition-colors">{action.label}</div>
+                        <div className="text-[11px] font-medium text-white/30 leading-snug">{action.description}</div>
+                      </div>
                     </button>
                   ))}
                 </div>
               </div>
             ) : (
-              <div className="py-8 space-y-0">
+              <div className="py-12 space-y-8 animate-fade-in">
                 {messages.map((msg, idx) => (
-                  <div key={idx} className={`py-6 ${idx > 0 ? "border-t border-white/5" : ""}`}>
-                    <div className="flex gap-5 items-start max-w-[700px] mx-auto">
-                      <div className={`w-8 h-8 shrink-0 rounded-lg flex items-center justify-center ${msg.role === "user" ? "bg-white/10" : "bg-[#10a37f]"}`}>
-                        {msg.role === "user" ? <User className="w-4 h-4 text-white/80" /> : <Bot className="w-4 h-4 text-white" />}
+                  <div key={idx} className={`relative group ${msg.role === "bot" ? "chat-bubble-bot p-6 rounded-2xl" : ""}`}>
+                    <div className="flex gap-6 items-start max-w-[780px] mx-auto">
+                      <div className={`w-10 h-10 shrink-0 rounded-xl flex items-center justify-center shadow-lg ${msg.role === "user" ? "bg-white/5 border border-white/10" : "bg-gradient-to-br from-accent-agri to-emerald-800"}`}>
+                        {msg.role === "user" ? <User className="w-5 h-5 text-white/40" /> : <Bot className="w-5 h-5 text-white" />}
                       </div>
-                      <div className="flex-1 min-w-0 pt-0.5">
-                        <div className="text-[15px] leading-[1.6] text-white/90 prose prose-invert prose-sm max-w-none prose-p:my-2 prose-ul:my-2 prose-ol:my-2 prose-li:my-1 prose-strong:text-white prose-hr:border-white/10">
-                          {msg.role === "user" ? msg.content : <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.content}</ReactMarkdown>}
+                      <div className="flex-1 min-w-0 pt-1">
+                        <div className="flex items-center gap-3 mb-2">
+                          <span className="text-[10px] font-black uppercase tracking-widest text-white/20">
+                            {msg.role === "user" ? "Client Query" : "AgriBot Intelligence"}
+                          </span>
+                        </div>
+                        <div className="text-[15px] sm:text-[16px] leading-[1.8] text-white/80 prose prose-invert prose-sm max-w-none prose-headings:text-white prose-strong:text-accent-agri prose-ul:list-disc prose-li:marker:text-accent-agri prose-hr:border-white/5">
+                          {msg.role === "user" ? (
+                            <p className="font-semibold text-white/95">{msg.content}</p>
+                          ) : (
+                            <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.content}</ReactMarkdown>
+                          )}
                         </div>
                       </div>
                     </div>
                   </div>
                 ))}
+                
                 {isLoading && (
-                  <div className="py-6 border-t border-white/5">
-                    <div className="flex gap-5 items-start max-w-[700px] mx-auto">
-                      <div className="w-8 h-8 shrink-0 rounded-lg bg-[#10a37f] flex items-center justify-center">
-                        <Bot className="w-4 h-4 text-white" />
+                  <div className="py-8 animate-pulse">
+                    <div className="flex gap-6 items-start max-w-[780px] mx-auto">
+                      <div className="w-10 h-10 shrink-0 rounded-xl bg-accent-agri/10 border border-accent-agri/20 flex items-center justify-center">
+                        <Loader2 className="w-5 h-5 text-accent-agri animate-spin" />
                       </div>
-                      <div className="flex items-center gap-3 text-sm text-white/30 pt-1.5 font-medium italic">
-                        <Loader2 className="w-4 h-4 animate-spin" />
-                        Analyzing...
+                      <div className="space-y-3 flex-1 pt-3">
+                        <div className="h-2 bg-white/5 rounded-full w-3/4" />
+                        <div className="h-2 bg-white/5 rounded-full w-1/2" />
                       </div>
                     </div>
                   </div>
                 )}
               </div>
             )}
-            <div ref={messagesEndRef} className="h-32" />
+            <div ref={messagesEndRef} className="h-40" />
           </div>
         </main>
 
-        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#212121] via-[#212121] to-transparent pt-12 pb-6 px-4">
-          <div className="max-w-[760px] mx-auto relative group">
-            <form onSubmit={handleSubmit} className="relative bg-[#2f2f2f] border border-white/10 rounded-2xl shadow-2xl group-focus-within:border-white/20 transition-all">
-              <textarea
-                ref={inputRef}
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyDown={handleKeyDown}
-                placeholder="Ask your agricultural query..."
-                rows={1}
-                className="w-full bg-transparent text-white placeholder-white/20 pl-6 pr-14 py-4 outline-none rounded-2xl text-[15px] resize-none max-h-32 leading-relaxed"
-                disabled={isLoading}
-              />
-              <button
-                type="submit"
-                disabled={!input.trim() || isLoading}
-                className="absolute right-3 bottom-3 w-10 h-10 bg-white text-[#212121] rounded-xl flex items-center justify-center disabled:opacity-20 disabled:cursor-not-allowed hover:scale-105 transition-all"
-              >
-                <Send className="w-4 h-4" />
-              </button>
-            </form>
-            <p className="text-center mt-3 text-[10px] text-white/20 font-medium tracking-wide">
-              AgriBot Beta • Verified Indian Agriculture Intelligence
-            </p>
+        {/* Input Area */}
+        <div className="absolute bottom-0 left-0 right-0 z-40 bg-gradient-to-t from-[#0c0d0c] via-[#0c0d0c]/90 to-transparent pt-20 pb-8 px-6">
+          <div className="max-w-[840px] mx-auto">
+            <div className="relative group">
+              <form onSubmit={handleSubmit} className="relative bg-[#1a1c1a]/80 backdrop-blur-xl border border-white/5 rounded-[1.5rem] shadow-2xl focus-within:border-accent-agri/30 focus-within:ring-4 focus-within:ring-accent-agri/5 transition-all duration-500 overflow-hidden">
+                <textarea
+                  ref={inputRef}
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyDown={handleKeyDown}
+                  placeholder="Analyze ROI, check subsidies, or ask about crops..."
+                  rows={1}
+                  className="w-full bg-transparent text-white placeholder-white/20 pl-7 pr-16 py-6 outline-none text-[15px] sm:text-[16px] resize-none max-h-48 leading-relaxed font-medium"
+                  disabled={isLoading}
+                />
+                <div className="absolute right-4 bottom-4 flex items-center gap-2">
+                  <button
+                    type="submit"
+                    disabled={!input.trim() || isLoading}
+                    className="w-12 h-12 bg-accent-agri text-black rounded-2xl flex items-center justify-center disabled:opacity-20 disabled:grayscale hover:scale-105 active:scale-95 transition-all shadow-xl shadow-accent-agri/20"
+                  >
+                    <Send className="w-5 h-5" />
+                  </button>
+                </div>
+              </form>
+              <div className="flex justify-center mt-4">
+                <p className="text-[10px] text-white/10 font-bold uppercase tracking-[0.3em] flex items-center gap-3">
+                  <span className="w-1 h-1 rounded-full bg-accent-agri/30" />
+                  Verified Agricultural Intelligence
+                  <span className="w-1 h-1 rounded-full bg-accent-agri/30" />
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
